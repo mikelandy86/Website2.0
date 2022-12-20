@@ -4,7 +4,10 @@ export default function Header() {
       <div className="w">
         <div class="nav">
           <div class="nav-title-container">
-            <img class="nav-title-icon" src="./src/assets/headerlogo.png"></img>{" "}
+            <img
+              class="nav-title-icon"
+              src={process.env.PUBLIC_URL + "./public/images/headerlogo.png"}
+            ></img>{" "}
             <p class="nav-title">Mikael Landy</p>
           </div>
           <div id="myDIV" class="nav-menu-flex">
