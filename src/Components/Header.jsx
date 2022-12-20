@@ -6,7 +6,7 @@ export default function Header() {
           <div class="nav-title-container">
             <img
               class="nav-title-icon"
-              src="./public/images/header_logo.png"
+              src="./src/assets/header_logo.png"
             ></img>{" "}
             <p class="nav-title">Mikael Landy</p>
           </div>

@@ -7,7 +7,7 @@ export default function Project() {
       </h3>
       <div className="project-container">
         <div className="project">
-          <img src="./public\images\pzzgsixachckpcdpdnvl.avif"></img>
+          <img src="./src/assets/pzzgsixachckpcdpdnvl.avif"></img>
           <h1>Hags Design 3D - AR Konfigurator</h1>
 
           <p>
@@ -24,7 +24,7 @@ export default function Project() {
           </a>
         </div>
         <div className="project">
-          <img src="./public\images\PlunderingScene5Quest.jpg"></img>
+          <img src="./src/assets/PlunderingScene5Quest.jpg"></img>
           <h1>Plundring - VR utställning</h1>
           <p>
             Transformation sker överallt, oavsett bransch. Upptäck hur Multisoft
