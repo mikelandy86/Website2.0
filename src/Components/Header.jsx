@@ -4,10 +4,7 @@ export default function Header() {
       <div className="w">
         <div class="nav">
           <div class="nav-title-container">
-            <img
-              class="nav-title-icon"
-              src="./public/images/headerlogo.png"
-            ></img>{" "}
+            <img class="nav-title-icon" src="./src/assets/headerlogo.png"></img>{" "}
             <p class="nav-title">Mikael Landy</p>
           </div>
           <div id="myDIV" class="nav-menu-flex">
