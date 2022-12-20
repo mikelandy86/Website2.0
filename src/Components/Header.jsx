@@ -6,7 +6,7 @@ export default function Header() {
           <div class="nav-title-container">
             <img
               class="nav-title-icon"
-              src={process.env.PUBLIC_URL + "./public/images/headerlogo.png"}
+              src="./public/images/headerlogo.png"
             ></img>{" "}
             <p class="nav-title">Mikael Landy</p>
           </div>
