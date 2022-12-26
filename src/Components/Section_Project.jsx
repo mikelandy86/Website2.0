@@ -11,9 +11,9 @@ export default function Project() {
           <h1>Hags Design 3D - AR Konfigurator</h1>
 
           <p>
-            Få ordning på allt från projekt till bokningar, automatisera
-            komplexa ärenden och effektivisera arbetsflöden och processer. Allt
-            i ett och samma system.
+            App för HAGS som låter användare bygga och beställa anpassningsbara
+            konstellationer i Augmented Reality. HAGS Design 3D finns på Google
+            Play och App Store.
           </p>
           <a
             href="https://hags.se/sv-se/hags-design-3d"
@@ -27,9 +27,9 @@ export default function Project() {
           <img src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/PlunderingScene5Quest.jpg"></img>
           <h1>Plundring - VR utställning</h1>
           <p>
-            Transformation sker överallt, oavsett bransch. Upptäck hur Multisoft
-            levererar anpassningsbara systemlösningar helt anpassade efter varje
-            bransch.
+            Omvandling av fysisk utställning till VR-upplevelse. Plundring –
+            början på ett folkmord handlar om tyska nazisters plundring av konst
+            och litteratur i Europa. Appen finns för Oculus Quest.
           </p>
           <a
             href="https://www.levandehistoria.se/utstallningar/plundring/plundring-vr"
