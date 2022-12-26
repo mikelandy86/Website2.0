@@ -24,7 +24,7 @@ export default function Project() {
           </a>
         </div>
         <div className="project">
-          <img src="./src/assets/public/images/PlunderingScene5Quest.jpg"></img>
+          <img src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/PlunderingScene5Quest.jpg"></img>
           <h1>Plundring - VR utställning</h1>
           <p>
             Transformation sker överallt, oavsett bransch. Upptäck hur Multisoft

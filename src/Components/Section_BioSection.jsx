@@ -7,7 +7,7 @@ export default function BioSection() {
       <div className="section-bio-flexrow">
         <div className="section-bio-infosection">
           <div className="section-bio-imagesection">
-            <img src="./src/assets/HiQ_Profil3_transparent.png"></img>
+            <img src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/HiQ_Profil3_transparent.png"></img>
           </div>
           <div className="section-bio-infosectionText">
             <div className="section-bio-skills-container">
