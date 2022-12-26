@@ -1,12 +1,13 @@
-import person from "./src/assets/public/images/headerlogo.png";
-
 export default function Header() {
   return (
     <header class="header">
       <div className="w">
         <div class="nav">
           <div class="nav-title-container">
-            <img class="nav-title-icon" src={person}></img>{" "}
+            <img
+              class="nav-title-icon"
+              src="./src/assets/public/images/headerlogo.png"
+            ></img>{" "}
             <p class="nav-title">Mikael Landy</p>
           </div>
           <div id="myDIV" class="nav-menu-flex">

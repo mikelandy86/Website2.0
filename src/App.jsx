@@ -5,7 +5,8 @@ import "./App.css";
 import HeroSection from "./Components/Section_HeroSection";
 import Header from "./Components/Header";
 import BioSection from "./Components/Section_BioSection";
-import Project from "./Components/Project";
+import Contact from "./Components/Section_Contact";
+import Project from "./Components/Section_Project";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <HeroSection />
       <Project />
       <BioSection id="down" />
+      <Contact />
       {/* <a className="scroll-down" href="#down">Click Here to Smoothly Scroll Down</a> */}
     </div>
   );
