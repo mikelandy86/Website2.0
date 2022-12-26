@@ -7,7 +7,7 @@ export default function Project() {
       </h3>
       <div className="project-container">
         <div className="project">
-          <img src="./src/assets/public/images/pzzgsixachckpcdpdnvl.avif"></img>
+          <img src="https://raw.githubusercontent.com/mikelandy86/website2.0/src/assets/public/images/pzzgsixachckpcdpdnvl.avif"></img>
           <h1>Hags Design 3D - AR Konfigurator</h1>
 
           <p>
