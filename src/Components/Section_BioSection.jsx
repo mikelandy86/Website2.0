@@ -2,7 +2,7 @@ export default function BioSection() {
   return (
     <div className="section-bio">
       <div className="section-bio-title">
-        <h1>Kompetenser</h1>
+        <h1>Om mig</h1>
       </div>
       <div className="section-bio-flexrow">
         <div className="section-bio-infosection">
@@ -28,7 +28,7 @@ export default function BioSection() {
               <span>GIT</span>
             </div>
             <div className="section-bio-title-info">
-              <h2>Kort om mig</h2>
+              <h2>Mikael Hverven-Landy</h2>
             </div>
             <div className="section-bio-infodesc">
               <p>

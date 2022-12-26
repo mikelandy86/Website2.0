@@ -2,9 +2,6 @@ export default function Project() {
   return (
     <div className="section-projects">
       <h1 className="projects-title">Senaste Projekt</h1>
-      <h3 className="projects-subtitle">
-        Plattformar – Appstore / Google Play / AppLab
-      </h3>
       <div className="project-container">
         <div className="project">
           <img src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/pzzgsixachckpcdpdnvl.avif"></img>

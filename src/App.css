@@ -458,6 +458,9 @@ margin-bottom: 50px;
   padding: 5px 10px 5px 10px;
   border-radius: 1px;
 }
+.project{
+  margin:50px;
+}
 } 
 
 .burger{
@@ -480,3 +483,25 @@ transition: all 0.3s ease;
   .toggle .line3{
   transform:rotate(45deg) translate(-5px,-6px) ;
 }
+
+
+
+
+.menu-open {
+  display: block;
+}
+
+.menu-closed {
+  display: none;
+}
+/* 
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color:black;} */
