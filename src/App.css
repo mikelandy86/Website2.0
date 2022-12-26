@@ -450,9 +450,13 @@ margin-bottom: 50px;
 .hero-section-info-desc{
   font-size: 16px;
 }
-/* .project button{
-  font-size: 16px;
-} */
+.section-bio-imagesection img{
+  max-height: 200px;
+}
+.section-bio-skills-container span{
+  padding: 5px 10px 5px 10px;
+  border-radius: 1px;
+}
 } 
 
 .burger{
