@@ -20,7 +20,7 @@ export default function Project() {
             target="_blank"
             rel="noreferrer"
           >
-            <button>Läs mer om projektet...</button>
+            <button>Läs mer...</button>
           </a>
         </div>
         <div className="project">
@@ -36,7 +36,7 @@ export default function Project() {
             target="_blank"
             rel="noreferrer"
           >
-            <button>Läs mer om projektet...</button>
+            <button>Läs mer...</button>
           </a>
         </div>
       </div>
