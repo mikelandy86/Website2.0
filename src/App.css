@@ -332,6 +332,7 @@ text-align: center;
   padding-bottom: 30px;
 }
 .project{
+  box-shadow: 0 5px 15px 0 rgb(0 0 0 / 8%);
   -webkit-border-radius: 2em 2em 2em 2em;
   border-radius: 2em 2em 2em 2em;
   border: 1px solid #eee;
