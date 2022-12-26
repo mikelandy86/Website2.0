@@ -15,7 +15,7 @@ function App() {
       <HeroSection />
       <Project />
       <BioSection id="down" />
-      <Contact />
+      {/* <Contact /> */}
       {/* <a className="scroll-down" href="#down">Click Here to Smoothly Scroll Down</a> */}
     </div>
   );

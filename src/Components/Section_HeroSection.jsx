@@ -19,7 +19,7 @@ export default function HeroSection() {
             realiseras.
           </p>
           <p className="hero-section-info-button">
-            <a>Mina senaste projekt</a>
+            <a>Kontakt</a>
           </p>
         </div>
 

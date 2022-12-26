@@ -376,12 +376,12 @@ text-align: center;
 }
 .project h1{
   font-weight: 500;
-  font-size : clamp(2rem, 7vw, 2.2rem);
+  font-size : clamp(1rem, 7vw, 2.2rem);
 /* font-size: 30px; */
 }
 
 .project p{
-  font-size : clamp(1rem, 5vw, 1.3rem);
+  font-size : clamp(1rem, 1vw, 1.3rem);
   line-height: 1.5;
   /* font-size: 20px; */
   font-weight: 300;
@@ -441,6 +441,15 @@ margin-bottom: 50px;
   width: 335px;
   height: 245px;
  }
+ body{
+  padding-top: 130px;
+ }
+ .hero-section-info-subtitle{
+  font-size: 15px;
+}
+.hero-section-info-desc{
+  font-size: 16px;
+}
 } 
 
 .burger{
