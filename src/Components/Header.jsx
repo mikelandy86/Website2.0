@@ -1,3 +1,15 @@
+import React, { useState } from "react";
+
+const HamburgerMenu = () => {
+  // Create a state variable to track the menu's open/closed status
+  const [isOpen, setIsOpen] = useState(false);
+};
+
+// Create a function to toggle the menu's open/closed status
+const toggleMenu = () => {
+  setIsOpen(!isOpen);
+};
+
 export default function Header() {
   return (
     <header class="header">
@@ -37,11 +49,11 @@ export default function Header() {
               </a>
             </div>
           </div>
-          <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-          </div>
+        </div>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
         </div>
       </div>
     </header>
