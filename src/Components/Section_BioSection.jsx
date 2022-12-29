@@ -10,7 +10,7 @@ export default function BioSection() {
             <img src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/PortraitMikael.jpg"></img>
           </div>
           <div className="section-bio-infosectionText">
-            <div className="section-bio-skills-container">
+            <div id="blockA" className="section-bio-skills-container">
               <span>C#</span>
               <span>.NET</span>
               <span>React</span>
@@ -27,10 +27,10 @@ export default function BioSection() {
               <span>Android</span>
               <span>GIT</span>
             </div>
-            <div className="section-bio-title-info">
+            <div id="blockB" className="section-bio-title-info">
               <h2>Mikael Hverven-Landy</h2>
             </div>
-            <div className="section-bio-infodesc">
+            <div id="blockB" className="section-bio-infodesc">
               <p>
                 Jag är en ambitiös lösningsfokuserad och kreativ
                 systemutvecklare som trivs med nya utmaningar och har ett stort
