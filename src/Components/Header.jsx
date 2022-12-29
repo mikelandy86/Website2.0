@@ -22,6 +22,11 @@ export default function Header() {
             ></img>{" "}
             <p class="nav-title">Mikael Landy</p>
           </div>
+          <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
           <div id="myDIV" class="nav-menu-flex">
             <div className="button-container">
               <a class="nav-btn-active" href="/">
@@ -49,11 +54,6 @@ export default function Header() {
               </a>
             </div>
           </div>
-        </div>
-        <div class="burger">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
         </div>
       </div>
     </header>

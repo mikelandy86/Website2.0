@@ -388,24 +388,27 @@ text-align: center;
   font-weight: 300;
 }
 
-
 .burger{
   display: none;
 }
 .burger div{
-
+  text-align: right;
 height: 3px;
 margin: 5px;
+margin-right: 17px;
 background-color: black;
 transition: all 0.3s ease;
 }
 .line1{
+  border-radius: 7px;
   width: 25px;
 }
 .line2{
-  width: 16px;
+  border-radius: 7px;
+  width: 50%;
 }
 .line3{
+  border-radius: 7px;
   width: 25px;
 }
 .toggle .line1{
@@ -470,8 +473,8 @@ margin-bottom: 50px;
 
 @media only screen and (max-width: 710px) {
  .hero-section-image iframe{
-  width: 335px;
-  height: 245px;
+  width: 261px;
+  height: 200px;
  }
  body{
   padding-top: 130px;
@@ -495,13 +498,10 @@ margin-bottom: 50px;
 .burger{
   display: block;
 }
-.nav{
+.nav-menu-flex{
   display: none;
 }
 } 
-
-
-
 
 
 .menu-open {
