@@ -17,6 +17,7 @@ export default function BioSection() {
               <span>AWS</span>
               <span>HTML</span>
               <span>CSS</span>
+              <span>Figma</span>
               <span>Javascript</span>
               <span>Bootstrap</span>
               <span>Unity</span>
