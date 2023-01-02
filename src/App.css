@@ -337,10 +337,8 @@ text-align: center;
   border-radius: 2em 2em 2em 2em;
   border: 1px solid #eee;
   text-align: center;
-  /* margin: 20px;
-  max-width: 700px; */
-  margin: 30px;
-  width: 542px;
+  margin: 20px;
+  width: 36em;
 }
 .project img{
   width: 100%;
@@ -379,7 +377,7 @@ text-align: center;
 }
 .project h1{
   font-weight: 500;
-  /* font-size : clamp(1rem, 7vw, 2.2rem); */
+  font-size : clamp(1rem, 7vw, 2.2rem);
 /* font-size: 30px; */
 }
 
@@ -505,6 +503,7 @@ display: flex;
   border-radius: 1px;
 }
 .project{
+  width: auto;
   margin:25px;
 }
 .burger{
