@@ -146,6 +146,7 @@ box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
   /* max-width: 100%; */
 }
 .hero-section-row-flex{
+  margin: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
