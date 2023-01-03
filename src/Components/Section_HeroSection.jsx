@@ -1,6 +1,14 @@
 export default function HeroSection() {
+  const video = document.querySelector("video");
+
+  // Slow it to 50% speed
+  video.playbackRate = 0.2;
+
   return (
     <div className="section-hero-section">
+      <video autoplay muted loop id="myVideo" autoPlay={true}>
+        <source src="src/assets/public/images/4K_44.mp4" type="video/mp4" />
+      </video>
       <div className="hero-section-row-flex">
         <div className="hero-section-info-section">
           <h2 className="hero-section-info-title">
