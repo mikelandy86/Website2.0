@@ -558,7 +558,6 @@ display: flex;
   .nav-links a {
     text-decoration: none;
     display: none;
-    color: #4184c6;
   }
   .nav-links-open a:visited { 
     text-decoration: none; 

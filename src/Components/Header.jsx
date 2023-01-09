@@ -7,20 +7,29 @@ export default function Header() {
     console.log(menuOpen);
     setMenuOpen(!menuOpen);
   };
+
   return (
     <header className="header">
       <ul className={`nav-links${menuOpen ? "-open" : ""}`}>
         <li>
-          <a href="#">Hem</a>
+          <a onClick={toggleMenu} href="#">
+            Hem
+          </a>
         </li>
         <li>
-          <a href="#projects">Projekt</a>
+          <a onClick={toggleMenu} href="#projects">
+            Projekt
+          </a>
         </li>
         <li>
-          <a href="#about-me">Om</a>
+          <a onClick={toggleMenu} href="#about-me">
+            Om
+          </a>
         </li>
         <li>
-          <a href="#contact">Kontakt</a>
+          <a onClick={toggleMenu} href="#contact">
+            Kontakt
+          </a>
         </li>
       </ul>
       <div className="w">
