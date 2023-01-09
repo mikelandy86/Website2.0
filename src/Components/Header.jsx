@@ -9,6 +9,21 @@ export default function Header() {
   };
   return (
     <header className="header">
+      <ul className={`nav-links${menuOpen ? "-open" : ""}`}>
+        <li>
+          {/* <img src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/PortraitMikael.jpg"></img> */}
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+      </ul>
       <div className="w">
         <div class="nav">
           <div class="nav-title-container">
@@ -19,21 +34,11 @@ export default function Header() {
             <p class="nav-title">Mikael Landy</p>
           </div>
           <div onClick={toggleMenu} class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
+            <div className={`line1${menuOpen ? "-open" : ""}`}></div>
+            <div className={`line2${menuOpen ? "-open" : ""}`}></div>
+            <div className={`line3${menuOpen ? "-open" : ""}`}></div>
           </div>
-          <ul className={`nav-links ${menuOpen ? "open" : ""}`}>
-            <li>
-              <a href="#">Home</a>
-            </li>
-            <li>
-              <a href="#">About</a>
-            </li>
-            <li>
-              <a href="#">Contact</a>
-            </li>
-          </ul>
+
           <div id="myDIV" class="nav-menu-flex">
             <div className="button-container">
               <a class="nav-btn-active" href="/">
