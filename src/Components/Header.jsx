@@ -49,27 +49,23 @@ export default function Header() {
 
           <div id="myDIV" class="nav-menu-flex">
             <div className="button-container">
-              <a class="nav-btn-active" href="/">
+              <a class="nav-btn-active" href="#">
                 Hem
               </a>
             </div>
             <div className="button-container">
-              <a class="nav-btn" href="/*">
-                Om
-              </a>
-            </div>
-            <div className="button-container">
-              <a class="nav-btn" href="/*">
+              <a class="nav-btn" href="#projects">
                 Projekt
               </a>
             </div>
             <div className="button-container">
-              <a class="nav-btn" href="/*">
-                CV
+              <a class="nav-btn" href="#about-me">
+                Om
               </a>
             </div>
+
             <div className="button-container">
-              <a class="nav-btn" href="/*">
+              <a class="nav-btn" href="#contact">
                 Kontakt
               </a>
             </div>
