@@ -252,6 +252,7 @@ color: white;
 }
 
 .section-bio{
+  scroll-margin-top: 7em;
   margin-top: 200px;
   padding: 0 2em;
 }
@@ -314,10 +315,13 @@ text-align: center;
   z-index: 1;
   line-height: 1.5;
 }
+
+
+
 .section-projects{
+  scroll-margin-top: 7em;
   text-align: center;
   margin-top: 200px;
-
 }
 .project-container{
   margin: 58px;
@@ -416,7 +420,7 @@ transition: all 0.3s ease;
 }
 .line2 ,.line2-open{
   border-radius: 7px;
-  width: 50%;
+  width: 25px;
 }
 .line3,.line3-open {
   border-radius: 7px;
