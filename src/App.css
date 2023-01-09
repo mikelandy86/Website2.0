@@ -482,6 +482,18 @@ display: flex;
 }
 
 @media only screen and (max-width: 710px) {
+  .project p{
+    font-size: clamp(0.9rem, 1vw, 0.3rem);
+    line-height: 1.5;
+    font-weight: 300;
+    margin-left: 22px;
+    margin-right: 22px;
+    margin-top: 25px;
+  }
+  .project h1{
+    font-weight: 500;
+    font-size: 1.8rem;
+  }
   .project-container{
     margin: 5px;
     display: block;
