@@ -49,7 +49,7 @@ export default function Header() {
 
           <div id="myDIV" class="nav-menu-flex">
             <div className="button-container">
-              <a class="nav-btn-active" href="#">
+              <a class="nav-btn" href="#">
                 Hem
               </a>
             </div>

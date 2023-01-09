@@ -562,10 +562,6 @@ display: flex;
     text-decoration: none;
     display: none;
   }
-  .nav-links-open a:visited { 
-    text-decoration: none; 
-    color: rgb(0, 0, 0); 
-   }
   .nav-links a:hover {
     color: #f4f4f4;
   }
