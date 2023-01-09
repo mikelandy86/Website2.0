@@ -11,17 +11,16 @@ export default function Header() {
     <header className="header">
       <ul className={`nav-links${menuOpen ? "-open" : ""}`}>
         <li>
-          {/* <img src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/PortraitMikael.jpg"></img> */}
-          <a href="#">Home</a>
+          <a href="#">Hem</a>
         </li>
         <li>
-          <a href="#">About</a>
+          <a href="#projects">Projekt</a>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <a href="#about-me">Om</a>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <a href="#contact">Kontakt</a>
         </li>
       </ul>
       <div className="w">

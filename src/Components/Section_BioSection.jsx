@@ -1,6 +1,6 @@
 export default function BioSection() {
   return (
-    <div className="section-bio">
+    <div id="about-me" className="section-bio">
       <div className="section-bio-title">
         <h1>Om mig</h1>
       </div>

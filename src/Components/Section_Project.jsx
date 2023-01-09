@@ -1,6 +1,6 @@
 export default function Project() {
   return (
-    <div className="section-projects">
+    <div id="projects" className="section-projects">
       <h1 className="projects-title">Senaste Projekt</h1>
       <div className="project-container">
         <div className="project">

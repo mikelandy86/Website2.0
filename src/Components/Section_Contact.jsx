@@ -30,7 +30,7 @@ class ContactForm extends React.Component {
 
   render() {
     return (
-      <div className="contact-section">
+      <div id="contact" className="contact-section">
         <h1>Kontakta mig</h1>
         <form onSubmit={this.handleSubmit}>
           <label htmlFor="name">Name:</label>
