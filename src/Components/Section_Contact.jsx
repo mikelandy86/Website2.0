@@ -5,12 +5,12 @@ export default function ContactForm() {
         <h1>Kontakt</h1>
         <div className="contact-flex-section">
           <div className="contact-info-container">
-            <p className="contact-title">LET'S WORK TOGETHER!</p>
+            <p className="contact-title">Ta gärna kontakt!</p>
             <p className="contact-info">
-              If you've got a project in mind, why not get in touch. Let me know
-              if you have any interesting freelance work or projects. Big or
-              small. You can contact me using the form, or by emailing
-              mike.landy@gmail.com.
+              Om du har ett projekt i åtanke, varför inte ta kontakt. Låt mig
+              veta om du har något intressant frilansarbete eller projekt. Stora
+              eller små. Du kan kontakta mig via formuläret eller genom att
+              mejla mike.landy@gmail.com.
             </p>
             <img
               class="contact-image"
