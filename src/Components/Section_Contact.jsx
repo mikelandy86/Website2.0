@@ -14,7 +14,7 @@ export default function ContactForm() {
             </p>
             <img
               class="contact-image"
-              src="./src/assets/public/images/undraw-contact.svg"
+              src="https://raw.githubusercontent.com/mikelandy86/website2.0/bed9820de29c7a82891e8431f98d41c97fcc09ea/src/assets/public/images/undraw-contact.svg"
             />
           </div>
           <div className="contact-input-container">
