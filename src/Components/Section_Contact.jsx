@@ -7,7 +7,7 @@ export default function ContactForm() {
           <div className="contact-info-container">
             <p className="contact-title">Ta gärna kontakt!</p>
             <p className="contact-info">
-              Test Om du har ett projekt i åtanke, varför inte ta kontakt. Låt mig
+              Om du har ett projekt i åtanke, varför inte ta kontakt. Låt mig
               veta om du har något intressant frilansarbete eller projekt. Stora
               eller små. Du kan kontakta mig via formuläret eller genom att
               mejla mike.landy@gmail.com.

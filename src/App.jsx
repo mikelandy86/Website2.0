@@ -5,7 +5,8 @@ import Header from "./Components/Header";
 import BioSection from "./Components/Section_BioSection";
 import Contact from "./Components/Section_Contact";
 import Project from "./Components/Section_Project";
-// import Footer from "./Components/Section_Footer";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from "./Components/Section_Footer";
 function App() {
   return (
     <div className="App">
@@ -14,7 +15,7 @@ function App() {
       <Project />
       <BioSection />
       <Contact />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
