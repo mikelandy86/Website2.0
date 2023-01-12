@@ -2,7 +2,7 @@ export default function ContactForm() {
   return (
     <div id="contact" className="contact-section">
       <div className="section-contact-title">
-        <h1>Kontakt</h1>
+        {/* <h1>Kontakt</h1> */}
         <div className="contact-flex-section">
           <div className="contact-info-container">
             <p className="contact-title">Ta gärna kontakt!</p>
