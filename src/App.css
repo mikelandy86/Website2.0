@@ -16,6 +16,7 @@ body {
 	float: none !important;
 }
 .footer {
+  text-align: center;
   margin-top: 200px;
   position: relative;
   width: 100%;
