@@ -684,10 +684,14 @@ line-height: 1.825em;
   margin-top: 10px;
   width: 400px;
   text-indent: 10px;
-  background-color: rgb(243, 243, 243);
-  border: 1px solid;
   border-radius: 2px;
   }
+  .form-control:focus, .form-control-message:focus {
+  outline: none !important;
+  border:2px solid rgb(53, 63, 255);
+  border-radius: 5px;
+  box-shadow: none;
+}
 .form-control{
 height: 30px;
 }
@@ -877,8 +881,16 @@ text-align: center;
 }
 .contact-btn{
 }
+
+.form-control:focus, .form-control-message:focus {
+  outline: none !important;
+  border:2px solid rgb(53, 63, 255);
+  border-radius: 5px;
+  box-shadow: none;
+}
 .form-control{
-  width: 90%;
+ 
+  width: 100%;
 }
 .form-control-message{
   width: 100%;
