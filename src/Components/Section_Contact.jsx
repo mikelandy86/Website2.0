@@ -45,7 +45,7 @@ export default function ContactForm() {
               </div>
 
               <button type="submit" className="contact-btn">
-                Send
+                Skicka
               </button>
             </form>
           </div>
