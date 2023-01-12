@@ -16,6 +16,7 @@ body {
 	float: none !important;
 }
 .footer {
+  margin-top: 200px;
   position: relative;
   width: 100%;
   background: #3586ff;
