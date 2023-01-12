@@ -34,7 +34,7 @@ export default function BioSection() {
             <div id="blockB" className="section-bio-infodesc">
               <p>
                 Jag är en ambitiös lösningsfokuserad och kreativ
-                systemutvecklare som trivs med nya utmaningar och har ett stort
+                utvecklare som trivs med nya utmaningar och har ett stort
                 intresse för den kreativa processen att förena logik och grafik
                 vilket även lett mig in i frontend-utveckling med React och
                 Javascript. Har haft möjligheten att arbeta med intressanta

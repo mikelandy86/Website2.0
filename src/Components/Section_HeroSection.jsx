@@ -18,9 +18,9 @@ export default function HeroSection() {
             kreativa processen, att tänka visuellt och att se idéer ta form och
             realiseras.
           </p>
-          <p className="hero-section-info-button">
-            <a>Kontakt</a>
-          </p>
+          {/* <a href="#contact" className="hero-section-info-button">
+            <h2>Kontakt</h2>
+          </a> */}
         </div>
 
         <div className="hero-section-image-section">
