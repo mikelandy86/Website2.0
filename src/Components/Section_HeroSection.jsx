@@ -1,22 +1,27 @@
+import { FaGgCircle} from "react-icons/fa";
 export default function HeroSection() {
+  let title = "";
+  title =`Bygger innovativa \n digitala, kvalité`;
+
+  let desc = "";
+  desc =`en C# utvecklare och innovativ app-utvecklare skapar jag högkvalitativa digitala produkter med verktyg som C#, ASP.NET, WPF och Xamarin.`;
   return (
+
     <div className="section-hero-section">
       <div className="hero-section-row-flex">
         <div className="hero-section-info-section">
           <h2 className="hero-section-info-title">
-            Mikael H–Landy{" "}
+            {title}{" "}
+
             <span class="rainbow">
+
               <br />
-              XR-Utvecklare
+              <FaGgCircle size={47} color="#5E3AEE"/> applikationer. 
             </span>
           </h2>
-          <p className="hero-section-info-subtitle">
-            C# - .NET - React - Unity - Maya
-          </p>
+
           <p className="hero-section-info-desc">
-            Utvecklar interaktiva applikationer och prototyper och gillar den
-            kreativa processen, att tänka visuellt och att se idéer ta form och
-            realiseras.
+          {desc}
           </p>
           {/* <a href="#contact" className="hero-section-info-button">
             <h2>Kontakt</h2>
