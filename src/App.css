@@ -157,8 +157,14 @@ text-align: center;
   top: 0;
   transition:0.5s;
   display: block;
-  height: 80px;
 
+
+}
+
+.icons-container{
+  margin-right: 40px;
+  display: flex;
+  gap: 30px;
 }
 .add-shadow{
 box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
@@ -183,7 +189,7 @@ box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
    max-width: 1400px;
    margin-left: auto;
       margin-right: auto;
-   height: 80px;
+   height: 130px;
    display: flex;
    align-items: center;
    justify-content: space-between;
@@ -192,11 +198,10 @@ box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
 }
 .nav-menu-flex{
   align-items: center;
-  flex:1;
+  /* flex:4; */
   display: flex;
   flex-direction: row;
-  gap: 20px;
-  margin-right: 60px;
+  gap: 50px;
 }
 .button-container{
   cursor: pointer;
@@ -217,28 +222,29 @@ box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
       padding: 0 8px 0 8px;
       text-decoration: none;
       display: inline-block;
-      color: #222;
+      color: #656B8E;
       font-weight: 300;
       font-size: 14px;
-      text-transform: uppercase;
       outline: none;
       transition: 0.3s;
 }
 
 
 .nav-title-container{
-  flex: 3;
-  flex-basis: 1s;
+  margin-left: 40px;
+  /* flex: auto; */
+  /* flex-basis: 1s; */
   display: flex;
   align-items: center;
   padding-left: 20px;
 }
 .nav-title-icon{
-  height: 30px;
+  height: 20px;
 }
 .nav-title{
+  font-size: 14px;
   margin:0;
-  padding-left: 20px;
+  padding-left: 10px;
   font-weight: 800;
 }
 
@@ -543,31 +549,31 @@ transition: all 0.3s ease;
 /* ----------------------- CONTACT ----------------------- */
 .category-section{
   /* background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%); */
-  /* background: #0f0c29;  
-  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  
+  /* background: #0f0c29;
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
   background: linear-gradient(to right, #24243e, #302b63, #0f0c29);  */
-  
-  
-  
-  
+
+
+
+
   background: #4776E6;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #8E54E9, #4776E6);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #8E54E9, #4776E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
-  
-  
-  
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   padding-top: 30px;
   padding-bottom: 30px;
@@ -705,7 +711,7 @@ height: 30px;
   height: 100px;
   }
 .contact-btn{
-  background-image: linear-gradient(to right, #8E54E9, #4776E6); 
+  background-image: linear-gradient(to right, #8E54E9, #4776E6);
   /* background: #000; */
   color: #fff;
   padding: 15px 20px;
@@ -891,7 +897,7 @@ text-align: center;
   box-shadow: none;
 }
 .form-control{
- 
+
   width: 100%;
 }
 .form-control-message{
@@ -923,13 +929,13 @@ text-align: center;
   .nav-links li {
     display: none;
   }
-  .nav-links-open a { 
-    text-decoration: none; 
-    color: rgb(0, 0, 0); 
+  .nav-links-open a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
    }
-   .nav-links-open a:focus-visible { 
-    text-decoration: none; 
-    color: rgb(118, 66, 228); 
+   .nav-links-open a:focus-visible {
+    text-decoration: none;
+    color: rgb(118, 66, 228);
    }
   .nav-links a {
     text-decoration: none;
