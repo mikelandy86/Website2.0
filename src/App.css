@@ -770,6 +770,12 @@ height: 30px;
   .section-hero-section{
     padding-top: 60px;
   }
+  .nav-title-container{
+    margin-left: 0;
+  }
+  .hero-section-info-title{
+    font-size: clamp(18px, 9vw, 35px);
+  }
    .hero-section-row-flex{
     text-align: center;
     display: block;
