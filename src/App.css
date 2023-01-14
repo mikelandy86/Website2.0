@@ -516,7 +516,7 @@ text-align: center;
 }
 .project h1{
   font-weight: 500;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 /* font-size: 30px; */
 }
 
@@ -767,6 +767,9 @@ height: 30px;
   }
 
 @media only screen and (max-width: 860px) {
+  .section-hero-section{
+    padding-top: 60px;
+  }
    .hero-section-row-flex{
     text-align: center;
     display: block;
