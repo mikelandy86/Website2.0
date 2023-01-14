@@ -767,12 +767,14 @@ height: 30px;
     width: 390px;
     height: 277px;
   }
+
   }
 
 @media only screen and (max-width: 860px) {
   .section-hero-section{
-    padding-top: 60px;
+    padding-top: 148x;
   }
+
   .hero-section-image img{
     width: 310px;
 
@@ -781,7 +783,7 @@ height: 30px;
     margin-left: 0;
   }
   .hero-section-info-title{
-    font-size: clamp(18px, 9vw, 35px);
+    font-size: clamp(18px, 9vw, 33px);
   }
    .hero-section-row-flex{
     text-align: center;
@@ -824,6 +826,9 @@ display: flex;
 }
 
 @media only screen and (max-width: 710px) {
+  .section-hero-section{
+    padding-top: 30px;
+  }
   .project p{
     font-size: clamp(0.9rem, 1vw, 0.3rem);
     line-height: 1.5;
