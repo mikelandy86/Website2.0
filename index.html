@@ -12,8 +12,8 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + React</title>
-    <script type="module" crossorigin src="/website2.0/assets/index.bed87fc1.js"></script>
-    <link rel="stylesheet" href="/website2.0/assets/index.f20eef4e.css">
+    <script type="module" crossorigin src="/website2.0/assets/index.a67432a0.js"></script>
+    <link rel="stylesheet" href="/website2.0/assets/index.a0a767ae.css">
   </head>
   <body>
     <div id="root"></div>
@@ -23,10 +23,13 @@
     <script>
       window.addEventListener("scroll", (e) => {
         const nav = document.querySelector(".header");
+        const nav2 = document.querySelector(".nav");
         if (window.scrollY > 100) {
           nav.classList.add("add-shadow");
+          nav2.classList.add("responsive-height");
         } else {
           nav.classList.remove("add-shadow");
+          nav2.classList.remove("responsive-height");
         }
       });
     </script>
