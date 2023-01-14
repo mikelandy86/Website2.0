@@ -43,11 +43,7 @@ export default function Header() {
             ></img>{" "}
             {/* <p class="nav-title">Mikael Landy</p> */}
           </div>
-          <div onClick={toggleMenu} class="burger">
-            <div className={`line1${menuOpen ? "-open" : ""}`}></div>
-            <div className={`line2${menuOpen ? "-open" : ""}`}></div>
-            <div className={`line3${menuOpen ? "-open" : ""}`}></div>
-          </div>
+         
 
           <div id="myDIV" class="nav-menu-flex">
             <div className="button-container">
@@ -83,6 +79,11 @@ export default function Header() {
               <BsInstagram color="#656B8E" size={19}/>
               </a>
             </div>
+            <div onClick={toggleMenu} class="burger">
+            <div className={`line1${menuOpen ? "-open" : ""}`}></div>
+            <div className={`line2${menuOpen ? "-open" : ""}`}></div>
+            <div className={`line3${menuOpen ? "-open" : ""}`}></div>
+          </div>
         </div>
       </div>
     </header>
