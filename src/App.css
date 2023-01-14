@@ -12,8 +12,9 @@
   --vp-home-hero-image-filter: blur(80px);
 }
 body {
-  padding-top: 240px;
+
   background-color: rgb(249, 249, 255);
+  background-color: white;
 	margin: 0 auto !important;
 	float: none !important;
 }
@@ -170,8 +171,10 @@ text-align: center;
   justify-content: flex-end;
 }
 .add-shadow{
+
 box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
 }
+
 @keyframes float {
 	0% {
 		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
@@ -205,6 +208,10 @@ box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
   display: flex;
   flex-direction: row;
   gap: 50px;
+}
+.responsive-height{
+  height: 100px;
+
 }
 .button-container{
   cursor: pointer;
@@ -253,11 +260,14 @@ box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
 }
 
 .section-hero-section{
+  background-color: #F9F9FC;
+  padding-top: 270px;
   /* padding: 50px;
   margin: 30px; */
   /* max-width: 100%; */
 }
 .hero-section-row-flex{
+
   margin: 20px;
   display: flex;
   justify-content: center;
@@ -467,7 +477,7 @@ text-align: center;
   border: 1px solid #eee;
   text-align: center;
   margin: 20px;
-  width: 36em;
+  width: 25em;
 }
 .project img{
   width: 100%;
@@ -506,12 +516,12 @@ text-align: center;
 }
 .project h1{
   font-weight: 500;
-  font-size: 1.8rem;
+  font-size: 1.3rem;
 /* font-size: 30px; */
 }
 
 .project p{
-  font-size : clamp(1rem, 1vw, 1.3rem);
+  font-size : clamp(0.7rem, 1vw, 1.3rem);
   line-height: 1.5;
   /* font-size: 20px; */
   font-weight: 300;

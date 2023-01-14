@@ -1,10 +1,16 @@
 import { FaGgCircle} from "react-icons/fa";
 export default function HeroSection() {
-  let title = "";
-  title =`Bygger innovativa \n digitala, kvalité`;
+  
 
-  let desc = "";
-  desc =`en C# utvecklare och innovativ app-utvecklare skapar jag högkvalitativa digitala produkter med verktyg som C#, ASP.NET, WPF och Xamarin.`;
+
+
+
+let title = "";
+title =`Bygger innovativa \n digitala, kvalitativa`;
+
+let desc = "";
+desc =`en C# utvecklare och innovativ app-utvecklare skapar jag högkvalitativa digitala produkter med verktyg som C#, ASP.NET, WPF och Xamarin.`;
+
   return (
 
     <div className="section-hero-section">
