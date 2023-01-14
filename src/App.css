@@ -261,7 +261,7 @@ box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
 
 .section-hero-section{
   background-color: #F9F9FC;
-  padding-top: 270px;
+  padding-top: 188px;
   /* padding: 50px;
   margin: 30px; */
   /* max-width: 100%; */
@@ -282,6 +282,9 @@ box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
 .hero-section-image-section{
   padding-left: 20px;
   padding-right: 20px;
+}
+.hero-section-image img{
+  width: 450px;
 }
 .hero-section-info-title{
   color: #1d1f23;
@@ -318,7 +321,7 @@ box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
   padding-bottom: -webkit-calc(20px + ( 24 - 20 ) var( --calc-size ));
   padding-bottom: -moz-calc(20px + ( 24 - 20 ) var( --calc-size ));
   padding-bottom: calc(20px + ( 24 - 20 ) var( --calc-size ));
-  padding-bottom: 50px;
+
 }
 .hero-section-info-button{
   position: relative;
@@ -770,6 +773,10 @@ height: 30px;
   .section-hero-section{
     padding-top: 60px;
   }
+  .hero-section-image img{
+    width: 310px;
+
+  }
   .nav-title-container{
     margin-left: 0;
   }
@@ -785,7 +792,7 @@ height: 30px;
     height: 377px;
   }
   .hero-section-image {
-    margin-top: 100px;
+    margin-top: 30px;
     padding-right: 0;
   }
 

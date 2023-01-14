@@ -37,11 +37,12 @@ desc =`en C# utvecklare och innovativ app-utvecklare skapar jag högkvalitativa 
         <div className="hero-section-image-section">
           {/* <div className="hero-section-image-image-bg"></div> */}
           <div className="hero-section-image">
-            <iframe
+          <img src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/Avatar-remade.png"></img>
+            {/* <iframe
               src="https://www.youtube.com/embed/H5PsBdyi2so?controls=0&showinfo=0&rel=0&autoplay=1&start=7&end=200&loop=1&mute=1&playlist=H5PsBdyi2so"
               frameborder="0"
               allowfullscreen
-            ></iframe>
+            ></iframe> */}
           </div>
         </div>
       </div>
