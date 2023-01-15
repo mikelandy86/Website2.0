@@ -1,8 +1,12 @@
+import { FaUserAlt} from "react-icons/fa";
+import { Fade, Slide } from "react-awesome-reveal";
 export default function BioSection() {
   return (
     <div id="about-me" className="section-bio">
       <div className="section-bio-title">
-        <h1>Om mig</h1>
+      <Fade cascade direction="down">
+        <h1><FaUserAlt  size={35}/>  {" "}   Om mig</h1>
+        </Fade>
       </div>
       <div className="section-bio-flexrow">
         <div className="section-bio-infosection">

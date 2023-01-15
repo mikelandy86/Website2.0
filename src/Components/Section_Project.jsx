@@ -1,11 +1,13 @@
 import { Fade, Slide } from "react-awesome-reveal";
-
+import { FaUserAlt} from "react-icons/fa";
 export default function Project() {
   return (
     <div id="projects" className="section-projects">
-      <h1 className="projects-title">Senaste Projekt</h1>
+      <Fade cascade direction="down">
+      
+      <h1 className="projects-title"><FaUserAlt  size={25}/>Senaste Projekt</h1>
+          </Fade>
       <div className="project-container">
-      <Fade triggerOnce="false" direction="up">
         <div className="project">
           <img src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/pzzgsixachckpcdpdnvl.avif"></img>
           <h1>Hags Design 3D - AR Konfigurator</h1>
@@ -19,11 +21,10 @@ export default function Project() {
             href="https://hags.se/sv-se/hags-design-3d"
             target="_blank"
             rel="noreferrer"
-          >
+            >
             <button>Läs mer...</button>
           </a>
         </div>
-        </Fade>
         <Fade triggerOnce="false" direction="up">
         <div className="project">
           <img src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/PlunderingScene5Quest.jpg"></img>

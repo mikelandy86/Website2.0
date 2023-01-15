@@ -1,3 +1,4 @@
+import { Fade, Slide } from "react-awesome-reveal";
 export default function ContactForm() {
   return (
     <div id="contact" className="contact-section">
@@ -5,6 +6,7 @@ export default function ContactForm() {
         {/* <h1>Kontakt</h1> */}
         <div className="contact-flex-section">
           <div className="contact-info-container">
+          <Fade cascade direction="down">
             <p className="contact-title">Ta gärna kontakt!</p>
             <p className="contact-info">
               Om du har ett projekt i åtanke, varför inte ta kontakt. Låt mig
@@ -12,6 +14,7 @@ export default function ContactForm() {
               eller små. Du kan kontakta mig via formuläret eller genom att
               mejla mike.landy@gmail.com.
             </p>
+            </Fade>
             <img
               class="contact-image"
               src="https://raw.githubusercontent.com/mikelandy86/website2.0/bed9820de29c7a82891e8431f98d41c97fcc09ea/src/assets/public/images/undraw-contact.svg"
