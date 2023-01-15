@@ -1,8 +1,11 @@
+import { Fade, Slide } from "react-awesome-reveal";
+
 export default function Project() {
   return (
     <div id="projects" className="section-projects">
       <h1 className="projects-title">Senaste Projekt</h1>
       <div className="project-container">
+      <Fade triggerOnce="false" direction="up">
         <div className="project">
           <img src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/pzzgsixachckpcdpdnvl.avif"></img>
           <h1>Hags Design 3D - AR Konfigurator</h1>
@@ -20,6 +23,8 @@ export default function Project() {
             <button>Läs mer...</button>
           </a>
         </div>
+        </Fade>
+        <Fade triggerOnce="false" direction="up">
         <div className="project">
           <img src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/PlunderingScene5Quest.jpg"></img>
           <h1>Plundring - VR utställning</h1>
@@ -36,7 +41,7 @@ export default function Project() {
             <button>Läs mer...</button>
           </a>
         </div>
-        
+        </Fade>
       </div>
     </div>
   );
