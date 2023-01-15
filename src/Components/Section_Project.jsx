@@ -1,11 +1,11 @@
 import { Fade, Slide } from "react-awesome-reveal";
-import { FaUserAlt} from "react-icons/fa";
+import { AiFillAppstore} from "react-icons/ai";
 export default function Project() {
   return (
     <div id="projects" className="section-projects">
       <Fade cascade direction="down">
       
-      <h1 className="projects-title"><FaUserAlt  size={25}/>Senaste Projekt</h1>
+      <h1 className="projects-title"><AiFillAppstore size={35}/> Senaste Projekt</h1>
           </Fade>
       <div className="project-container">
         <div className="project">
