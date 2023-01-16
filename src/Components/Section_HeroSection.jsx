@@ -52,30 +52,26 @@ let desc = "och innovativ app-utvecklare skapar jag högkvalitativa digitala pro
                 }}
   onInit={(typewriter) => {
 
-    typewriter.typeString('applikationer.')
+    typewriter.typeString('applikationer')
     
     .pauseFor(500)
 
-    .deleteChars(14)
+    .deleteChars(13)
     
-    typewriter.typeString('hemsidor.')
+    typewriter.typeString('hemsidor')
     .pauseFor(500)
-    .deleteChars(9)
-      typewriter.typeString('XR-upplevelser.')
-      .pauseFor(500)
+    .deleteChars(8)
+      typewriter.typeString('VR och AR appar')
+      .pauseFor(400)
       .deleteChars(15)
 
-      typewriter.typeString('spel.')
+      typewriter.typeString('verktyg och spel')
       .pauseFor(700)
-      .deleteChars(5)
+      .deleteChars(17)
 
-      typewriter.typeString('mobil-appar.')
+      typewriter.typeString('mobil-appar')
       .pauseFor(300)
-      .deleteChars(12)
-      typewriter.typeString('kanelbullar...')
-      .pauseFor(100)
-      .changeDeleteSpeed(1)
-      .deleteChars(10)
+      .deleteChars(11)
       .start();
   }}
 />
