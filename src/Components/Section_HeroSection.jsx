@@ -44,38 +44,36 @@ let desc = "och innovativ app-utvecklare skapar jag högkvalitativa digitala pro
      
               <Typewriter
                 options={{
-                  delay: 60,
-                  deleteSpeed:12,
+                  delay: 70,
+                  deleteSpeed:20,
                   loop: true,
                 }}
   onInit={(typewriter) => {
-    // typewriter.typeString('')
 
-      
-    // .pauseFor(700)
     typewriter.typeString('applikationer.')
     
     .pauseFor(500)
 
     .deleteChars(14)
     
+    typewriter.typeString('hemsidor.')
+    .pauseFor(500)
+    .deleteChars(9)
       typewriter.typeString('XR-upplevelser.')
       .pauseFor(500)
       .deleteChars(15)
 
       typewriter.typeString('spel.')
-      .pauseFor(500)
-      .deleteAll()
+      .pauseFor(700)
+      .deleteChars(5)
 
-      typewriter.typeString('hemsidor.')
-      .pauseFor(500)
-      .deleteAll()
-      typewriter.typeString('mobil appar.')
+      typewriter.typeString('mobil-appar.')
       .pauseFor(300)
-      .deleteAll()
-      typewriter.typeString('verktyg.')
-      .pauseFor(500)
-      .deleteAll()
+      .deleteChars(12)
+      typewriter.typeString('kanelbullar...')
+      .pauseFor(100)
+      .changeDeleteSpeed(1)
+      .deleteChars(10)
       .start();
   }}
 />
