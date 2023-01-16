@@ -1,12 +1,18 @@
 import { Fade, Slide } from "react-awesome-reveal";
+import { FaLaptopCode} from "react-icons/fa";
 export default function ContactForm() {
   return (
     <div id="contact" className="contact-section">
+          <div className="section-bio-title">
+     
+     <h1><FaLaptopCode  size={35}/>  {" "}   Hör av <h1>Dig</h1></h1>
+     
+   </div>
       <div className="section-contact-title">
         {/* <h1>Kontakt</h1> */}
         <div className="contact-flex-section">
           <div className="contact-info-container">
-          <Fade triggerOnce="true" cascade direction="down" fraction={0.8}>
+          <Fade triggerOnce="true" cascade direction="up" fraction={0.8}>
             <p className="contact-title">Ta gärna kontakt!</p>
             <p className="contact-info">
               Om du har ett projekt i åtanke, varför inte ta kontakt. Låt mig

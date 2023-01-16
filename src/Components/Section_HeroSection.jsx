@@ -16,9 +16,9 @@ export default function HeroSection() {
 let title = "";
 let title2 = "";
 let title3 = "";
-title =`Bygger innovativa`;
+title =`Bygger digitala`;
 title2 =`digitala, interaktiva`;
-let desc = "En C# utvecklare och innovativ app-utvecklare skapar jag högkvalitativa digitala produkter med verktyg som C#, ASP.NET, WPF och Xamarin."
+let desc = "och innovativ app-utvecklare skapar jag högkvalitativa digitala produkter med verktyg som C#, ASP.NET, WPF och Xamarin."
   return (
 
     <div className="section-hero-section">
@@ -33,6 +33,7 @@ let desc = "En C# utvecklare och innovativ app-utvecklare skapar jag högkvalita
           <h2 className="hero-section-info-title">
             {title2}{" "}
 
+     
 
           </h2>
           <h2 className="hero-section-info-title">
@@ -52,11 +53,11 @@ let desc = "En C# utvecklare och innovativ app-utvecklare skapar jag högkvalita
                   loop: true,
                 }}
   onInit={(typewriter) => {
-    typewriter.typeString('')
+    // typewriter.typeString('')
 
       
-    .pauseFor(900)
-    typewriter.typeString('Applikationer')
+    // .pauseFor(700)
+    typewriter.typeString('applikationer.')
 
       
       .pauseFor(200)
@@ -70,10 +71,10 @@ let desc = "En C# utvecklare och innovativ app-utvecklare skapar jag högkvalita
       .pauseFor(200)
       .deleteAll()
 
-      typewriter.typeString('Hemsidor.')
+      typewriter.typeString('hemsidor.')
       .pauseFor(200)
       .deleteAll()
-      typewriter.typeString('Mobil appar.')
+      typewriter.typeString('mobil appar.')
       .pauseFor(200)
       .deleteAll()
       .start();
@@ -86,7 +87,7 @@ let desc = "En C# utvecklare och innovativ app-utvecklare skapar jag högkvalita
           <Fade triggerOnce="false" damping={23}>
            
           <p className="hero-section-info-desc">
-          {desc}
+          En <span style={{ fontWeight: 'bold' }}>C# utvecklare</span> {desc}
           </p>
           </Fade>
           {/* <a href="#contact" className="hero-section-info-button">

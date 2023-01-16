@@ -1,14 +1,16 @@
 import { Fade, Slide } from "react-awesome-reveal";
-import { AiFillAppstore} from "react-icons/ai";
+import { FaLaptopCode} from "react-icons/fa";
 export default function Project() {
   return (
     <div id="projects" className="section-projects">
-      <Fade  direction="down">
-      
-      <h1 className="projects-title"><AiFillAppstore size={35}/> Senaste Projekt</h1>
-          </Fade>
+      <div className="section-bio-title">
+     
+     <h1><FaLaptopCode  size={35}/>  {" "}   Senaste <h1>Projekt</h1></h1>
+     
+   </div>
+          
       <div className="project-container">
-      
+      <Fade fraction={0.5}>
         <div className="project">
           <img src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/pzzgsixachckpcdpdnvl.avif"></img>
           <h1>Hags Design 3D - AR Konfigurator</h1>
@@ -26,8 +28,8 @@ export default function Project() {
             <button>Läs mer...</button>
           </a>
         </div>
-      
-       
+        </Fade >
+        <Fade fraction={0.5}>
         <div className="project">
           <img src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/PlunderingScene5Quest.jpg"></img>
           <h1>Plundring - VR utställning</h1>
@@ -44,7 +46,7 @@ export default function Project() {
             <button>Läs mer...</button>
           </a>
         </div>
-      
+        </Fade >
       </div>
     </div>
   );

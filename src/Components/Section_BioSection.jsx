@@ -1,20 +1,24 @@
 import { FaUserAlt} from "react-icons/fa";
-import { Fade, Slide } from "react-awesome-reveal";
+import { Fade, Slide, Bounce } from "react-awesome-reveal";
 export default function BioSection() {
   return (
     <div id="about-me" className="section-bio">
       <div className="section-bio-title">
-      <Fade cascade direction="down">
-        <h1><FaUserAlt  size={35}/>  {" "}   Om mig</h1>
-        </Fade>
+     
+        <h1><FaUserAlt  size={35}/>  {" "}   Om <h1>Mig</h1></h1>
+        
       </div>
       <div className="section-bio-flexrow">
         <div className="section-bio-infosection">
+          
           <div className="section-bio-imagesection">
+            <Fade  triggerOnce="true" direction="up">
             <img src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/PortraitMikael.jpg"></img>
-          </div>
+           </Fade>
+          </div>  
           <div className="section-bio-infosectionText">
-            <div id="blockA" className="section-bio-skills-container">
+            {/* <div id="blockA" className="section-bio-skills-container">
+           
               <span>C#</span>
               <span>.NET</span>
               <span>React</span>
@@ -31,9 +35,13 @@ export default function BioSection() {
               <span>IOS</span>
               <span>Android</span>
               <span>GIT</span>
-            </div>
+           
+            </div> */}
+          <Fade cascade triggerOnce="true" duration="500" direction="up">
+           
             <div id="blockB" className="section-bio-title-info">
               <h2>Mikael Hverven-Landy</h2>
+              <h3>Fullstackdeveloper</h3>
             </div>
             <div id="blockB" className="section-bio-infodesc">
               <p>
@@ -47,6 +55,7 @@ export default function BioSection() {
                 samhället framåt med ett team av motiverade kollegor.
               </p>
             </div>
+            </Fade>
           </div>
         </div>
       </div>

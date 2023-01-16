@@ -19,13 +19,13 @@ export default function Header() {
           </a>
         </li>
         <li>
-          <a onClick={toggleMenu} href="#projects">
-            Projekt
+          <a onClick={toggleMenu} href="#about-me">
+            Om
           </a>
         </li>
         <li>
-          <a onClick={toggleMenu} href="#about-me">
-            Om
+          <a onClick={toggleMenu} href="#projects">
+            Projekt
           </a>
         </li>
         <li>
@@ -52,13 +52,13 @@ export default function Header() {
               </a>
             </div>
             <div className="button-container">
-              <a class="nav-btn" href="#projects">
-                Projekt
+              <a class="nav-btn" href="#about-me">
+                Om
               </a>
             </div>
             <div className="button-container">
-              <a class="nav-btn" href="#about-me">
-                Om
+              <a class="nav-btn" href="#projects">
+                Projekt
               </a>
             </div>
 

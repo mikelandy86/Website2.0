@@ -262,12 +262,9 @@ box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
 .section-hero-section{
   background-color: #F9F9FC;
   padding-top: 188px;
-  /* padding: 50px;
-  margin: 30px; */
-  /* max-width: 100%; */
+  padding-bottom: 53px;
 }
 .hero-section-row-flex{
-
   margin: 20px;
   display: flex;
   justify-content: center;
@@ -292,7 +289,6 @@ box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
   color: #1d1f23;
   font-weight: 500;
   font-size: clamp(18px, 9vw, 60px);
-
   white-space: pre-line;
 }
 .typewriter-container{
@@ -303,6 +299,7 @@ box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
   /* justify-content: center; */
   align-items: center;
   flex-direction:row;
+  margin-bottom: 50px;
 }
 .rainbow{
   background: #5E3AEE;
@@ -313,7 +310,6 @@ box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
   -webkit-text-fill-color: rgba(255,255,255,0);
   letter-spacing: -1px;
   font-size: clamp(18px, 9vw, 60px);
-  
 }
 .hero-section-info-subtitle{
       font-size: 20px;
@@ -323,9 +319,9 @@ box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
       padding-bottom: 30px;
 }
 .hero-section-info-desc{
-  margin: 0 auto;
-  max-width: 666px;
-  color: #080808;
+  /* margin: 0 auto; */
+  max-width: 566px;
+  color: #322b2b;
   line-height: 1.5;
   font-size: 18px;
   position: relative;
@@ -394,6 +390,7 @@ color: white;
 }
 
 .section-bio{
+  background-color: #ffffff;
   scroll-margin-top: 7em;
   margin-top: 200px;
   padding: 0 2em;
@@ -408,21 +405,23 @@ color: white;
   display: flex;
 }
 .section-bio-title{
-  padding-bottom:70px;
+  padding-bottom:50px;
 }
 .section-bio-title h1{
   justify-content: center;
   align-items: center;
-  font-weight: 800;
   display: flex;
+  font-weight: 700;
   gap: 10px;
   font-size: 2rem;
-  font-weight: 500;
 text-align: center;
 }
-
+.section-bio-title h1 h1{
+  color: #5E3AEE;
+margin-bottom: 0;
+}
 .section-bio-imagesection img{
-  max-height: 386px;
+  max-height: 306px;
   max-width: 344px;
   border: 1px solid #eee;
   /* box-shadow: 5px 5px 20px #9292924f, -5px -5px 10px #ffffff5e; */
@@ -452,6 +451,7 @@ text-align: center;
 }
 
 .section-bio-title-info h2{
+  font-size: 1rem;;
  color: rgb(50, 50, 50);
 }
 .section-bio-infodesc P{
@@ -461,6 +461,7 @@ text-align: center;
   font-weight: 300;
   z-index: 1;
   line-height: 1.5;
+  max-width: 550px;
 }
 
 
@@ -471,7 +472,7 @@ text-align: center;
   margin-top: 200px;
 }
 .project-container{
-  margin: 58px;
+  margin: 0px 58px 58px 58px;
   justify-content: center;
   display: flex;
 }
@@ -517,7 +518,7 @@ text-align: center;
 .project h1, .project p, .project button{
   margin-left: 40px;
   margin-right: 40px;
-  margin-top: 30px;
+  margin-top: 18px;
 }
 .project button{
   cursor: pointer;
@@ -796,7 +797,7 @@ height: 30px;
 
 @media only screen and (max-width: 860px) {
   .section-hero-section{
-    padding-top: 148x;
+    padding-top: 288x;
   }
 
   .hero-section-image img{
