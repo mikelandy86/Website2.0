@@ -26,7 +26,7 @@ export default function Footer (){
       <li class="menu__item"><a class="menu__link" href="#">Kontakt</a></li>
 
     </ul>
-    <p>&copy;2022 Made with ❤️ by Mikael Hverven-Landy | All Rights Reserved</p>
+    <p>&copy;2023 Made with ❤️ by Mikael Hverven-Landy | All Rights Reserved</p>
   </footer>
 
   );

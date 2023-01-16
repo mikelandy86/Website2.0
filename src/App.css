@@ -81,7 +81,9 @@ body {
   font-size: 1rem;
   font-weight: 300;
 }
-
+.footer ul{
+  padding-left: 0;
+}
 .wave {
   position: absolute;
   top: -100px;
