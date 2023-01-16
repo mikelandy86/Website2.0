@@ -6,7 +6,7 @@ export default function ContactForm() {
         {/* <h1>Kontakt</h1> */}
         <div className="contact-flex-section">
           <div className="contact-info-container">
-          <Fade cascade direction="down">
+          <Fade triggerOnce="true" cascade direction="down" fraction={0.8}>
             <p className="contact-title">Ta gärna kontakt!</p>
             <p className="contact-info">
               Om du har ett projekt i åtanke, varför inte ta kontakt. Låt mig
