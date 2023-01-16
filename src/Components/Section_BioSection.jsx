@@ -41,7 +41,7 @@ export default function BioSection() {
            
             <div id="blockB" className="section-bio-title-info">
               <h2>Mikael Hverven-Landy</h2>
-              <h3>Fullstackdeveloper</h3>
+              <h3>Full Stack Developer</h3>
             </div>
             <div id="blockB" className="section-bio-infodesc">
               <p>

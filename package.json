@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@emotion/react": "^11.10.5",
+    "@uiw/react-back-to-top": "^1.2.1",
     "bootstrap": "^5.2.3",
     "cdbreact": "^1.5.4",
     "i": "^0.3.7",
