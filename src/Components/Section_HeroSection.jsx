@@ -12,7 +12,7 @@ let title = "";
 let title2 = "";
 let title3 = "";
 title =`Bygger digitala`;
-title2 =`digitala, interaktiva`;
+title2 =`smarta, interaktiva`;
 let desc = "och innovativ app-utvecklare skapar jag högkvalitativa digitala produkter med verktyg som C#, ASP.NET, WPF och Xamarin."
   return (
 
