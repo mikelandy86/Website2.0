@@ -38,7 +38,7 @@ let desc = "En C# utvecklare och innovativ app-utvecklare skapar jag högkvalita
               <FaGgCircle className="hero-section-info-title" size={57} color="#5E3AEE"/> applikationer. 
             </h2>
           </Fade>
-          <Fade triggerOnce="false" damping={23}>
+          <Fade delay="220" triggerOnce="false" damping={23}>
            
           <p className="hero-section-info-desc">
           {desc}
@@ -52,7 +52,7 @@ let desc = "En C# utvecklare och innovativ app-utvecklare skapar jag högkvalita
         <div className="hero-section-image-section">
           {/* <div className="hero-section-image-image-bg"></div> */}
           <div className="hero-section-image">
-            <Fade triggerOnce="true">
+            <Fade delay="220" triggerOnce="true">
           <img src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/Avatar-remade.png"></img></Fade>
             {/* <iframe
               src="https://www.youtube.com/embed/H5PsBdyi2so?controls=0&showinfo=0&rel=0&autoplay=1&start=7&end=200&loop=1&mute=1&playlist=H5PsBdyi2so"
