@@ -29,7 +29,7 @@ export default function Project() {
           </a>
         </div>
         </Fade >
-        <Fade fraction={0.5}>
+        <Fade triggerOnce="true" fraction={0.5}>
         <div className="project">
           <img src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/PlunderingScene5Quest.jpg"></img>
           <h1>Plundring - VR utställning</h1>
