@@ -1,11 +1,11 @@
 import { Fade, Slide } from "react-awesome-reveal";
-import { FaLaptopCode} from "react-icons/fa";
+import { FaHeadset} from "react-icons/fa";
 export default function ContactForm() {
   return (
     <div id="contact" className="contact-section">
           <div className="section-bio-title">
      
-     <h1><FaLaptopCode  size={35}/>  {" "}   Hör av <h1>Dig</h1></h1>
+     <h1><FaHeadset  size={35}/>  {" "}   Hör av <h1>Dig</h1></h1>
      
    </div>
       <div className="section-contact-title">
