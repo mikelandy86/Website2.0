@@ -3,7 +3,7 @@ import { AiFillAppstore} from "react-icons/ai";
 export default function Project() {
   return (
     <div id="projects" className="section-projects">
-      <Fade  fraction={1} direction="up">
+      <Fade  direction="down">
       
       <h1 className="projects-title"><AiFillAppstore size={35}/> Senaste Projekt</h1>
           </Fade>

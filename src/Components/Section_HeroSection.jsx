@@ -1,9 +1,16 @@
 import { FaGgCircle} from "react-icons/fa";
 import { Fade, Slide } from "react-awesome-reveal";
+import Typewriter from 'typewriter-effect';
 export default function HeroSection() {
   
 
-
+<Typewriter
+  options={{
+    strings: ['Hello', 'World'],
+    autoStart: true,
+    loop: true,
+  }}
+/>
 
 
 let title = "";
@@ -18,7 +25,7 @@ let desc = "En C# utvecklare och innovativ app-utvecklare skapar jag högkvalita
       <div className="hero-section-row-flex">
         <div className="hero-section-info-section">
           <Fade cascade triggerOnce="false" direction="left">
-           
+
           <h2 className="hero-section-info-title">
             {title}{" "}
 
@@ -32,12 +39,50 @@ let desc = "En C# utvecklare och innovativ app-utvecklare skapar jag högkvalita
             {title3}{" "}
 
           </h2>
+          </Fade>
+          <div className="typewriter-container">
+         <FaGgCircle className="hero-section-info-title" size={50} color="#5E3AEE"/> 
             <h2 className="rainbow">
 
               {/* <br /> */}
-              <FaGgCircle className="hero-section-info-title" size={50} color="#5E3AEE"/> applikationer. 
+     
+              <Typewriter
+                options={{
+
+                  loop: true,
+                }}
+  onInit={(typewriter) => {
+    typewriter.typeString('')
+
+      
+    .pauseFor(900)
+    typewriter.typeString('Web-applikationer')
+
+      
+      .pauseFor(200)
+      .deleteAll()
+
+      typewriter.typeString('XR-upplevelser.')
+      .pauseFor(200)
+      .deleteAll()
+
+      typewriter.typeString('Unity spel.')
+      .pauseFor(200)
+      .deleteAll()
+
+      typewriter.typeString('Hemsidor.')
+      .pauseFor(200)
+      .deleteAll()
+      typewriter.typeString('Mobil appar.')
+      .pauseFor(200)
+      .deleteAll()
+      .start();
+  }}
+/>
+             
             </h2>
-          </Fade>
+            </div>
+          
           <Fade triggerOnce="false" damping={23}>
            
           <p className="hero-section-info-desc">
