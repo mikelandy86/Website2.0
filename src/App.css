@@ -800,7 +800,7 @@ height: 30px;
   .hero-section-info-title{
     margin: 0;
     padding: 0;
-    font-size: clamp(18px, 9vw, 33px);
+    font-size: clamp(18px, 9vw, 30px);
   }
    .hero-section-row-flex{
     text-align: center;
