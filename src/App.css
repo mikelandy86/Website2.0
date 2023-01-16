@@ -48,7 +48,21 @@ body {
 .menu__item {
   list-style: none;
 }
+.blink_me {
+  background: #5E3AEE;
+  padding: 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255,255,255,0);
+  letter-spacing: -1px;
+  font-size: clamp(18px, 9vw, 60px);
+  animation: blinker 1s linear infinite;
+}
 
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
 .social-icon__link {
   font-size: 2rem;
   color: #fff;

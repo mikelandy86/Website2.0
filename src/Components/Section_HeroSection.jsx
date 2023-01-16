@@ -44,9 +44,11 @@ let desc = "och innovativ app-utvecklare skapar jag högkvalitativa digitala pro
      
               <Typewriter
                 options={{
+                  autoStart:true,
                   delay: 70,
                   deleteSpeed:20,
                   loop: true,
+                  cursorClassName:"blink_me"
                 }}
   onInit={(typewriter) => {
 
@@ -77,8 +79,10 @@ let desc = "och innovativ app-utvecklare skapar jag högkvalitativa digitala pro
       .start();
   }}
 />
+ 
              
             </h2>
+     
             </div>
           
           <Fade triggerOnce="false" damping={23}>
