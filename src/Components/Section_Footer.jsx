@@ -9,7 +9,7 @@ export default function Footer (){
       <div class="wave" id="wave4"></div>
     </div>
     <ul class="social-icon">
-      <li class="social-icon__item"><a class="social-icon__link" href="https://www.facebook.com/micke.landy.98">
+      <li class="social-icon__item"><a class="social-icon__link" href="h">
           <ion-icon name="logo-facebook"></ion-icon>
         </a></li>
       <li class="social-icon__item"><a class="social-icon__link" href="https://www.linkedin.com/in/mikael-hendler-landy/">
@@ -26,7 +26,7 @@ export default function Footer (){
       <li class="menu__item"><a class="menu__link" href="#">Kontakt</a></li>
 
     </ul>
-    <p>&copy;2022 Mikael Hverven-Landy | All Rights Reserved</p>
+    <p>&copy;2022 Made with ❤️ by Mikael Hverven-Landy | All Rights Reserved</p>
   </footer>
 
   );

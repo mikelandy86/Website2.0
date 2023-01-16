@@ -1,16 +1,11 @@
 import { FaGgCircle} from "react-icons/fa";
 import { Fade, Slide } from "react-awesome-reveal";
 import Typewriter from 'typewriter-effect';
+
+
 export default function HeroSection() {
   
 
-<Typewriter
-  options={{
-    strings: ['Hello', 'World'],
-    autoStart: true,
-    loop: true,
-  }}
-/>
 
 
 let title = "";
@@ -24,7 +19,7 @@ let desc = "och innovativ app-utvecklare skapar jag högkvalitativa digitala pro
     <div className="section-hero-section">
       <div className="hero-section-row-flex">
         <div className="hero-section-info-section">
-          <Fade cascade triggerOnce="false" direction="left">
+          {/* <Fade cascade triggerOnce="false" direction="left"> */}
 
           <h2 className="hero-section-info-title">
             {title}{" "}
@@ -40,7 +35,7 @@ let desc = "och innovativ app-utvecklare skapar jag högkvalitativa digitala pro
             {title3}{" "}
 
           </h2>
-          </Fade>
+          {/* </Fade> */}
           <div className="typewriter-container">
          <FaGgCircle className="hero-section-info-title" size={40} color="#5E3AEE"/> 
             <h2 className="rainbow">
@@ -49,7 +44,8 @@ let desc = "och innovativ app-utvecklare skapar jag högkvalitativa digitala pro
      
               <Typewriter
                 options={{
-
+                  delay: 60,
+                  deleteSpeed:12,
                   loop: true,
                 }}
   onInit={(typewriter) => {
@@ -58,24 +54,27 @@ let desc = "och innovativ app-utvecklare skapar jag högkvalitativa digitala pro
       
     // .pauseFor(700)
     typewriter.typeString('applikationer.')
+    
+    .pauseFor(500)
 
-      
-      .pauseFor(200)
-      .deleteAll()
-
+    .deleteChars(14)
+    
       typewriter.typeString('XR-upplevelser.')
-      .pauseFor(200)
-      .deleteAll()
+      .pauseFor(500)
+      .deleteChars(15)
 
-      typewriter.typeString('Unity spel.')
-      .pauseFor(200)
+      typewriter.typeString('spel.')
+      .pauseFor(500)
       .deleteAll()
 
       typewriter.typeString('hemsidor.')
-      .pauseFor(200)
+      .pauseFor(500)
       .deleteAll()
       typewriter.typeString('mobil appar.')
-      .pauseFor(200)
+      .pauseFor(300)
+      .deleteAll()
+      typewriter.typeString('verktyg.')
+      .pauseFor(500)
       .deleteAll()
       .start();
   }}
@@ -114,4 +113,5 @@ let desc = "och innovativ app-utvecklare skapar jag högkvalitativa digitala pro
 
 // <iframe width="580" height="315"
 // src="https://www.youtube.com/embed/nXUMsvWlsVo?autoplay=1&mute=1">
+
 // </iframe>

@@ -37,7 +37,7 @@ export default function BioSection() {
               <span>GIT</span>
            
             </div> */}
-          <Fade cascade triggerOnce="true" duration="500" direction="up">
+          <Fade cascade triggerOnce="true" duration="500" fraction={0.9} direction="up">
            
             <div id="blockB" className="section-bio-title-info">
               <h2>Mikael Hverven-Landy</h2>
