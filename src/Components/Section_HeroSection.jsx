@@ -35,7 +35,7 @@ let desc = "En C# utvecklare och innovativ app-utvecklare skapar jag högkvalita
             <h2 className="rainbow">
 
               {/* <br /> */}
-              <FaGgCircle className="hero-section-info-title" size={57} color="#5E3AEE"/> applikationer. 
+              <FaGgCircle className="hero-section-info-title" size={50} color="#5E3AEE"/> applikationer. 
             </h2>
           </Fade>
           <Fade triggerOnce="false" damping={23}>
