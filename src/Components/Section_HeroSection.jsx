@@ -41,7 +41,7 @@ let desc = "En C# utvecklare och innovativ app-utvecklare skapar jag högkvalita
           </h2>
           </Fade>
           <div className="typewriter-container">
-         <FaGgCircle className="hero-section-info-title" size={50} color="#5E3AEE"/> 
+         <FaGgCircle className="hero-section-info-title" size={40} color="#5E3AEE"/> 
             <h2 className="rainbow">
 
               {/* <br /> */}
@@ -56,7 +56,7 @@ let desc = "En C# utvecklare och innovativ app-utvecklare skapar jag högkvalita
 
       
     .pauseFor(900)
-    typewriter.typeString('Web-applikationer')
+    typewriter.typeString('Applikationer')
 
       
       .pauseFor(200)
