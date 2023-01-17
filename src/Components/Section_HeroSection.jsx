@@ -61,13 +61,13 @@ let desc = "och innovativ app-utvecklare skapar jag högkvalitativa digitala pro
     typewriter.typeString('hemsidor')
     .pauseFor(500)
     .deleteChars(8)
-      typewriter.typeString('VR och AR appar')
+      typewriter.typeString('VR/AR appar')
       .pauseFor(400)
-      .deleteChars(15)
+      .deleteChars(11)
 
-      typewriter.typeString('verktyg och spel')
+      typewriter.typeString('spel')
       .pauseFor(700)
-      .deleteChars(17)
+      .deleteChars(4)
 
       typewriter.typeString('mobil-appar')
       .pauseFor(300)

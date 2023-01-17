@@ -491,6 +491,7 @@ margin-bottom: 0;
   text-align: center;
   margin-top: 200px;
   background-color: #ffffff;
+  
 }
 .project-container{
   margin: 0px 58px 58px 58px;
@@ -706,6 +707,7 @@ gap: 10px;
   margin-bottom: 20px;
 }
 .contact-section{
+  background-color: #F9F9FC;
   /* background: rgb(219, 219, 255); */
   scroll-margin-top: 7em;
     margin-top: 100px;
