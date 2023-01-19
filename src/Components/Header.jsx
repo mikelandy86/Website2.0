@@ -24,6 +24,11 @@ export default function Header() {
           </a>
         </li>
         <li>
+          <a onClick={toggleMenu} href="#skills">
+            Kompetenser
+          </a>
+        </li>
+        <li>
           <a onClick={toggleMenu} href="#projects">
             Projekt
           </a>
@@ -53,6 +58,11 @@ export default function Header() {
             <div className="button-container">
               <a class="nav-btn" href="#about-me">
                 Om
+              </a>
+            </div>
+            <div className="button-container">
+              <a class="nav-btn" href="#skills">
+                Kompetenser
               </a>
             </div>
             <div className="button-container">

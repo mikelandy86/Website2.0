@@ -483,7 +483,18 @@ margin-bottom: 0;
   max-width: 550px;
 }
 
+.section-skills{
+  background-color: #ffffff;
+  scroll-margin-top: 7em;
+  margin-top: 200px;
+  padding: 0 2em;
+}
 
+.section-skills-flexrow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .section-projects{
   padding-top: 20px;
