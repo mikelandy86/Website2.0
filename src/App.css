@@ -1084,11 +1084,11 @@ text-align: center;
     text-decoration: none;
 }
 
-.demo{
+.scrollTest{
   display: flex;
   justify-content: center;
 }
-.demo a {
+.scrollTest a {
   margin-top: 100px;
   bottom: 20px;
   left: 50%;
@@ -1101,7 +1101,7 @@ text-align: center;
   text-decoration: none;
   transition: opacity .3s;
 }
-.demo a:hover {
+.scrollTest a:hover {
   opacity: .5;
 }
 
