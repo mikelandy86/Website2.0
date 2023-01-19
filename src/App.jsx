@@ -6,6 +6,7 @@ import BioSection from "./Components/Section_BioSection";
 import ContactSection from "./Components/Section_Contact";
 import ProjectSection from "./Components/Section_Project";
 import SkillSection from "./Components/Section_SkillSection";
+import ScrollDown from "./Components/ScrollDown";
 import BackToUp from "@uiw/react-back-to-top";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
@@ -22,9 +23,13 @@ function App() {
       </div>
       <Header />
       <HeroSection />
-      <BioSection />
-      <SkillSection />
+      <ScrollDown href="#projects" />
       <ProjectSection />
+      <ScrollDown href="#bio" />
+      <BioSection />
+      <ScrollDown href="#skills" />
+      <SkillSection />
+      <ScrollDown href="#contact" />
       <ContactSection />
       <Footer />
     </div>
