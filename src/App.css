@@ -292,6 +292,7 @@ box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
   display: flex;
   justify-content: center;
   align-items: center;
+  border-bottom: #dddddd 1px solid;
 }
 .hero-section-info-section{
 
@@ -728,6 +729,7 @@ gap: 10px;
   scroll-margin-top: 7em;
     margin-top: 100px;
     padding-top: 30px;
+    border-top: #dddddd 1px solid;
 }
 
 .section-contact-title h1{
