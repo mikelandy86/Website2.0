@@ -25,11 +25,8 @@ function App() {
       <HeroSection />
       <ScrollDown href="#projects" />
       <ProjectSection />
-      <ScrollDown href="#bio" />
       <BioSection />
-      <ScrollDown href="#skills" />
       <SkillSection />
-      <ScrollDown href="#contact" />
       <ContactSection />
       <Footer />
     </div>

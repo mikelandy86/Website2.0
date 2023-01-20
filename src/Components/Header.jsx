@@ -19,7 +19,7 @@ export default function Header() {
           </a>
         </li>
         <li>
-          <a onClick={toggleMenu} href="#about-me">
+          <a onClick={toggleMenu} href="#bio">
             Om
           </a>
         </li>
@@ -56,7 +56,7 @@ export default function Header() {
               </a>
             </div>
             <div className="button-container">
-              <a class="nav-btn" href="#about-me">
+              <a class="nav-btn" href="#bio">
                 Om
               </a>
             </div>

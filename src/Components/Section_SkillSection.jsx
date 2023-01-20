@@ -1,11 +1,11 @@
-import { FaUserAlt } from "react-icons/fa";
+import { IoMdSchool } from "react-icons/io";
 import { Fade, Slide, Bounce } from "react-awesome-reveal";
 export default function SkillSection() {
   return (
     <div id="skills" className="section-skills">
       <div className="section-bio-title">
         <h1>
-          <FaUserAlt size={35} /> Mina <h1>Färdigheter</h1>
+          <IoMdSchool size={35} /> Mina <h1>Kompetenser</h1>
         </h1>
       </div>
       <div className="section-skills-flexrow">
