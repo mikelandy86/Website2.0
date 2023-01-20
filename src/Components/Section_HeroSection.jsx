@@ -12,6 +12,20 @@ export default function HeroSection() {
     "och innovativ app-utvecklare skapar jag högkvalitativa digitala produkter med verktyg som C#, ASP.NET, WPF och Xamarin.";
   return (
     <div className="section-hero-section">
+      {/* <div class="area">
+        <ul class="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div> */}
       <div className="hero-section-row-flex">
         <div className="hero-section-info-section">
           {/* <Fade cascade triggerOnce="false" direction="left"> */}
