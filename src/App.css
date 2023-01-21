@@ -1013,8 +1013,7 @@ text-align: center;
 }
 }
   .nav-links {
-
-    transition: 1s;
+    transition: 0.6s ease-out;
     transform: translateY(100%);
     margin-bottom: 0;
     padding-top: 17px;
@@ -1038,8 +1037,8 @@ text-align: center;
     justify-content: center;
   }
 .nav-links li{
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
   list-style: none;
@@ -1065,7 +1064,7 @@ text-align: center;
   }
 
   .nav-links-open{
-    transition: 1s;
+    transition: 0.6s ease-out;
     transform: translateY(0);
     margin-bottom: 0;
     padding-top: 17px; 
