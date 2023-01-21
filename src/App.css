@@ -1015,7 +1015,7 @@ text-align: center;
   .nav-links {
 
     transition: 1s;
-    transform: translateY(0);
+    transform: translateY(100%);
     margin-bottom: 0;
     padding-top: 17px;
     padding-top: 17px;
@@ -1066,7 +1066,7 @@ text-align: center;
 
   .nav-links-open{
     transition: 1s;
-    transform: translateY(100%);
+    transform: translateY(0);
     margin-bottom: 0;
     padding-top: 17px; 
     padding-top: 17px;
@@ -1074,7 +1074,7 @@ text-align: center;
     padding-right: 10px;
     padding-bottom: 20px;
     transform-origin: 0 0;
-    box-shadow: 0px 2px 30px 14px rgb(60 64 67 / 10%);
+    box-shadow: 0px 2px 30px 14px rgb(60 64 67 / 50%);
     bottom: 0;
     width: 100%;
     border-radius: 18px 18px 0 0;

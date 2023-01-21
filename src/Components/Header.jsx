@@ -2,6 +2,13 @@ import React, { useState } from "react";
 import { RiGlobalLine } from "react-icons/ri";
 import { FiTwitter } from "react-icons/fi";
 import { BsInstagram } from "react-icons/bs";
+
+import { FaUserAlt } from "react-icons/fa";
+import { FaHeadset } from "react-icons/fa";
+import { FaLaptopCode } from "react-icons/fa";
+import { FaHome } from "react-icons/fa";
+import { IoMdSchool } from "react-icons/io";
+
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -15,27 +22,27 @@ export default function Header() {
       <ul className={`nav-links${menuOpen ? "-open" : ""}`}>
         <li>
           <a onClick={toggleMenu} href="#">
-            Hem
+          <FaHome size={20} />    Hem
           </a>
         </li>
         <li>
           <a onClick={toggleMenu} href="#bio">
-            Om
+          <FaUserAlt size={20} /> Om
           </a>
         </li>
         <li>
           <a onClick={toggleMenu} href="#skills">
-            Kompetenser
+          <IoMdSchool size={20} />  Kompetenser
           </a>
         </li>
         <li>
           <a onClick={toggleMenu} href="#projects">
-            Projekt
+          <FaLaptopCode size={20} />  Projekt
           </a>
         </li>
         <li>
           <a onClick={toggleMenu} href="#contact">
-            Kontakt
+          <FaHeadset size={20} /> Kontakt
           </a>
         </li>
       </ul>
