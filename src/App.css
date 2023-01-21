@@ -1096,8 +1096,8 @@ text-align: center;
   transform: translateY(122%);
 }
   .nav-links-open li {
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
     list-style: none;
