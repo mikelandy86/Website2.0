@@ -1,26 +1,34 @@
 import { Fade, Slide } from "react-awesome-reveal";
 import { FaHeadset } from "react-icons/fa";
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 export default function ContactForm() {
 
   const form = useRef();
-
+  
+const SendEmailDone = "Ditt meddelande har skickats, Jag kontaktar dig snart!"
   const sendEmail = (e) => {
     console.log("Sending Email!")
+    
     e.preventDefault();
-
+    
     emailjs.sendForm('service_dzjv7y5', 'template_q9uorg8j', form.current, 'YSGh0FPCtRosLE2Wp')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
+    .then((result) => {
+      console.log(result.text);
+    }, (error) => {
           console.log(error.text);
       });
-  };
-
-
-
+      e.target.reset();
+      showResult(true);
+      setTimeout(() => {
+        showResult(false);
+      }, 5000);
+    };
+    
+    const [result, showResult] = useState(false);
+    
+    
   return (
     <div id="contact" className="contact-section">
       <div className="section-bio-title">
@@ -78,6 +86,7 @@ export default function ContactForm() {
               <button type="submit"  className="contact-btn">
                 Skicka
               </button>
+              <div className="rowUnderSubmit">{result ? SendEmailDone : null}</div>
             </form>
           </div>
         </div>

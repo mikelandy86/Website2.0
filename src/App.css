@@ -703,6 +703,10 @@ gap: 10px;
 .section-gap{
   padding: 60px 0;
 }
+
+.rowUnderSubmit{
+  margin-top: 10px;
+}
 .contact-flex-section{
   z-index: -1;
   margin-left: 30px;
