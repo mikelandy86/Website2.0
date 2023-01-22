@@ -1,6 +1,26 @@
 import { Fade, Slide } from "react-awesome-reveal";
 import { FaHeadset } from "react-icons/fa";
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
 export default function ContactForm() {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    console.log("Sending Email!")
+    e.preventDefault();
+
+    emailjs.sendForm('service_dzjv7y5', 'template_q9uorg8j', form.current, 'YSGh0FPCtRosLE2Wp')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
+
+
   return (
     <div id="contact" className="contact-section">
       <div className="section-bio-title">
@@ -27,13 +47,13 @@ export default function ContactForm() {
             />
           </div>
           <div className="contact-input-container">
-            <form>
+            <form ref={form} onSubmit={sendEmail}>
               <div className="form-outline">
-                <input type="text" placeholder="Name" class="form-control" />
+                <input type="text" placeholder="Name" name="fullName" class="form-control" />
               </div>
 
               <div className="form-outline">
-                <input type="text" placeholder="Subject" class="form-control" />
+                <input type="text" placeholder="Subject" name="subject" class="form-control" />
               </div>
 
               <div className="form-outline">
@@ -42,6 +62,7 @@ export default function ContactForm() {
                   id="form4Example2"
                   placeholder="Email address"
                   className="form-control"
+                  name="email"
                 />
               </div>
 
@@ -50,10 +71,11 @@ export default function ContactForm() {
                   className="form-control-message"
                   placeholder="Message"
                   rows="4"
+                  name="message"
                 ></textarea>
               </div>
 
-              <button type="submit" className="contact-btn">
+              <button type="submit"  className="contact-btn">
                 Skicka
               </button>
             </form>

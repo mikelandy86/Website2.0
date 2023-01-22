@@ -21,28 +21,43 @@ export default function Header() {
     <header className="header">
       <ul className={`nav-links${menuOpen ? "-open" : ""}`}>
         <li>
+        <a onClick={toggleMenu} href="#">
+          <FaHome size={20} />   
+          </a>
           <a onClick={toggleMenu} href="#">
-          <FaHome size={20} />    Hem
+        Hem
           </a>
         </li>
         <li>
+        <a onClick={toggleMenu} href="#bio">
+          <FaUserAlt size={20} /> 
+          </a>
           <a onClick={toggleMenu} href="#bio">
-          <FaUserAlt size={20} /> Om
+Om
           </a>
         </li>
         <li>
+        <a onClick={toggleMenu} href="#skills">
+          <IoMdSchool size={20} />  
+          </a>
           <a onClick={toggleMenu} href="#skills">
-          <IoMdSchool size={20} />  Kompetenser
+ Kompetenser
           </a>
         </li>
         <li>
+        <a onClick={toggleMenu} href="#projects">
+          <FaLaptopCode size={20} /> 
+          </a>
           <a onClick={toggleMenu} href="#projects">
-          <FaLaptopCode size={20} />  Projekt
+         Projekt
           </a>
         </li>
         <li>
+        <a onClick={toggleMenu} href="#contact">
+          <FaHeadset size={20} /> 
+          </a>
           <a onClick={toggleMenu} href="#contact">
-          <FaHeadset size={20} /> Kontakt
+        Kontakt
           </a>
         </li>
       </ul>

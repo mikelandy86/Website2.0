@@ -486,7 +486,7 @@ margin-bottom: 0;
   font-weight: 300;
   z-index: 1;
   line-height: 1.5;
-  max-width: 550px;
+  max-width: 500px;
 }
 
 .section-skills{
@@ -938,7 +938,7 @@ display: flex;
 }
 .project{
   width: auto;
-  margin:25px;
+  margin: 63px;
 }
 .burger{
   display: block;
@@ -1011,9 +1011,15 @@ text-align: center;
 .form-control-message{
   width: 100%;
 }
+.section-bio-infodesc p{
+  max-width: 385px;
+}
 }
   .nav-links {
-    transition: 0.6s ease-out;
+    margin-left: 5px;
+    margin-left: 5px;
+    display: grid;
+    transition: 0.3s ease-out;
     transform: translateY(100%);
     margin-bottom: 0;
     padding-top: 17px;
@@ -1031,16 +1037,19 @@ text-align: center;
     position: fixed;
     z-index: 100222;
     text-decoration: none;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 2rem;
+    gap: 2rem;
   }
 .nav-links li{
-  margin-left: 20px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 20px;
   margin-right: 20px;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 10px; */
   list-style: none;
 }
 .nav-links a {
@@ -1064,7 +1073,10 @@ text-align: center;
   }
 
   .nav-links-open{
-    transition: 0.6s ease-out;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: grid;
+    transition: 0.3s ease-out;
     transform: translateY(0);
     margin-bottom: 0;
     padding-top: 17px; 
@@ -1084,10 +1096,9 @@ text-align: center;
     text-decoration: none;
     /* transform: translateY(0%);
     transition: transform 0.3s ease-out; */
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 2rem;
+    gap: 2rem;
   }
 
 .burger-open{
@@ -1095,10 +1106,14 @@ text-align: center;
   transform: translateY(122%);
 }
   .nav-links-open li {
-    margin-left: 20px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 20px;
     margin-right: 20px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 10px; */
     list-style: none;
   }
 

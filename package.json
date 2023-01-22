@@ -12,6 +12,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.10.0",
     "@emotion/react": "^11.10.5",
     "@uiw/react-back-to-top": "^1.2.1",
     "bootstrap": "^5.2.3",
