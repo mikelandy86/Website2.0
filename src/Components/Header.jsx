@@ -64,11 +64,12 @@ Om
       <div className="w">
         <div class="nav">
           <div class="nav-title-container">
+            <a href="https://mikelandy86.github.io/website2.0/"> 
             <img
               class="nav-title-icon"
               src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/Avatar-onlyhead.png"
             ></img>{" "}
-            {/* <p class="nav-title">Mikael Landy</p> */}
+            {/* <p class="nav-title">Mikael Landy</p> */}</a>
           </div>
 
           <div id="myDIV" class="nav-menu-flex">
