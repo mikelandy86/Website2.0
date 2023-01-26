@@ -9,7 +9,7 @@ export default function HeroSection() {
   title = `Bygger digitala`;
   title2 = `smarta, interaktiva`;
   let desc =
-    "och innovativ app-utvecklare skapar jag högkvalitativa digitala produkter med verktyg som C#, ASP.NET, WPF och Xamarin.";
+    "som gillar att skapa innovativa applikationer och verktyg.";
   return (
     <div className="section-hero-section">
       {/* <div class="area">
@@ -82,7 +82,7 @@ export default function HeroSection() {
 
           <Fade triggerOnce="false" damping={23}>
             <p className="hero-section-info-desc">
-              En <span style={{ fontWeight: "bold" }}>C# utvecklare</span>{" "}
+              En <span style={{ fontWeight: "bold" }}>Fullstackutvecklare</span>{" "}
               {desc}
             </p>
           </Fade>

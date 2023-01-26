@@ -5,7 +5,7 @@ export default function Project() {
     <div id="projects" className="section-projects">
       <div className="section-bio-title">
         <h1>
-          <FaLaptopCode size={35} /> Senaste <h1>Projekt</h1>
+          <FaLaptopCode size={35} /> Tidigare <h1>Projekt</h1>
         </h1>
       </div>
 

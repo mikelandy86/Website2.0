@@ -296,6 +296,8 @@ box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
 }
 
 .section-hero-section{
+  background: linear-gradient(rgba(255,254,253,0.9), rgba(255,254,253,0.9)), url(https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/pexels-olia-danilevich-4974912.jpg) center center fixed;
+  background-size: cover;
   background-color: #F9F9FC;
   padding-top: 188px;
 }
@@ -515,13 +517,14 @@ margin-bottom: 0;
 }
 
 .section-projects{
-  padding-top: 20px;
+  padding-top: 77px;
+  padding-bottom: 77px;
   scroll-margin-top: 7em;
   text-align: center;
-  margin-top: 100px;
-  background-color: #ffffff;
-  
+  margin-top: 198px;
+  background-color: #f9f9f9;
 }
+
 .project-container{
   margin: 0px 58px 58px 58px;
   justify-content: center;
@@ -607,12 +610,14 @@ margin-bottom: 0;
 }
 
 .burger{
+  z-index: 10000;
   display: none;
 }
 .nav-links-open{
   display: none;
 }
 .burger div{
+  z-index: 10000;
   text-align: right;
 height: 3px;
 margin: 5px;
@@ -960,6 +965,7 @@ display: flex;
   margin: 33px;
 }
 .burger{
+  z-index: 10000;
   display: block;
 }
 .nav-links-open{
@@ -1037,7 +1043,7 @@ text-align: center;
   .nav-links {
     display: grid;
     transition: 0.3s ease-out;
-    transform: translateY(100%);
+    transform: translateX(100%);
     margin-bottom: 0;
     padding-top: 17px;
     padding-top: 17px;
@@ -1047,7 +1053,7 @@ text-align: center;
     transform-origin: 0 0;
     box-shadow: 0px 2px 30px 14px rgb(60 64 67 / 10%);
     bottom: 0;
-    top:10%;
+    top:0;
     width: 100%;
     border-radius: 18px 18px 0 0;
     background-color: white;
@@ -1093,7 +1099,7 @@ text-align: center;
 
     display: grid;
     transition: 0.3s ease-out;
-    transform: translateY(0);
+    transform: translateX(0);
     margin-bottom: 0;
     padding-top: 17px; 
     padding-top: 17px;
@@ -1103,7 +1109,7 @@ text-align: center;
     transform-origin: 0 0;
     box-shadow: 0px 2px 30px 14px rgb(60 64 67 / 50%);
     bottom: 0;
-    top:10%;
+    top:0;
     width: 100%;
     border-radius: 18px 18px 0 0;
     background-color: white;
@@ -1119,6 +1125,7 @@ text-align: center;
   }
 
 .burger-open{
+  z-index: 10000;
   z-index: 1000;
   transform: translateY(122%);
 }

@@ -23,9 +23,9 @@ function App() {
       </div>
       <Header />
       <HeroSection />
-      <ScrollDown href="#projects" />
-      <ProjectSection />
+      {/* <ScrollDown href="#bio" /> */}
       <BioSection />
+      <ProjectSection />
       <SkillSection />
       <ContactSection />
       <Footer />
