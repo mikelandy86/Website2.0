@@ -6,10 +6,10 @@ export default function HeroSection() {
   let title = "";
   let title2 = "";
   let title3 = "";
-  title = `Bygger digitala`;
+  title = `Designer, Frontend Developer & Mentor`;
   title2 = `smarta, interaktiva`;
   let desc =
-    "som gillar att skapa innovativa applikationer och verktyg.";
+    "I design and code beautifully simple things, and I love what I do.";
   return (
     <div className="section-hero-section">
       {/* <div class="area">
@@ -31,58 +31,12 @@ export default function HeroSection() {
           {/* <Fade cascade triggerOnce="false" direction="left"> */}
 
           <h2 className="hero-section-info-title">{title} </h2>
-          <h2 className="hero-section-info-title">{title2} </h2>
-          <h2 className="hero-section-info-title">{title3} </h2>
-          {/* </Fade> */}
-          <div className="typewriter-container">
-            <FaGgCircle
-              className="hero-section-info-title"
-              size={40}
-              color="#5E3AEE"
-            />
-            <h2 className="rainbow">
-              {/* <br /> */}
+          {/* <h2 className="hero-section-info-title">{title2} </h2> */}
 
-              <Typewriter
-                options={{
-                  autoStart: true,
-                  delay: 70,
-                  deleteSpeed: 20,
-                  loop: true,
-                  cursorClassName: "blink_me",
-                }}
-                onInit={(typewriter) => {
-                  typewriter
-                    .typeString("applikationer")
-
-                    .pauseFor(500)
-
-                    .deleteChars(13);
-
-                  typewriter
-                    .typeString("hemsidor")
-                    .pauseFor(500)
-                    .deleteChars(8);
-                  typewriter
-                    .typeString("VR/AR appar")
-                    .pauseFor(400)
-                    .deleteChars(11);
-
-                  typewriter.typeString("spel").pauseFor(700).deleteChars(4);
-
-                  typewriter
-                    .typeString("mobil-appar")
-                    .pauseFor(300)
-                    .deleteChars(11)
-                    .start();
-                }}
-              />
-            </h2>
-          </div>
 
           <Fade triggerOnce="false" damping={23}>
             <p className="hero-section-info-desc">
-              En <span style={{ fontWeight: "bold" }}>Fullstackutvecklare</span>{" "}
+              {/* En <span style={{ fontWeight: "bold" }}>Fullstackutvecklare</span>{" "} */}
               {desc}
             </p>
           </Fade>
@@ -104,6 +58,11 @@ export default function HeroSection() {
             ></iframe> */}
           </div>
         </div>
+        <div className="hero-foot">
+        <div className="hero-section-image-computers">
+        <img src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/hero-devices.svg"></img>
+        </div>
+        </div>
       </div>
     </div>
   );
@@ -113,3 +72,53 @@ export default function HeroSection() {
 // src="https://www.youtube.com/embed/nXUMsvWlsVo?autoplay=1&mute=1">
 
 // </iframe>
+
+{/* <h2 className="hero-section-info-title">{title3} </h2> */}
+
+
+
+// <div className="typewriter-container">
+// <FaGgCircle
+//   className="hero-section-info-title"
+//   size={40}
+//   color="#5E3AEE"
+// />
+// <h2 className="rainbow">
+
+
+//   <Typewriter
+//     options={{
+//       autoStart: true,
+//       delay: 70,
+//       deleteSpeed: 20,
+//       loop: true,
+//       cursorClassName: "blink_me",
+//     }}
+//     onInit={(typewriter) => {
+//       typewriter
+//         .typeString("applikationer")
+
+//         .pauseFor(500)
+
+//         .deleteChars(13);
+
+//       typewriter
+//         .typeString("hemsidor")
+//         .pauseFor(500)
+//         .deleteChars(8);
+//       typewriter
+//         .typeString("VR/AR appar")
+//         .pauseFor(400)
+//         .deleteChars(11);
+
+//       typewriter.typeString("spel").pauseFor(700).deleteChars(4);
+
+//       typewriter
+//         .typeString("mobil-appar")
+//         .pauseFor(300)
+//         .deleteChars(11)
+//         .start();
+//     }}
+//   />
+// </h2>
+// </div>

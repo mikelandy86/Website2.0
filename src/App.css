@@ -296,14 +296,17 @@ box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
 }
 
 .section-hero-section{
-  background: linear-gradient(rgba(255,254,253,0.9), rgba(255,254,253,0.9)), url(https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/pexels-olia-danilevich-4974912.jpg) center center fixed;
-  background-size: cover;
+  /* background: linear-gradient(rgba(255,254,253,0.9), rgba(255,254,253,0.9)), url(https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/pexels-olia-danilevich-4974912.jpg) center center fixed; */
+  /* background-size: cover; */
   background-color: #F9F9FC;
   padding-top: 188px;
+  height: 100%;
 }
 .hero-section-row-flex{
   margin: 20px;
   display: flex;
+  text-align: center;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   border-bottom: #dddddd 1px solid;
@@ -319,12 +322,13 @@ box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
   padding-right: 20px;
 }
 .hero-section-image img{
-  width: 450px;
+  width: 250px;
 }
 .hero-section-info-title{
+  color: #141c3a;
   margin-bottom: 2px;
   padding: 0;
-  color: #1d1f23;
+
   font-weight: 500;
   font-size: clamp(18px, 9vw, 42px);
   white-space: pre-line;
@@ -339,6 +343,19 @@ box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
   flex-direction:row;
   margin-bottom: 50px;
   margin-top: 20px;
+}
+.hero-foot{
+  padding: 0rem 1.5rem;
+}
+.hero-section-image-computers{
+  flex-grow: 1;
+  margin: 0 auto;
+  position: relative;
+  width: auto;
+}
+.hero-section-image-computers-image{
+  margin-bottom: -0.45rem;
+  max-width: 860px;
 }
 .rainbow{
   background: #5E3AEE;
@@ -358,8 +375,8 @@ box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
       padding-bottom: 30px;
 }
 .hero-section-info-desc{
-  /* margin: 0 auto; */
-  max-width: 566px;
+
+  /* max-width: 566px; */
   color: #322b2b;
   line-height: 1.5;
   font-size: 18px;
