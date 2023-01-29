@@ -5,7 +5,7 @@ import Header from "./Components/Header";
 import BioSection from "./Components/Section_BioSection";
 import BioSectionV2 from "./Components/Section_BioSectionv2";
 import ContactSection from "./Components/Section_Contact";
-import ProjectSection from "./Components/Section_Project";
+import ProjectSectionv2 from "./Components/Section_Projectv2";
 import SkillSection from "./Components/Section_SkillSection";
 import ScrollDown from "./Components/ScrollDown";
 import BackToUp from "@uiw/react-back-to-top";
@@ -27,7 +27,7 @@ function App() {
       {/* <ScrollDown href="#bio" /> */}
       <BioSectionV2 />
       <SkillSection />
-      <ProjectSection />
+      <ProjectSectionv2 />
       <BioSection />
       <ContactSection />
       <Footer />
