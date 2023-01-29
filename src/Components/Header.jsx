@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { RiGlobalLine } from "react-icons/ri";
 import { FiTwitter } from "react-icons/fi";
 import { BsInstagram } from "react-icons/bs";
-
+import { FaGgCircle } from "react-icons/fa";
 import { FaUserAlt } from "react-icons/fa";
 import { FaHeadset } from "react-icons/fa";
 import { FaLaptopCode } from "react-icons/fa";
@@ -65,14 +65,14 @@ Om
         <div class="nav">
           <div class="nav-title-container">
             <a href="https://mikelandy86.github.io/website2.0/"> 
-            <img
-              class="nav-title-icon"
-              src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/Avatar-onlyhead.png"
-            ></img>{" "}
-            {/* <p class="nav-title">Mikael Landy</p> */}</a>
+             <FaGgCircle
+  className="hero-section-info-title"
+  size={50}
+  color="#6E07F3"
+/></a>
           </div>
 
-          <div id="myDIV" class="nav-menu-flex">
+          {/* <div id="myDIV" class="nav-menu-flex">
             <div className="button-container">
               <a class="nav-btn" href="#">
                 Hem
@@ -99,17 +99,12 @@ Om
                 Kontakt
               </a>
             </div>
-          </div>
+          </div> */}
           <div className="icons-container">
             <a className="nav-icon" href="#">
-              <RiGlobalLine color="#656B8E" size={19} />
+              Menu
             </a>
-            <a className="nav-icon" href="#">
-              <FiTwitter color="#656B8E" size={19} />
-            </a>
-            <a className="nav-icon" href="#">
-              <BsInstagram color="#656B8E" size={19} />
-            </a>
+<a className="header-sayhello-button" href="#contact">Say Hello</a>
           </div>
           <div onClick={toggleMenu} class="burger">
             <div className={`line1${menuOpen ? "-open" : ""}`}></div>

@@ -6,7 +6,7 @@ export default function HeroSection() {
   let title = "";
   let title2 = "";
   let title3 = "";
-  title = `Designer, Frontend Developer & Mentor`;
+  title = `Frontend, XR & Unity Developer`;
   title2 = `smarta, interaktiva`;
   let desc =
     "I design and code beautifully simple things, and I love what I do.";
@@ -30,14 +30,28 @@ export default function HeroSection() {
         <div className="hero-section-info-section">
           {/* <Fade cascade triggerOnce="false" direction="left"> */}
 
-          <h2 className="hero-section-info-title">{title} </h2>
+          <h1 className="hero-section-info-title">{title} </h1>
           {/* <h2 className="hero-section-info-title">{title2} </h2> */}
 
 
           <Fade triggerOnce="false" damping={23}>
             <p className="hero-section-info-desc">
-              {/* En <span style={{ fontWeight: "bold" }}>Fullstackutvecklare</span>{" "} */}
-              {desc}
+            <Typewriter
+    options={{
+      autoStart: true,
+      delay: 30,
+      deleteSpeed: 20,
+      loop: false,
+      cursorClassName: "blink_me",
+    }}
+    onInit={(typewriter) => {
+      typewriter
+        .typeString("I design and code beautifully simple things, and I love what I do.")
+
+        .start();
+    }}
+  />
+              {/* {desc} */}
             </p>
           </Fade>
           {/* <a href="#contact" className="hero-section-info-button">
@@ -60,7 +74,7 @@ export default function HeroSection() {
         </div>
         <div className="hero-foot">
         <div className="hero-section-image-computers">
-        <img src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/hero-devices.svg"></img>
+        <img  className="hero-section-image-computers-image" src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/hero-devices.svg"></img>
         </div>
         </div>
       </div>
