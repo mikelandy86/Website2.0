@@ -1,7 +1,8 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: 'Europe', sans-serif;
+  /* font-family: 'Europe', sans-serif; */
+  font-family: Metropolis;
 }
 :root {
   --vp-home-hero-name-color: transparent;
@@ -202,7 +203,6 @@ text-align: center;
 }
 
 .icons-container{
- 
   align-items: center;
   margin-right: 40px;
   display: flex;
@@ -210,6 +210,8 @@ text-align: center;
   justify-content: flex-end;
 }
 .nav-icon{
+  font-size: 18px;
+  font-weight: 300;
   color: #141c3a;
 }
 .add-shadow{
@@ -232,6 +234,7 @@ box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
 	}
 }
 .nav{
+  margin: 0 auto !important;
   padding: 1.2rem
   rem
    0;
@@ -241,7 +244,7 @@ box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
       margin-left: 80px;
       margin-right: 80px;
       margin-top: 25px;
-      height: 70px;
+      height: 125px;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -261,6 +264,7 @@ box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
 }
 
 .header-sayhello-button{
+  font-family: Metropolis;
   font-weight: 300;
   font-size: 18px;
   background-color: transparent;
@@ -577,7 +581,6 @@ margin-bottom: 0;
 
 
 .section-biov2-text-container{
-
   display: flex;
   text-align: center;
   padding: 150px;
@@ -592,16 +595,16 @@ margin-bottom: 0;
   font-size: 2rem !important;
   }
   .section-biov2-text-container h3{
-    max-width: 700px;
+    max-width: 900px;
     font-weight: 300;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     line-height: 1.9;
     }
 
 
 .section-skills{
-  margin-left: 80px;
-  margin-right: 80px;
+  max-width: 1200px;
+  margin: 0 auto;
   background-color: #ffffff;
   scroll-margin-top: 7em;
   margin-top: -12rem;
@@ -614,6 +617,7 @@ margin-bottom: 0;
 
 
 .section-skills-column-container{
+  margin: 0 auto;
   box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%);
 
 display: flex;
@@ -633,6 +637,7 @@ text-align: center;
   margin-bottom:60px;
 }
 .middle-column-section h3, .bottom-column-section h3, .top-column-section h3{
+  font-family: Metropolis;
   font-weight:300;
   color: #141c3a;
   font-size: 18px;

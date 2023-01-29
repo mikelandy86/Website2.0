@@ -21,55 +21,56 @@ export default function Header() {
     <header className="header">
       <ul className={`nav-links${menuOpen ? "-open" : ""}`}>
         <li>
-        <a onClick={toggleMenu} href="#">
-          <FaHome size={20} />   
+          <a onClick={toggleMenu} href="#">
+            <FaHome size={20} />
           </a>
           <a onClick={toggleMenu} href="#">
-        Hem
+            Hem
           </a>
         </li>
         <li>
-        <a onClick={toggleMenu} href="#bio">
-          <FaUserAlt size={20} /> 
+          <a onClick={toggleMenu} href="#bio">
+            <FaUserAlt size={20} />
           </a>
           <a onClick={toggleMenu} href="#bio">
-Om
+            Om
           </a>
         </li>
         <li>
-        <a onClick={toggleMenu} href="#skills">
-          <IoMdSchool size={20} />  
+          <a onClick={toggleMenu} href="#skills">
+            <IoMdSchool size={20} />
           </a>
           <a onClick={toggleMenu} href="#skills">
- Kompetenser
+            Kompetenser
           </a>
         </li>
         <li>
-        <a onClick={toggleMenu} href="#projects">
-          <FaLaptopCode size={20} /> 
+          <a onClick={toggleMenu} href="#projects">
+            <FaLaptopCode size={20} />
           </a>
           <a onClick={toggleMenu} href="#projects">
-         Projekt
+            Projekt
           </a>
         </li>
         <li>
-        <a onClick={toggleMenu} href="#contact">
-          <FaHeadset size={20} /> 
+          <a onClick={toggleMenu} href="#contact">
+            <FaHeadset size={20} />
           </a>
           <a onClick={toggleMenu} href="#contact">
-        Kontakt
+            Kontakt
           </a>
         </li>
       </ul>
       <div className="w">
         <div class="nav">
           <div class="nav-title-container">
-            <a href="https://mikelandy86.github.io/website2.0/"> 
-             <FaGgCircle
-  className="hero-section-info-title"
-  size={50}
-  color="#6E07F3"
-/></a>
+            <a href="https://mikelandy86.github.io/website2.0/">
+              <FaGgCircle
+                className="hero-section-info-title"
+                size={50}
+                color="#6E07F3"
+              />
+            </a>
           </div>
 
           {/* <div id="myDIV" class="nav-menu-flex">
@@ -102,9 +103,11 @@ Om
           </div> */}
           <div className="icons-container">
             <a className="nav-icon" href="#">
-              Menu
+              My Work
             </a>
-<a className="header-sayhello-button" href="#contact">Say Hello</a>
+            <a className="header-sayhello-button" href="#contact">
+              Say Hello
+            </a>
           </div>
           <div onClick={toggleMenu} class="burger">
             <div className={`line1${menuOpen ? "-open" : ""}`}></div>
