@@ -5,8 +5,9 @@ export default function Project() {
     <div id="projects" className="section-projects">
       <div className="section-bio-title">
         <h1>
-          <FaLaptopCode size={35} /> Tidigare <h1>Projekt</h1>
+        My Recent Work
         </h1>
+        <h3>Here are a few past design projects I've worked on. Want to see more? <a>Email me.</a></h3>
       </div>
 
       <div className="project-container">

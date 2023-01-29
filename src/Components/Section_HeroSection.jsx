@@ -6,7 +6,7 @@ export default function HeroSection() {
   let title = "";
   let title2 = "";
   let title3 = "";
-  title = `Frontend, XR & Unity Developer`;
+  title = `Backend, Frontend & Unity Developer`;
   title2 = `smarta, interaktiva`;
   let desc =
     "I design and code beautifully simple things, and I love what I do.";
@@ -74,7 +74,7 @@ export default function HeroSection() {
         </div>
         <div className="hero-foot">
         <div className="hero-section-image-computers">
-        <img  className="hero-section-image-computers-image" src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/hero-devices.svg"></img>
+        <img  className="hero-section-image-computers-image" src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/hero.svg"></img>
         </div>
         </div>
       </div>
