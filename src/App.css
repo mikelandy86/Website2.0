@@ -213,6 +213,10 @@ text-align: center;
   font-size: 18px;
   font-weight: 300;
   color: #141c3a;
+  transition: 0.2s;
+}
+.nav-icon:hover{
+  color: #6E07F3;
 }
 .add-shadow{
 
@@ -265,7 +269,7 @@ box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
 
 .header-sayhello-button{
   font-family: Metropolis;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 18px;
   background-color: transparent;
   border:2px solid #6E07F3;;
@@ -311,11 +315,13 @@ box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
 .nav-title-container{
   margin-left: 40px;
   margin-right: 60px;
-  /* flex: auto; */
-  /* flex-basis: 1s; */
+
   display: flex;
   align-items: center;
   padding-left: 20px;
+}
+.nav-title-container a{
+  margin: 0;
 }
 .nav-title-icon{
   background-color: #6E07F3;
@@ -327,7 +333,9 @@ box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
   padding-left: 10px;
   font-weight: 800;
 }
-
+.nav-item{
+  height: 10px;
+}
 .section-hero-section{
   /* background: linear-gradient(rgba(255,254,253,0.9), rgba(255,254,253,0.9)), url(https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/pexels-olia-danilevich-4974912.jpg) center center fixed; */
   /* background-size: cover; */
@@ -362,7 +370,7 @@ box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
   width: 200px;
 }
 .hero-section-info-title{
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
   font-family: "eurostile", sans-serif;
   font-weight: 800;
   color: #141c3a;
@@ -392,9 +400,9 @@ box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
   width: auto;
 }
 .hero-section-image-computers-image{
+  max-width: 100%;
   margin-top: 40px;
   margin-bottom: -0.45rem;
-  max-width: 860px;
 }
 .rainbow{
   background: #5E3AEE;

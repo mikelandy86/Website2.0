@@ -33,24 +33,25 @@ export default function HeroSection() {
           <h1 className="hero-section-info-title">{title} </h1>
           {/* <h2 className="hero-section-info-title">{title2} </h2> */}
 
-
           <Fade triggerOnce="false" damping={23}>
             <p className="hero-section-info-desc">
-            <Typewriter
-    options={{
-      autoStart: true,
-      delay: 30,
-      deleteSpeed: 20,
-      loop: false,
-      cursorClassName: "blink_me",
-    }}
-    onInit={(typewriter) => {
-      typewriter
-        .typeString("I design and code beautifully simple things, and I love what I do.")
+              <Typewriter
+                options={{
+                  autoStart: true,
+                  delay: 30,
+                  deleteSpeed: 20,
+                  loop: false,
+                  cursorClassName: "blink_me",
+                }}
+                onInit={(typewriter) => {
+                  typewriter
+                    .typeString(
+                      "I design and code beautifully simple things, and I love what I do."
+                    )
 
-        .start();
-    }}
-  />
+                    .start();
+                }}
+              />
               {/* {desc} */}
             </p>
           </Fade>
@@ -63,7 +64,7 @@ export default function HeroSection() {
           {/* <div className="hero-section-image-image-bg"></div> */}
           <div className="hero-section-image">
             <Fade triggerOnce="true">
-              <img src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/Avatar-remade.png"></img>
+              <img src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/Avatar-remade_v3.png"></img>
             </Fade>
             {/* <iframe
               src="https://www.youtube.com/embed/H5PsBdyi2so?controls=0&showinfo=0&rel=0&autoplay=1&start=7&end=200&loop=1&mute=1&playlist=H5PsBdyi2so"
@@ -73,9 +74,12 @@ export default function HeroSection() {
           </div>
         </div>
         <div className="hero-foot">
-        <div className="hero-section-image-computers">
-        <img  className="hero-section-image-computers-image" src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/hero.svg"></img>
-        </div>
+          <div className="hero-section-image-computers">
+            <img
+              className="hero-section-image-computers-image"
+              src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/hero.svg"
+            ></img>
+          </div>
         </div>
       </div>
     </div>
@@ -87,9 +91,9 @@ export default function HeroSection() {
 
 // </iframe>
 
-{/* <h2 className="hero-section-info-title">{title3} </h2> */}
-
-
+{
+  /* <h2 className="hero-section-info-title">{title3} </h2> */
+}
 
 // <div className="typewriter-container">
 // <FaGgCircle
@@ -98,7 +102,6 @@ export default function HeroSection() {
 //   color="#5E3AEE"
 // />
 // <h2 className="rainbow">
-
 
 //   <Typewriter
 //     options={{

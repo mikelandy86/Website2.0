@@ -67,40 +67,12 @@ export default function Header() {
             <a href="https://mikelandy86.github.io/website2.0/">
               <FaGgCircle
                 className="hero-section-info-title"
-                size={50}
+                size={60}
                 color="#6E07F3"
               />
             </a>
           </div>
 
-          {/* <div id="myDIV" class="nav-menu-flex">
-            <div className="button-container">
-              <a class="nav-btn" href="#">
-                Hem
-              </a>
-            </div>
-            <div className="button-container">
-              <a class="nav-btn" href="#bio">
-                Om
-              </a>
-            </div>
-            <div className="button-container">
-              <a class="nav-btn" href="#skills">
-                Kompetenser
-              </a>
-            </div>
-            <div className="button-container">
-              <a class="nav-btn" href="#projects">
-                Projekt
-              </a>
-            </div>
-
-            <div className="button-container">
-              <a class="nav-btn" href="#contact">
-                Kontakt
-              </a>
-            </div>
-          </div> */}
           <div className="icons-container">
             <a className="nav-icon" href="#">
               My Work
