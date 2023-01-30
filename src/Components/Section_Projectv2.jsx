@@ -33,7 +33,7 @@ export default function Projectv2() {
           </div>
           <div className="container">
             <img
-              src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/Hags_Project.png"
+              src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/PlunderingScene5Quest_project.jpg"
               alt="Avatar"
               className="image"
             />
