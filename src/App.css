@@ -629,7 +629,7 @@ padding-bottom:20px;
   scroll-margin-top: 7em;
   margin-top: -12rem;
   padding-bottom: 1rem;
-  margin-bottom: 500px;
+  margin-bottom: 100px;
 
   border-radius: 12px;
 }
@@ -1149,6 +1149,7 @@ height: 30px;
 
 @media only screen and (max-width: 1200px) {
   .section-skills{
+
     margin-left: 15px;
     margin-right: 15px;
   }
