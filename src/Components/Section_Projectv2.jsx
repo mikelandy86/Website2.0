@@ -15,7 +15,7 @@ export default function Projectv2() {
         <div className="v2-projects-flex-container">
           <div className="container">
             <img
-              src="./src/assets/public/images/Hags_Project.png"
+              src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/Hags_Project.png"
               alt="Avatar"
               className="image"
             />
@@ -33,7 +33,7 @@ export default function Projectv2() {
           </div>
           <div className="container">
             <img
-              src="./src/assets/public/images/Hags_Project.png"
+              src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/Hags_Project.png"
               alt="Avatar"
               className="image"
             />
@@ -51,7 +51,7 @@ export default function Projectv2() {
           </div>
           <div className="container">
             <img
-              src="./src/assets/public/images/Hags_Project.png"
+              src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/Hags_Project.png"
               alt="Avatar"
               className="image"
             />
