@@ -19,9 +19,6 @@ import "rc-footer/assets/index.css"; // import 'rc-footer/asssets/index.less';
 function App() {
   return (
     <div id="app" className="App">
-      <div className="container">
-        <BackToUp style={{ zIndex: "100" }}>Up</BackToUp>
-      </div>
       <Header />
       <HeroSection />
       {/* <ScrollDown href="#bio" /> */}

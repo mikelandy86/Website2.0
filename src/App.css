@@ -713,15 +713,20 @@ text-align: center;
   flex-wrap: wrap;
 }
 .container {
+  border-radius: 12px;
   overflow: hidden;
   padding: 0;
   position: relative;
+  /* width: 33%; */
   width: 24rem;
   height: 17rem;
 }
-
+.v2-projects-projectThumbs{
+  max-width: 1200px;
+  margin: 0 auto;
+}
 .image {
-  border-radius: 12px;
+
   display: block;
   width: 100%;
   height: auto;
@@ -729,7 +734,7 @@ text-align: center;
 }
 
 .overlay {
-  border-radius: 12px;
+
   position: absolute;
   top: 0;
   bottom: 0;
