@@ -1231,7 +1231,12 @@ display: flex;
   .section-hero-section{
     padding-top: 30px;
   }
-
+  .icons-container{
+    display: none;
+   }
+.section-skills-column{
+  border-top: 1px solid #E6ECF8;
+}
   .project p{
     font-size: clamp(0.9rem, 1vw, 0.3rem);
     line-height: 1.5;
@@ -1252,9 +1257,7 @@ display: flex;
   width: 261px;
   height: 200px;
  }
- body{
-  padding-top: 70px;
- }
+
  .hero-section-info-subtitle{
   font-size: 15px;
 }
@@ -1398,6 +1401,7 @@ text-align: center;
     text-decoration: none;
     color: rgb(118, 66, 228);
    }
+
   /* .nav-links a {
     text-decoration: none;
     display: none;
