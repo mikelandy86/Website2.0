@@ -19,7 +19,25 @@ body {
 	margin: 0 auto !important;
 	float: none !important;
 }
+/* width */
+::-webkit-scrollbar {
+  width:6px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #141c3a;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #141c3a;
+}
 /* html{
   height: 100vh;
   overflow: auto;  
@@ -242,7 +260,7 @@ box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
   padding: 1.2rem rem 0;
   position: relative;
   z-index: 1;
-  max-width: 1615px;
+  max-width: 1400px;
   margin-left: 80px;
   margin-right: 80px;
   margin-top: 25px;
@@ -252,6 +270,9 @@ box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
   justify-content: space-between;
   transition: 1s;
   background-color: rgb(255, 255, 255);
+}
+.Typewriter{
+  padding-top: 20px;
 }
 .nav-menu-flex{
   align-items: center;
@@ -335,11 +356,8 @@ box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
   height: 10px;
 }
 .section-hero-section{
-  /* background: linear-gradient(rgba(255,254,253,0.9), rgba(255,254,253,0.9)), url(https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/pexels-olia-danilevich-4974912.jpg) center center fixed; */
-  /* background-size: cover; */
-  /* background-color: #F9F9FC; */
   background-color: white;
-  padding-top: 100px;
+  padding-top: 58px;
   height: 100%;
 }
 .hero-section-row-flex{
@@ -421,7 +439,7 @@ box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
   margin-bottom: 50px;
   color: #322b2b;
   line-height: 1.5;
-  font-size: 1.3rem !important;
+  font-size: 1.5rem !important;
   position: relative;
   font-weight: 300;
   z-index: 1;
@@ -609,9 +627,7 @@ padding-bottom:20px;
   scroll-margin-top: 7em;
   margin-top: -12rem;
   padding-bottom: 1rem;
-
   margin-bottom: 500px;
-  height: 500px;
   border-radius: 12px;
 }
 
@@ -1125,30 +1141,34 @@ height: 30px;
   width: 100%;
 }
 
- @media only screen and (max-width: 1440px) {
-.hero-section-image iframe{
-  width: 490px;
-  height: 377px;
-}
-}
 
-@media only screen and (max-width: 1166px) {
+
+@media only screen and (max-width: 1200px) {
   .hero-section-image iframe{
     width: 390px;
     height: 277px;
   }
-
+  .hero-section-info-title{
+    font-size: 2.5rem !important;
+  }
+  .hero-section-info-desc{
+    font-size: 1.2rem !important;
+  }
   }
 
-@media only screen and (max-width: 860px) {
+@media only screen and (max-width: 900px) {
   .section-hero-section{
     padding-top: 288x;
   }
-
-  .hero-section-image img{
-    width: 310px;
-
+  .hero-section-info-title{
+    font-size: 2.0rem !important;
   }
+  .hero-section-info-desc{
+    font-size: 1rem !important;
+  }
+  .hero-section-image img {
+    width: 220px;
+}
   .nav-title-container{
     margin-left: 0;
   }
@@ -1201,9 +1221,7 @@ display: flex;
   .section-hero-section{
     padding-top: 30px;
   }
-  .hero-section-info-desc{
-    display: none;
-  }
+
   .project p{
     font-size: clamp(0.9rem, 1vw, 0.3rem);
     line-height: 1.5;
@@ -1231,7 +1249,10 @@ display: flex;
   font-size: 15px;
 }
 .hero-section-info-desc{
-  font-size: 16px;
+  font-size: 1.3rem !important;
+}
+.section-skills-column-container{
+  display: block;
 }
 .section-bio-imagesection img{
   max-height: 200px;
