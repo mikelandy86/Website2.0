@@ -521,15 +521,12 @@ color: white;
 text-align: center;
 padding-bottom:20px;
 }
-/* .section-bio-title h1 h1{
-  color: #5E3AEE;
-margin-bottom: 0;
-} */
+
 .section-bio-title h3{
-  font-family: "eurostile", sans-serif;
+
   color: #141c3a;
-  font-size: 1.25rem;
-  font-weight: 400;
+  font-size: 1.1rem;
+  font-weight: 200;
   line-height: 1.25;
 }
 .section-bio-title h3 a{
@@ -753,16 +750,31 @@ text-align: center;
 .container:hover .image {
   transform: scale(1.1);
 }
-.text {
+
+.v2-project-text h1{
+
+  font-weight: 600;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
+  font-size: 18px;
+  line-height: 1.55;
+}
+.v2-project-text a {
+  color: rgb(255, 255, 255) !important;  
+  background-color: transparent;
+  text-decoration: none;
+  border: 2px solid #7510F7;
+  border-radius: 25px;
+  padding: 15px 30px 15px 30px;
+  background-color: transparent;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.v2-project-text a:hover{
+  background-color: #7510F7;
 }
 .section-projects{
   padding-bottom: 77px;
