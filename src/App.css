@@ -701,32 +701,40 @@ text-align: center;
 
 }
 
-/* .v2-project{
-  margin: 10px;
-}
-
-.v2-project-image{
-  margin:0 auto;
-  object-fit: fill;
-  width: 100%;
-  height: 100%;
-} */
-
-/* .v2-project-container{
-  overflow: hidden;
-  border-radius: 12px;
-  width: 24rem;
-  height: 17rem;
-  transition: 1.3s;
-  position: relative;
-  width: 50%;
-} */
-
 
 .v2-projects-flex-container{
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
+}
+.v2-project-github-link{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+margin-top: 50px;
+}
+
+.v2-project-github-link a {
+  align-items: center;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  color: #7510F7!important;  
+  background-color: transparent;
+  text-decoration: none;
+  border: 2px solid #7510F7;
+  border-radius: 2532px;
+  background-color: transparent;
+  transition: 0.2s;
+  cursor: pointer;
+  padding: 0.9em 2em;
+  font-weight: 500;
+  margin-top: 2rem;
+}
+
+.v2-project-github-link a:hover{
+  color: #fff!important;  
+  background-color: #7510F7;
 }
 .container {
   margin:0.6rem 1.3rem;
@@ -734,9 +742,7 @@ text-align: center;
   overflow: hidden;
   padding: 0;
   position: relative;
-  /* width: 33%; */
   width: 21rem;
-  /* height: 17rem; */
 }
 .v2-projects-projectThumbs{
   max-width: 1200px;
@@ -1046,8 +1052,7 @@ gap: 10px;
   margin-bottom: 20px;
 }
 .contact-section{
-  background-color: #F9F9FC;
-  /* background: rgb(219, 219, 255); */
+text-align: center;
   scroll-margin-top: 7em;
     margin-top: 100px;
     padding-top: 30px;

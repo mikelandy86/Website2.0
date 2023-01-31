@@ -1,5 +1,6 @@
 import { Fade, Slide } from "react-awesome-reveal";
 import { FaLaptopCode } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import { FaAngleRight } from "react-icons/fa";
 export default function Projectv2() {
   return (
@@ -68,6 +69,9 @@ export default function Projectv2() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="v2-project-github-link">
+        <a href="https://github.com/mikelandy86" target="_blank"><FaGithub size={20} className="githubIcon"/> See more on Github</a>
       </div>
     </div>
 

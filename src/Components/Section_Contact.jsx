@@ -32,9 +32,10 @@ const SendEmailDone = "Ditt meddelande har skickats, Jag kontaktar dig snart!"
   return (
     <div id="contact" className="contact-section">
       <div className="section-bio-title">
-        <h1>
-          <FaHeadset size={35} /> Hör av <h1>Dig</h1>
-        </h1>
+        <h1>Contact me</h1>
+        <h3>
+          Be free to contact me or <a>Email me.</a>
+        </h3>
       </div>
       <div className="section-contact-title">
         {/* <h1>Kontakt</h1> */}
