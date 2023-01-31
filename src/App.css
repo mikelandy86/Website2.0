@@ -639,8 +639,8 @@ padding-bottom:20px;
 
 .section-skills-column-container{
   margin: 0 auto;
-  box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%);
-
+  box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
+border-radius: 20px;
 display: flex;
 justify-content: center;
 text-align: center;
@@ -1236,8 +1236,8 @@ display: flex;
   .icons-container{
     display: none;
    }
-.section-skills-column{
-  border-top: 1px solid #E6ECF8;
+.section-skills-column:not(:last-child){
+  border-bottom: 1px solid #E6ECF8;
 }
   .project p{
     font-size: clamp(0.9rem, 1vw, 0.3rem);
