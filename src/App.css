@@ -619,7 +619,7 @@ padding-bottom:20px;
   .section-biov2-text-container h3{
     max-width: 900px;
     font-weight: 300;
-    font-size: 1.2rem;
+    font-size: 1.15rem;
     line-height: 1.9;
     }
 
@@ -635,7 +635,9 @@ padding-bottom:20px;
 
   border-radius: 12px;
 }
-
+.section-skills-container{
+  overflow: hidden;
+}
 
 .section-skills-column-container{
   margin: 0 auto;
@@ -667,7 +669,7 @@ text-align: center;
 }
 .middle-column-section h2, .bottom-column-section h2{
   font-weight:300;
-  color: #0035f7;
+  color: #6E07F3;
   font-size: 18px;
 }
 .bottom-column-section{
@@ -1264,7 +1266,7 @@ display: flex;
   font-size: 15px;
 }
 .hero-section-info-desc{
-  font-size: 1.3rem !important;
+  font-size: 1.25rem !important;
 }
 .section-skills-column-container{
   display: block;
