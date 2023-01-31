@@ -917,17 +917,18 @@ text-align: center;
   display: none;
 }
 .burger div{
+  color: #7510F7 ;
   z-index: 10000;
   text-align: right;
-height: 3px;
+height: 2px;
 margin: 5px;
 margin-right: 17px;
-background-color: black;
+background-color: #7510F7 ;
 transition: all 0.3s ease;
 }
 .line1,.line1-open{
   border-radius: 7px;
-  width: 25px;
+  width: 15px;
 }
 .line2 ,.line2-open{
   border-radius: 7px;
@@ -935,7 +936,7 @@ transition: all 0.3s ease;
 }
 .line3,.line3-open {
   border-radius: 7px;
-  width: 25px;
+  width: 15px;
 }
 .line1-open{
   transform:rotate(-45deg) translate(-5px,6px);
