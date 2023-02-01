@@ -852,7 +852,9 @@ margin-top: 50px;
 }
 .collab-section-flex-container img{
 width: 100px;
-margin: 0.5rem 3rem;
+/* margin: 0.5rem 3rem; */
+margin-left: 20px;
+margin-right: 20px;
 }
 .text {
   color: white;
@@ -1371,7 +1373,9 @@ text-align: center;
 }
 .contact-btn{
 }
-
+.collab-section-flex-container{
+  flex-wrap: wrap;
+}
 .form-control:focus, .form-control-message:focus {
   outline: none !important;
   border:2px solid rgb(53, 63, 255);

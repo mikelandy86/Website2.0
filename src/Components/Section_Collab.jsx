@@ -5,7 +5,7 @@ import { FaAngleRight } from "react-icons/fa";
 export default function CollabSection() {
   return (
     <div id="collab" className="section-collab">
-<h1>I'm proud to have collaborated with some awesome companies:</h1>
+<h1>I'm proud to have collaborated with some {<br/>}awesome companies:</h1>
 <div className="collab-section-flex-container">
   <img src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/HAGSLogo@400px.png"/>
   <img src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/flh-logotyp-sv-cmyk-svart.png"/> 
