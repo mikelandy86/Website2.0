@@ -4,6 +4,7 @@ import HeroSection from "./Components/Section_HeroSection";
 import Header from "./Components/Header";
 import BioSection from "./Components/Section_BioSection";
 import BioSectionV2 from "./Components/Section_BioSectionv2";
+import CollabSection from "./Components/Section_Collab";
 import ContactSection from "./Components/Section_Contact";
 import ProjectSectionv2 from "./Components/Section_Projectv2";
 import SkillSection from "./Components/Section_SkillSection";
@@ -25,6 +26,7 @@ function App() {
       <BioSectionV2 />
       <SkillSection />
       <ProjectSectionv2 />
+      <CollabSection />
       {/* <BioSection /> */}
       <ContactSection />
       <Footer />

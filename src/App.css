@@ -837,6 +837,14 @@ margin-top: 50px;
   opacity: 1;
 }
 
+.section-collab{
+  text-align: center;
+}
+.section-collab h1{
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
 .text {
   color: white;
   font-size: 20px;
