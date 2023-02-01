@@ -846,9 +846,11 @@ margin-top: 50px;
   margin-bottom: 50px;
 }
 .collab-section-flex-container{
+  max-width: 1000px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  margin: auto;
 }
 .collab-section-flex-container img{
 width: 100px;
@@ -1374,6 +1376,7 @@ text-align: center;
 .contact-btn{
 }
 .collab-section-flex-container{
+  margin: 1rem 1rem;
   flex-wrap: wrap;
 }
 .form-control:focus, .form-control-message:focus {
