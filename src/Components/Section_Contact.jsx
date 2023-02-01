@@ -34,7 +34,7 @@ const SendEmailDone = "Ditt meddelande har skickats, Jag kontaktar dig snart!"
       <div className="section-bio-title">
         <h1>Contact me</h1>
         <h3>
-          Be free to contact me or <a>Email me.</a>
+          Be free to contact me using the form or <a href = "mailto:mike.landy@gmail.com?subject = Feedback&body = Message">Email me.</a>
         </h3>
       </div>
       <div className="section-contact-title">

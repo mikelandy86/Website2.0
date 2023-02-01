@@ -9,7 +9,7 @@ export default function Projectv2() {
         <h1>My Recent Work</h1>
         <h3>
           Here are a few design projects I've worked on recently. Want to see
-          more? <a>Email me.</a>
+          more? <a href = "mailto:mike.landy@gmail.com?subject = Feedback&body = Message">Email me.</a>
         </h3>
       </div>
       <div className="v2-projects-projectThumbs">
