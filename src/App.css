@@ -1275,6 +1275,10 @@ display: flex;
 .section-skills-column:not(:last-child){
   border-bottom: 1px solid #E6ECF8;
 }
+.section-skills-column + .section-skills-column {
+  border-left:   none;
+
+}
   .project p{
     font-size: clamp(0.9rem, 1vw, 0.3rem);
     line-height: 1.5;
