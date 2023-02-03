@@ -948,42 +948,49 @@ margin-top: 50px;
 }
 
 .burger{
-  z-index: 10000;
   display: none;
+  z-index: 10000;
+  /* display: flex; */
+  flex-direction: column;
+  width: 34px;
+  cursor: pointer;
+  margin: 0 1rem;
 }
 .nav-links-open{
   display: none;
 }
 .burger div{
-  color: #7510F7 ;
-  z-index: 10000;
-  text-align: right;
-height: 2px;
-margin: 5px;
-margin-right: 17px;
-background-color: #7510F7 ;
-transition: all 0.3s ease;
+  color: #7510F7;
+  background-color: #7510F7;
+  border-radius: 10px;
+  height: 2px;
+  margin: 3px 0;
+  transition: .4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
 }
 .line1,.line1-open{
   border-radius: 7px;
-  width: 15px;
+  width:50%;
 }
 .line2 ,.line2-open{
   border-radius: 7px;
-  width: 25px;
+  width:100%;
 }
 .line3,.line3-open {
   border-radius: 7px;
-  width: 15px;
+  width:75%;
 }
 .line1-open{
-  transform:rotate(-45deg) translate(-5px,6px);
+  transform-origin:bottom;
+  transform: rotatez(45deg) translate(3px,0px);
 }
 .line2-open{
-  opacity: 0;
+  transform-origin:top;
+  transform:rotatez(-45deg)
 }
 .line3-open{
-  transform:rotate(45deg) translate(-5px,-6px) ;
+  transform-origin:bottom;
+  width:50%;
+  transform: translate(15px,-0.7px) rotatez(45deg);
 }
 /* ----------------------- CONTACT ----------------------- */
 .category-section{
@@ -1322,7 +1329,7 @@ display: flex;
 }
 .burger{
   z-index: 10000;
-  display: block;
+  display:inherit;
 }
 .nav-links-open{
   display: flex;
@@ -1412,7 +1419,7 @@ text-align: center;
     transform-origin: 0 0;
     box-shadow: 0px 2px 30px 14px rgb(60 64 67 / 10%);
     bottom: 0;
-    top:0;
+
     width: 100%;
     border-radius: 18px 18px 0 0;
     background-color: white;
@@ -1469,7 +1476,7 @@ text-align: center;
     transform-origin: 0 0;
     box-shadow: 0px 2px 30px 14px rgb(60 64 67 / 50%);
     bottom: 0;
-    top:0;
+
     width: 100%;
     border-radius: 18px 18px 0 0;
     background-color: white;
@@ -1487,7 +1494,7 @@ text-align: center;
 .burger-open{
   z-index: 10000;
   z-index: 1000;
-  transform: translateY(122%);
+  /* transform: translateY(122%); */
 }
   .nav-links-open li {
     flex-direction: column;
@@ -1724,3 +1731,6 @@ text-align: center;
   }
 
 }
+
+
+

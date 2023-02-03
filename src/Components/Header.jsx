@@ -81,10 +81,11 @@ export default function Header() {
               Say Hello
             </a>
           </div>
-          <div onClick={toggleMenu} class="burger">
+          <div onClick={toggleMenu} className="burger">
             <div className={`line1${menuOpen ? "-open" : ""}`}></div>
             <div className={`line2${menuOpen ? "-open" : ""}`}></div>
             <div className={`line3${menuOpen ? "-open" : ""}`}></div>
+            
           </div>
         </div>
       </div>
