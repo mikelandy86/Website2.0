@@ -227,6 +227,14 @@ text-align: center;
   gap: 30px;
   justify-content: flex-end;
 }
+.icons-container-burger{
+  margin: 0 4rem;
+  align-items: center;
+  /* margin-right: 40px; */
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
 .nav-icon{
   font-size: 18px;
   font-weight: 300;
@@ -1409,7 +1417,7 @@ text-align: center;
   .nav-links {
     display: grid;
     transition: 0.3s ease-out;
-    transform: translateX(100%);
+    transform: translateY(100%);
     margin-bottom: 0;
     padding-top: 17px;
     padding-top: 17px;
@@ -1466,7 +1474,7 @@ text-align: center;
 
     display: grid;
     transition: 0.3s ease-out;
-    transform: translateX(0);
+    transform: translateY(0);
     margin-bottom: 0;
     padding-top: 17px; 
     padding-top: 17px;

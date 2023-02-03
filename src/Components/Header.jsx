@@ -20,7 +20,15 @@ export default function Header() {
   return (
     <header className="header">
       <ul className={`nav-links${menuOpen ? "-open" : ""}`}>
-        <li>
+      <div className="icons-container-burger">
+            <a onClick={toggleMenu} className="nav-icon" href="#projects">
+              My Work
+            </a>
+            <a onClick={toggleMenu} className="header-sayhello-button" href="#contact">
+              Say Hello
+            </a>
+          </div>
+        {/* <li>
           <a onClick={toggleMenu} href="#">
             <FaHome size={20} />
           </a>
@@ -59,7 +67,7 @@ export default function Header() {
           <a onClick={toggleMenu} href="#contact">
             Kontakt
           </a>
-        </li>
+        </li> */}
       </ul>
       <div className="w">
         <div class="nav">
@@ -74,7 +82,7 @@ export default function Header() {
           </div>
 
           <div className="icons-container">
-            <a className="nav-icon" href="#">
+            <a className="nav-icon" href="#projects">
               My Work
             </a>
             <a className="header-sayhello-button" href="#contact">
