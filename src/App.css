@@ -380,7 +380,7 @@ box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
   padding-right: 20px;
 }
 .hero-section-image img{
-  width: 250px;
+  width: 220px;
 }
 .hero-section-info-title{
   /* margin-bottom: 16px; */
@@ -1215,7 +1215,7 @@ height: 30px;
     font-size: 1rem !important;
   }
   .hero-section-image img {
-    width: 220px;
+    width: 180px;
 }
   .nav-title-container{
     margin-left: 0;
