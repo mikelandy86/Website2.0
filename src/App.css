@@ -38,31 +38,41 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #141c3a;
 }
-/* html{
-  height: 100vh;
-  overflow: auto;  
-  scroll-snap-type: block mandatory;
-  scroll-padding: 4.25em;
+
+
+.call-to-action{
+  background-color: #7510F7;
+  color: #fff;
+  padding: 4rem;
+}
+.section-call-to-action-container{
+  max-width: 1200px;
+}
+.section-call-to-action-box{
+  padding: 3.5rem 2rem;
+    /* margin-top: -9rem; */
+    background-color: #141c3a;
+    box-shadow: 0 5px 5px 0 rgb(0 0 0 / 20%), 0 0 0 1px #141c3a;
 }
 
-.App {
-  scroll-snap-align: start;
-  min-height: 50vh;
-  scroll-margin-top: 1em;
-} */
-
 .footer {
+
   z-index: 1;
   text-align: center;
-  /* margin-top: 200px; */
-  /* position: relative; */
   width: 100%;
   background: #7510F7;
   min-height: 100px;
-  padding: 27px 51px;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
+  padding: 0 27px 20px 27px;
+}
+.footer h1{
+  margin:auto;
+  max-width: 320px;
+  font-weight: 300;
+  color:rgb(255, 255, 255);
+  font-size: 1.5rem !important;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  opacity: 0.7;
 }
 
 .social-icon,
@@ -124,8 +134,9 @@ body {
 .footer p {
   color: #fff;
   margin: 15px 0 10px 0;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 300;
+  opacity: 0.7;
 }
 .footer ul{
   padding-left: 0;
@@ -1103,7 +1114,7 @@ text-align: center;
   scroll-margin-top: 7em;
     margin-top: 100px;
     padding-top: 30px;
-    border-top: #dddddd 1px solid;
+    border-top: 1px solid #E6ECF8;
 }
 
 .section-contact-title h1{

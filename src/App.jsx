@@ -8,6 +8,7 @@ import CollabSection from "./Components/Section_Collab";
 import ContactSection from "./Components/Section_Contact";
 import ProjectSectionv2 from "./Components/Section_Projectv2";
 import SkillSection from "./Components/Section_SkillSection";
+import CallToAction from "./Components/Section_CallToAction";
 import ScrollDown from "./Components/ScrollDown";
 import BackToUp from "@uiw/react-back-to-top";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -29,6 +30,7 @@ function App() {
       <CollabSection />
       {/* <BioSection /> */}
       <ContactSection />
+      <CallToAction />
       <Footer />
     </div>
   );

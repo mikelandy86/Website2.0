@@ -1,6 +1,16 @@
+import { FaGgCircle } from "react-icons/fa";
+
 export default function Footer() {
   return (
     <footer class="footer">
+                  <a href="https://mikelandy86.github.io/website2.0/">
+              <FaGgCircle
+                className="hero-section-info-title"
+                size={60}
+                color="#FFF"
+              />
+              <h1>Living, learning, & leveling up one day at a time.</h1>
+            </a>
       <ul class="social-icon">
         <li class="social-icon__item">
           <a class="social-icon__link" href="h">
@@ -24,30 +34,10 @@ export default function Footer() {
           </a>
         </li>
       </ul>
-      <ul class="menu">
-        <li class="menu__item">
-          <a class="menu__link" href="#">
-            Hem
-          </a>
-        </li>
-        <li class="menu__item">
-          <a class="menu__link" href="#">
-            Projekt
-          </a>
-        </li>
-        <li class="menu__item">
-          <a class="menu__link" href="#">
-            Om
-          </a>
-        </li>
-        <li class="menu__item">
-          <a class="menu__link" href="#">
-            Kontakt
-          </a>
-        </li>
-      </ul>
+
       <p>
-        &copy;2023 Made with ❤️ by Mikael Hverven-Landy | All Rights Reserved
+        Handcrafted by me &copy;
+Mikael Hverven-Landy
       </p>
     </footer>
   );
