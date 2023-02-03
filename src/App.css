@@ -960,7 +960,7 @@ margin-top: 50px;
   z-index: 10000;
   /* display: flex; */
   flex-direction: column;
-  width: 34px;
+  width: 31px;
   cursor: pointer;
   margin: 0 1rem;
 }
@@ -998,7 +998,7 @@ margin-top: 50px;
 .line3-open{
   transform-origin:bottom;
   width:50%;
-  transform: translate(15px,-0.7px) rotatez(45deg);
+  transform: translate(13px,-3.1px) rotatez(45deg);
 }
 /* ----------------------- CONTACT ----------------------- */
 .category-section{
@@ -1341,7 +1341,7 @@ display: flex;
 }
 .nav-links-open{
   display: flex;
-  justify-content: center;
+
   flex-flow: column;
 }
 .nav-menu-flex{
