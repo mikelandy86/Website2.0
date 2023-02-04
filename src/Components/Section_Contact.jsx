@@ -41,7 +41,7 @@ const SendEmailDone = "Ditt meddelande har skickats, Jag kontaktar dig snart!"
         {/* <h1>Kontakt</h1> */}
         <div className="contact-flex-section">
           <div className="contact-info-container">
-            <Fade triggerOnce="true" cascade direction="up" fraction={0.8}>
+            {/* <Fade triggerOnce="true" cascade direction="up" fraction={0.8}>
               <p className="contact-title">Ta gärna kontakt!</p>
               <p className="contact-info">
                 Om du har ett projekt i åtanke, varför inte ta kontakt. Låt mig
@@ -53,7 +53,7 @@ const SendEmailDone = "Ditt meddelande har skickats, Jag kontaktar dig snart!"
             <img
               class="contact-image"
               src="https://raw.githubusercontent.com/mikelandy86/website2.0/bed9820de29c7a82891e8431f98d41c97fcc09ea/src/assets/public/images/undraw-contact.svg"
-            />
+            /> */}
           </div>
           <div className="contact-input-container">
             <form ref={form} onSubmit={sendEmail}>
@@ -85,7 +85,7 @@ const SendEmailDone = "Ditt meddelande har skickats, Jag kontaktar dig snart!"
               </div>
 
               <button type="submit"  className="contact-btn">
-                Skicka
+                Submit
               </button>
               <div className="rowUnderSubmit">{result ? SendEmailDone : null}</div>
             </form>
