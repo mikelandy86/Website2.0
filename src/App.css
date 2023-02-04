@@ -49,6 +49,7 @@ body {
 .section-call-to-action-container{
   max-width: 1200px;
   margin:auto;
+  margin-bottom: 5rem;
 }
 .section-call-to-action-box{
   display: flex;
@@ -64,7 +65,7 @@ body {
 }
 .section-call-to-action-column-item{
   width: 400px;
-  margin-bottom: 3rem;
+
 }
 .section-call-to-action-column-item h1{
   font-size: 1.8rem;
@@ -103,7 +104,7 @@ body {
   max-width: 320px;
   font-weight: 300;
   color:rgb(255, 255, 255);
-  font-size: 1.5rem !important;
+  font-size: 1.3rem !important;
   padding-top: 30px;
   padding-bottom: 50px;
   opacity: 0.7;
@@ -1414,6 +1415,7 @@ display: flex;
 }
 .section-call-to-action-column-item{
   width: auto;
+    margin-bottom: 3rem;
   }
 .section-call-to-action-column-item p{
 font-size: 1rem;
