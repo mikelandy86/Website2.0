@@ -1153,7 +1153,14 @@ text-align: center;
     padding-top: 114px;
     border-top: 1px solid #E6ECF8;
 }
-
+/* .contact-section span{
+  border-bottom: 1px solid #E6ECF8;
+  display: block;
+  } */
+.contact-section img{
+margin-bottom: 50px;
+width: 80px;
+  }
 .section-contact-title h1{
   text-align: center;
   padding-bottom: 70px;

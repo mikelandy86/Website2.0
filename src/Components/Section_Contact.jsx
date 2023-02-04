@@ -31,6 +31,9 @@ const SendEmailDone = "Ditt meddelande har skickats, Jag kontaktar dig snart!"
     
   return (
     <div id="contact" className="contact-section">
+
+        <img src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/Avatar-onlyhead.png"></img>
+
       <div className="section-bio-title">
         <h1>Contact me</h1>
         <h3>
@@ -40,21 +43,6 @@ const SendEmailDone = "Ditt meddelande har skickats, Jag kontaktar dig snart!"
       <div className="section-contact-title">
         {/* <h1>Kontakt</h1> */}
         <div className="contact-flex-section">
-          <div className="contact-info-container">
-            {/* <Fade triggerOnce="true" cascade direction="up" fraction={0.8}>
-              <p className="contact-title">Ta gärna kontakt!</p>
-              <p className="contact-info">
-                Om du har ett projekt i åtanke, varför inte ta kontakt. Låt mig
-                veta om du har något intressant frilansarbete eller projekt.
-                Stora eller små. Du kan kontakta mig via formuläret eller genom
-                att mejla mike.landy@gmail.com.
-              </p>
-            </Fade>
-            <img
-              class="contact-image"
-              src="https://raw.githubusercontent.com/mikelandy86/website2.0/bed9820de29c7a82891e8431f98d41c97fcc09ea/src/assets/public/images/undraw-contact.svg"
-            /> */}
-          </div>
           <div className="contact-input-container">
             <form ref={form} onSubmit={sendEmail}>
               <div className="form-outline">
