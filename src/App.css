@@ -44,16 +44,17 @@ body {
   margin-top: 5rem;
   background-color: #7510F7;
   color: #fff;
-  padding: 4rem;
+  padding: 1.5rem;
 }
 .section-call-to-action-container{
   max-width: 1200px;
+  margin:auto;
 }
 .section-call-to-action-box{
   display: flex;
   gap: 50px;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   text-align: center;
   border-radius: 12px;
   padding: 3.5rem 2rem;
@@ -61,14 +62,19 @@ body {
     background-color: #141c3a;
     box-shadow: 0 5px 5px 0 rgb(0 0 0 / 20%), 0 0 0 1px #141c3a;
 }
+.section-call-to-action-column-item{
+  width: 400px;
+  margin-bottom: 3rem;
+}
 .section-call-to-action-column-item h1{
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 .section-call-to-action-column-item p{
-  font-size: 1rem;
+  font-size: 0.95rem;
   opacity: 0.7;
 }
 .section-call-to-action-column-item a{
+  font-size: 1rem;
   align-items: center;
   gap: 10px;
   justify-content: center;
@@ -80,7 +86,7 @@ body {
   background-color: transparent;
   transition: 0.2s;
   cursor: pointer;
-  padding: 0.9em 2em;
+  padding: 1.2em 3em;
   font-weight: 500;
 }
 .footer {
@@ -1405,6 +1411,12 @@ display: flex;
   font-weight: 900;
   text-align: center;
   padding:0;
+}
+.section-call-to-action-column-item{
+  width: auto;
+  }
+.section-call-to-action-column-item p{
+font-size: 1rem;
 }
 .contact-info{
   padding:0;
