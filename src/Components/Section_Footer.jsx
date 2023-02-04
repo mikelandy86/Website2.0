@@ -13,7 +13,7 @@ export default function Footer() {
             </a>
       <ul class="social-icon">
         <li class="social-icon__item">
-          <a class="social-icon__link" href="h">
+          <a class="social-icon__link" href="#contact">
             <ion-icon name="logo-facebook"></ion-icon>
           </a>
         </li>
