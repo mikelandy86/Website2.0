@@ -7,7 +7,7 @@ export default function ContactForm() {
 
   const form = useRef();
   
-const SendEmailDone = "Ditt meddelande har skickats, Jag kontaktar dig snart!"
+const SendEmailDone = "Your message has been successfully sent, I will contact you soon!"
   const sendEmail = (e) => {
     console.log("Sending Email!")
     
@@ -19,6 +19,7 @@ const SendEmailDone = "Ditt meddelande har skickats, Jag kontaktar dig snart!"
     }, (error) => {
           console.log(error.text);
       });
+      console.log(result.text)
       e.target.reset();
       showResult(true);
       setTimeout(() => {
