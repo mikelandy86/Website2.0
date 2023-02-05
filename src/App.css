@@ -836,7 +836,7 @@ margin-top: 50px;
   transform: scale(1.1);
 }
 
-.v2-project-text h1, .v2-project-text-underdev h1{ 
+.v2-project-text h1{ 
 
   font-weight: 600;
   padding-left: 40px;
@@ -847,6 +847,23 @@ margin-top: 50px;
   font-size: 18px;
   line-height: 1.55;
 }
+.v2-project-text-underdev h1{ 
+
+  font-weight: 600;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: white;
+  font-size: 18px;
+  line-height: 1.55;
+}
+.v2-project-text-underdev a{
+  font-weight: 400;
+  font-size: 22px;
+  color: #e2ac4e!important;
+} 
+
 .v2-project-text a {
   color: rgb(255, 255, 255) !important;  
   background-color: transparent;
@@ -1151,7 +1168,7 @@ gap: 10px;
 }
 .contact-section{
 text-align: center;
-  scroll-margin-top: 0em;
+  scroll-margin-top: 1em;
   margin-top: 33px;
   padding-top: 46px;
     border-top: 1px solid #E6ECF8;

@@ -60,7 +60,7 @@ export default function Projectv2() {
                 <h1>
                   Responsive website made in react for a dog health care center.
                 </h1>
-                <a href="" target="_blank">
+                <a >
                   Under developement 
                 </a>
               </div>
