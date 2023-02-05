@@ -322,7 +322,7 @@ box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
   margin-left: 80px;
   margin-right: 80px;
   margin-top: 25px;
-  height: 153px;
+  height: 108px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -860,7 +860,7 @@ margin-top: 50px;
 }
 .v2-project-text-underdev a{
   font-weight: 400;
-  font-size: 22px;
+  font-size: 19px;
   color: #e2ac4e!important;
 } 
 
@@ -1168,7 +1168,7 @@ gap: 10px;
 }
 .contact-section{
 text-align: center;
-  scroll-margin-top: 1em;
+  scroll-margin-top: 5em;
   margin-top: 33px;
   padding-top: 46px;
     border-top: 1px solid #E6ECF8;
