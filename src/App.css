@@ -801,6 +801,7 @@ margin-top: 50px;
   padding: 0;
   position: relative;
   width: 21rem;
+  height: 16rem;
 }
 .v2-projects-projectThumbs{
   max-width: 1200px;
@@ -863,7 +864,7 @@ margin-top: 50px;
   text-decoration: none;
   /* border: 2px solid #7510F7; */
   border-radius: 25px;
-  /* padding: 15px 30px 15px 30px; */
+  padding: 15px 30px 15px 30px;
   background-color: transparent;
   transition: 0.3s;
   cursor: pointer;
@@ -884,9 +885,11 @@ margin-top: 50px;
   display: flex;
   position: relative;
   width: 50%;
+
 }
 .v2-project-container img{
   display: block;
+  object-fit: cover;
 }
 
 
