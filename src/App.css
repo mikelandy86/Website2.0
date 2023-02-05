@@ -42,7 +42,7 @@ body {
 
 .call-to-action{
   margin-top: 5rem;
-  background-color: #7510F7;
+  background-color: #133ccd;
   color: #fff;
   padding: 1.5rem;
 }
@@ -82,7 +82,7 @@ body {
   color: #fff!important;  
   background-color: transparent;
   text-decoration: none;
-  border: 2px solid #7510F7;
+  border: 2px solid #133ccd;
   border-radius: 2532px;
 
   transition: 0.2s;
@@ -92,14 +92,14 @@ body {
 }
 .section-call-to-action-column-item a:hover{
   color: #FFF !important;  
-  background-color: #7510F7;
+  background-color: #133ccd;
 }
 .footer {
 
   z-index: 1;
   text-align: center;
   width: 100%;
-  background: #7510F7;
+  background: #133ccd;
   min-height: 100px;
   padding: 0 27px 20px 27px;
 }
@@ -292,7 +292,7 @@ text-align: center;
   transition: 0.2s;
 }
 .nav-icon:hover{
-  color: #6E07F3;
+  color: #133ccd;;
 }
 .add-shadow{
 
@@ -349,16 +349,16 @@ box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
   font-weight: 400;
   font-size: 19px;
   background-color: transparent;
-  border:2px solid #6E07F3;;
-  color: #6E07F3;
+  border:2px solid #133ccd;;;
+  color: #133ccd;;
   padding: 7px 20px 7px 20px;
   border-radius: 9999px;
   transition: 0.25s;
 }
 
 .header-sayhello-button:hover{
-  background-color:#6E07F3;
-  border-color: #6E07F3;
+  background-color:#133ccd;;
+  border-color: #133ccd;;
   color: white;
 }
 
@@ -401,7 +401,7 @@ box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
   margin: 0;
 }
 .nav-title-icon{
-  background-color: #6E07F3;
+  background-color: #133ccd;;
   height: 40px;
 }
 .nav-title{
@@ -573,7 +573,7 @@ color: white;
   scroll-margin-top: 7em;
   padding: 0 2em;
   padding-bottom: 150px;
-    background-color: #6E07F3;
+    background-color: #133ccd;;
     color: white;
 }
 .section-bio-flexrow{
@@ -608,7 +608,7 @@ padding-bottom:20px;
 }
 .section-bio-title h3 a{
   font-weight: 500;
-  color: #7510F7 !important;
+  color: #133ccd !important;
 
 }
 .section-bio-imagesection img{
@@ -723,7 +723,7 @@ text-align: center;
 }
 .middle-column-section h2, .bottom-column-section h2{
   font-weight:300;
-  color: #6E07F3;
+  color: #133ccd;;
   font-size: 18px;
 }
 .bottom-column-section{
@@ -741,7 +741,7 @@ text-align: center;
     }
 .section-skills-column-icon{
   width: 2.7rem;
-  color: #7510F7 !important;
+  color: #133ccd !important;
   margin: 20px;
 }
 
@@ -778,10 +778,10 @@ margin-top: 50px;
   gap: 10px;
   display: flex;
   justify-content: center;
-  color: #7510F7!important;  
+  color: #133ccd!important;  
   background-color: transparent;
   text-decoration: none;
-  border: 2px solid #7510F7;
+  border: 2px solid #133ccd;
   border-radius: 2532px;
   background-color: transparent;
   transition: 0.2s;
@@ -793,7 +793,7 @@ margin-top: 50px;
 
 .v2-project-github-link a:hover{
   color: #fff!important;  
-  background-color: #7510F7;
+  background-color: #133ccd;
 }
 .container {
   margin:0.6rem 1.3rem;
@@ -869,7 +869,7 @@ margin-top: 50px;
   color: rgb(255, 255, 255) !important;  
   background-color: transparent;
   text-decoration: none;
-  border: 2px solid #7510F7;
+  border: 2px solid #133ccd;
   border-radius: 25px;
   padding: 15px 30px 15px 30px;
   background-color: transparent;
@@ -880,7 +880,7 @@ margin-top: 50px;
   color: rgb(255, 255, 255) !important;  
   background-color: transparent;
   text-decoration: none;
-  /* border: 2px solid #7510F7; */
+  /* border: 2px solid #133ccd; */
   border-radius: 25px;
   padding: 15px 30px 15px 30px;
   background-color: transparent;
@@ -889,7 +889,7 @@ margin-top: 50px;
 }
 
 .v2-project-text a:hover{
-  background-color: #7510F7;
+  background-color: #133ccd;
 }
 .section-projects{
   padding-bottom: 77px;
@@ -1039,8 +1039,8 @@ margin-top: 50px;
   display: none;
 }
 .burger div{
-  color: #7510F7;
-  background-color: #7510F7;
+  color: #133ccd;
+  background-color: #133ccd;
   border-radius: 10px;
   height: 2px;
   margin: 3px 0;

@@ -12,7 +12,7 @@ export default function SkillSection() {
               <RiStackLine
                 className="section-skills-column-icon"
                 size={70}
-                color="#141c3a"
+                color="#133ccd;"
               />
               <h2>Dev Ops</h2>
               <h3>
@@ -42,7 +42,7 @@ export default function SkillSection() {
               <HiCode
                 className="section-skills-column-icon"
                 size={70}
-                color="#141c3a"
+                color="#133ccd;"
               />
               <h2>Frontend Developer</h2>
               <h3>
@@ -73,7 +73,7 @@ export default function SkillSection() {
               <SiUnity
                 className="section-skills-column-icon"
                 size={70}
-                color="#141c3a"
+                color="#133ccd;"
               />
               <h2>Unity Developer</h2>
               <h3>
