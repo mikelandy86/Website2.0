@@ -59,7 +59,7 @@ body {
   text-align: center;
   border-radius: 12px;
   padding: 2.5rem 1rem;
-    margin-top: -9rem;
+    margin-top: -6rem;
     background-color: #141c3a;
     box-shadow: 0 5px 5px 0 rgb(0 0 0 / 20%), 0 0 0 1px #141c3a;
 }
@@ -863,7 +863,7 @@ margin-top: 50px;
   text-decoration: none;
   /* border: 2px solid #7510F7; */
   border-radius: 25px;
-  padding: 15px 30px 15px 30px;
+  /* padding: 15px 30px 15px 30px; */
   background-color: transparent;
   transition: 0.3s;
   cursor: pointer;
