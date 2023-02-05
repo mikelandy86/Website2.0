@@ -6,10 +6,10 @@ export default function HeroSection() {
   let title = "";
   let title2 = "";
   let title3 = "";
-  title = `Backend, Frontend & Unity Developer`;
+  title = `DevOps, Frontend & Unity Developer`;
   title2 = `smarta, interaktiva`;
   let desc =
-    "I design and code beautifully simple things, and I love what I do.";
+    "As a designer and coder, I create elegantly simple solutions with passion, bringing beauty and connection through simplicity.";
   return (
     <div className="section-hero-section">
       {/* <div class="area">
@@ -46,7 +46,7 @@ export default function HeroSection() {
                 onInit={(typewriter) => {
                   typewriter
                     .typeString(
-                      "I design and code beautifully simple things, and I love what I do."
+                      "I create simple solutions with passion, bringing beauty through simplicity."
                     )
 
                     .start();

@@ -730,6 +730,7 @@ text-align: center;
 text-align: center;
 }
 .section-skills-column{
+  width: 27rem;
   padding: 50px 30px 50px 30px;
   }
   .section-skills-column ul{
@@ -1365,9 +1366,11 @@ display: flex;
 .section-skills-column:not(:last-child){
   border-bottom: 1px solid #E6ECF8;
 }
+.section-skills-column{
+  width: auto;
+}
 .section-skills-column + .section-skills-column {
   border-left:   none;
-
 }
   .project p{
     font-size: clamp(0.9rem, 1vw, 0.3rem);
