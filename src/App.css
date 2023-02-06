@@ -151,9 +151,7 @@ body {
   display: inline-block;
   transition: 0.5s;
 }
-.social-icon__link:hover {
-  /* transform: translateY(-10px); */
-}
+
 
 .menu__link {
   font-size: 1.2rem;
@@ -477,8 +475,6 @@ box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
 }
 .rainbow{
   background: #5E3AEE;
-  /* margin-bottom: 40px;
-  margin-top: 5px; */
   padding: 0;
   -webkit-background-clip: text;
   -webkit-text-fill-color: rgba(255,255,255,0);
@@ -752,13 +748,6 @@ text-align: center;
 
 /** Optional for OPs exact layout */
 
-.section-skills-column:first-child{
- 
-}
-
-.section-skills-column:last-child {
-
-}
 
 
 .v2-projects-flex-container{
@@ -1477,8 +1466,7 @@ margin:0 1rem;
 text-align: center;
   padding-bottom: 120px;
 }
-.contact-btn{
-}
+
 .collab-section-flex-container{
   margin: 1rem 1rem;
   flex-wrap: wrap;
