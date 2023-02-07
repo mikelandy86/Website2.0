@@ -23,8 +23,7 @@ export default function Projectv2() {
             <div className="overlay">
               <div className="v2-project-text">
                 <h1>
-                  AR app that visualizes outdoor furnitures with built-in
-                  configurator.
+                Visualize Outdoor Space Furniture with an AR Configurator App
                 </h1>
                 <a href="https://hags.se/sv-se/hags-design-3d" target="_blank">
                   Read more <FaAngleRight color="#fff" />
@@ -41,7 +40,7 @@ export default function Projectv2() {
             <div className="overlay">
               <div className="v2-project-text">
                 <h1>
-                  A Virtual Reality exhibition that travels you back in time to WW2.
+                Travel Back in Time: A Virtual Reality WW2 Exhibition"
                 </h1>
                 <a href="https://www.levandehistoria.se/utstallningar/plundring/plundring-vr" target="_blank">
                   Read more <FaAngleRight color="#fff" />
@@ -58,7 +57,7 @@ export default function Projectv2() {
             <div className="overlay">
               <div className="v2-project-text">
                 <h1>
-                Step-by-Step Guide to Installing a Shower Wall: A 3D Instructional Video
+                Step-by-Step Guide to Installing a Shower Wall: A 3D Instructional Demo Video
                 </h1>
                 <a href="https://youtu.be/R7YApiWSpGY" target="_blank">
                   See more <FaAngleRight color="#fff" />
@@ -75,7 +74,7 @@ export default function Projectv2() {
             <div className="overlay">
               <div className="v2-project-text-underdev">
                 <h1>
-                  Responsive website made in react for a dog health care center.
+                Building a Responsive Website for a Dog Health Care Center with React
                 </h1>
                 <a >
                   Under developement 
