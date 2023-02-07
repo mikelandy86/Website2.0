@@ -5,7 +5,7 @@ export default function BioSectionV2() {
     <div id="bio" className="section-biov2">
 <div className="section-biov2-text-container">
 <h2>Hi, I’m Mikael. Nice to meet you.</h2>
-<h3>I am a Unity C# and web developer. I have extensive experience in using the Unity game engine and C# programming language to create interactive and engaging applications. Additionally, I am well-versed in web development technologies, allowing me to create dynamic and functional web applications. In short, I am a developer with a passion for creating exciting and interactive experiences.</h3>
+<h3> I am a highly motivated and driven developer with expertise in DevOps, Frontend Development, and Unity Development. I have a passion for creating high-quality, user-friendly, and innovative technology solutions. My skills in DevOps enable me to automate the software development and delivery process, while my frontend development skills ensure user-friendly interfaces. As a Unity Developer, I have a deep understanding of Unity and am capable of developing games, simulations, and VR applications. Contact me to help you achieve your goals.</h3>
 </div>
     </div>
   );
