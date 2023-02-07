@@ -32,9 +32,6 @@ const SendEmailDone = "Your message has been successfully sent, I will contact y
     
   return (
     <div id="contact" className="contact-section">
-
-        <img src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/Avatar-onlyhead.png"></img>
-
       <div className="section-bio-title">
         <h1>Contact me</h1>
         <h3>
