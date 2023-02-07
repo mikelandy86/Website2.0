@@ -19,7 +19,7 @@ const SendEmailDone = "Your message has been successfully sent, I will contact y
     }, (error) => {
           console.log(error.text);
       });
-      console.log(result.text)
+
       e.target.reset();
       showResult(true);
       setTimeout(() => {
