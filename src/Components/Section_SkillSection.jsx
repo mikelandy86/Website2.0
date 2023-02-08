@@ -12,11 +12,12 @@ export default function SkillSection() {
               <RiStackLine
                 className="section-skills-column-icon"
                 size={70}
-                color="#332A99;"
+                color="#7510F7;"
               />
               <h2>Dev Ops</h2>
               <h3>
-              I value effective collaboration and clear communication among my team.
+                I value effective collaboration and clear communication among my
+                team.
               </h3>
             </div>
             <div className="middle-column-section">
@@ -42,11 +43,12 @@ export default function SkillSection() {
               <HiCode
                 className="section-skills-column-icon"
                 size={70}
-                color="#332A99;"
+                color="#7510F7;"
               />
               <h2>Frontend Developer</h2>
               <h3>
-                I value UX, accessibility, performance, maintainability and scalability.
+                I value UX, accessibility, performance, maintainability and
+                scalability.
               </h3>
             </div>
             <div className="middle-column-section">
@@ -73,12 +75,10 @@ export default function SkillSection() {
               <SiUnity
                 className="section-skills-column-icon"
                 size={70}
-                color="#332A99;"
+                color="#7510F7;"
               />
               <h2>Unity Developer</h2>
-              <h3>
-                I value clean, organized, and easy to maintain code.
-              </h3>
+              <h3>I value clean, organized, and easy to maintain code.</h3>
             </div>
             <div className="middle-column-section">
               <h2>Things I enjoy working with:</h2>

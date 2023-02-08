@@ -20,14 +20,18 @@ export default function Header() {
   return (
     <header className="header">
       <ul className={`nav-links${menuOpen ? "-open" : ""}`}>
-      <div className="icons-container-burger">
-            <a onClick={toggleMenu} className="nav-icon" href="#projects">
-              My Work
-            </a>
-            <a onClick={toggleMenu} className="header-sayhello-button" href="#contact">
-              Say Hello
-            </a>
-          </div>
+        <div className="icons-container-burger">
+          <a onClick={toggleMenu} className="nav-icon" href="#projects">
+            My Work
+          </a>
+          <a
+            onClick={toggleMenu}
+            className="header-sayhello-button"
+            href="#contact"
+          >
+            Say Hello
+          </a>
+        </div>
         {/* <li>
           <a onClick={toggleMenu} href="#">
             <FaHome size={20} />
@@ -76,7 +80,7 @@ export default function Header() {
               <FaGgCircle
                 className="hero-section-info-title"
                 size={60}
-                color="#332A99"
+                color="#7510F7"
               />
             </a>
           </div>
@@ -93,7 +97,6 @@ export default function Header() {
             <div className={`line1${menuOpen ? "-open" : ""}`}></div>
             <div className={`line2${menuOpen ? "-open" : ""}`}></div>
             <div className={`line3${menuOpen ? "-open" : ""}`}></div>
-            
           </div>
         </div>
       </div>
