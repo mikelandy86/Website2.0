@@ -64,7 +64,7 @@ export default function HeroSection() {
           {/* <div className="hero-section-image-image-bg"></div> */}
           <div className="hero-section-image">
             <Fade triggerOnce="true">
-              <img src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/Avatar-remade_v3.png"></img>
+              <img src="./src/assets/public/images/Test_M2.png"></img>
             </Fade>
             {/* <iframe
               src="https://www.youtube.com/embed/H5PsBdyi2so?controls=0&showinfo=0&rel=0&autoplay=1&start=7&end=200&loop=1&mute=1&playlist=H5PsBdyi2so"
@@ -86,56 +86,4 @@ export default function HeroSection() {
   );
 }
 
-// <iframe width="580" height="315"
-// src="https://www.youtube.com/embed/nXUMsvWlsVo?autoplay=1&mute=1">
-
-// </iframe>
-
-{
-  /* <h2 className="hero-section-info-title">{title3} </h2> */
-}
-
-// <div className="typewriter-container">
-// <FaGgCircle
-//   className="hero-section-info-title"
-//   size={40}
-//   color="#5E3AEE"
-// />
-// <h2 className="rainbow">
-
-//   <Typewriter
-//     options={{
-//       autoStart: true,
-//       delay: 70,
-//       deleteSpeed: 20,
-//       loop: true,
-//       cursorClassName: "blink_me",
-//     }}
-//     onInit={(typewriter) => {
-//       typewriter
-//         .typeString("applikationer")
-
-//         .pauseFor(500)
-
-//         .deleteChars(13);
-
-//       typewriter
-//         .typeString("hemsidor")
-//         .pauseFor(500)
-//         .deleteChars(8);
-//       typewriter
-//         .typeString("VR/AR appar")
-//         .pauseFor(400)
-//         .deleteChars(11);
-
-//       typewriter.typeString("spel").pauseFor(700).deleteChars(4);
-
-//       typewriter
-//         .typeString("mobil-appar")
-//         .pauseFor(300)
-//         .deleteChars(11)
-//         .start();
-//     }}
-//   />
-// </h2>
-// </div>
+// https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/Test M.png
