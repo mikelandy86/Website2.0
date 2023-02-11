@@ -7,6 +7,8 @@ import BioSectionV2 from "./Components/Section_BioSectionv2";
 import CollabSection from "./Components/Section_Collab";
 import ContactSection from "./Components/Section_Contact";
 import ProjectSectionv2 from "./Components/Section_Projectv2";
+import Startup from "./Components/Section_Startup";
+import StartupProjects from "./Components/Section_StartupProjects";
 import SkillSection from "./Components/Section_SkillSection";
 import CallToAction from "./Components/Section_CallToAction";
 import ScrollDown from "./Components/ScrollDown";
@@ -27,6 +29,8 @@ function App() {
       <BioSectionV2 />
       <SkillSection />
       <ProjectSectionv2 />
+      <Startup />
+      <StartupProjects />
       <CollabSection />
       {/* <BioSection /> */}
       <ContactSection />
