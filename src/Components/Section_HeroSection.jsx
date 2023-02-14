@@ -13,7 +13,7 @@ export default function HeroSection() {
     "As a designer and coder, I create elegantly simple solutions with passion, bringing beauty and connection through simplicity.";
   return (
     <div className="section-hero-section">
-                    <video muted autoPlay id="vid"className="videoHero" width="820" height="540" > <source src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/Color_Logo_dark.mp4"   type="video/mp4"></source></video>
+                    <video muted autoPlay id="vid"className="videoHero" width="820" height="540" > <source src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/Dark_Colorful.mp4"   type="video/mp4"></source></video>
 
       {/* <div class="area">
         <ul class="circles">
