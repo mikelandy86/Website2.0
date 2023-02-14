@@ -80,7 +80,7 @@ export default function Header() {
               <FaGgCircle
                 className="hero-section-info-title"
                 size={60}
-                color="#7510F7"
+                color="#fff"
               />
             </a>
           </div>

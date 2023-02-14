@@ -13,7 +13,7 @@ export default function HeroSection() {
     "As a designer and coder, I create elegantly simple solutions with passion, bringing beauty and connection through simplicity.";
   return (
     <div className="section-hero-section">
-                    <video muted autoPlay id="vid"className="videoHero" width="820" height="540" > <source src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/Dark_Colorful.mp4"   type="video/mp4"></source></video>
+                    <video loop muted autoPlay id="vid"className="videoHero" width="820" height="540" > <source src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/Dark_Colorful.mp4"   type="video/mp4"></source></video>
 
       {/* <div class="area">
         <ul class="circles">
@@ -49,7 +49,27 @@ export default function HeroSection() {
                 onInit={(typewriter) => {
                   typewriter
                     .typeString(
-                      "I create simple solutions with passion, bringing beauty through simplicity."
+                      "Simple solutions"
+                    )
+
+                    .start();
+                }}
+              />
+              {/* {desc} */}
+            </p>
+            <p className="hero-section-info-desc2">
+              <Typewriter
+                options={{
+                  autoStart: true,
+                  delay: 30,
+                  deleteSpeed: 20,
+                  loop: false,
+                  cursorClassName: "blink_me",
+                }}
+                onInit={(typewriter) => {
+                  typewriter
+                    .typeString(
+                      "Bringing beauty through simplicity."
                     )
 
                     .start();
@@ -75,10 +95,10 @@ export default function HeroSection() {
         </div>
         <div className="hero-foot">
           <div className="hero-section-image-computers">
-            <img
+            {/* <img
               className="hero-section-image-computers-image"
               src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/hero.svg"
-            ></img>
+            ></img> */}
           </div>
         </div>
       </div>
