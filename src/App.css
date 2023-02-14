@@ -256,7 +256,7 @@ body {
 text-align: center;
 }
 .header{
-  /* position: fixed; */
+  position: fixed;
   z-index: 997;
   left: 0;
   right: 0;
@@ -472,6 +472,22 @@ box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
   max-width: 100%;
   margin-top: 40px;
   margin-bottom: -0.45rem;
+}
+
+.videoHero {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+
+}
+.videoHero::-webkit-media-controls-start-playback-button {
+  display: none;
 }
 .rainbow{
   background: #5E3AEE;

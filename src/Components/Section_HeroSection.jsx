@@ -1,6 +1,7 @@
 import { FaGgCircle } from "react-icons/fa";
 import { Fade, Slide } from "react-awesome-reveal";
 import Typewriter from "typewriter-effect";
+import ReactPlayer from "react-player";
 
 export default function HeroSection() {
   let title = "";
@@ -12,6 +13,8 @@ export default function HeroSection() {
     "As a designer and coder, I create elegantly simple solutions with passion, bringing beauty and connection through simplicity.";
   return (
     <div className="section-hero-section">
+                    <video muted autoPlay id="vid"className="videoHero" width="820" height="540" > <source src="./src/assets/public/images/HeroLogo.mp4"   type="video/mp4"></source></video>
+
       {/* <div class="area">
         <ul class="circles">
           <li></li>
@@ -61,16 +64,13 @@ export default function HeroSection() {
         </div>
 
         <div className="hero-section-image-section">
-          {/* <div className="hero-section-image-image-bg"></div> */}
+         
           <div className="hero-section-image">
             <Fade triggerOnce="true">
-              <img src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/Test_M2.png"></img>
+
+              {/* <img src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/Test_M2.png"></img> */}
             </Fade>
-            {/* <iframe
-              src="https://www.youtube.com/embed/H5PsBdyi2so?controls=0&showinfo=0&rel=0&autoplay=1&start=7&end=200&loop=1&mute=1&playlist=H5PsBdyi2so"
-              frameborder="0"
-              allowfullscreen
-            ></iframe> */}
+
           </div>
         </div>
         <div className="hero-foot">
