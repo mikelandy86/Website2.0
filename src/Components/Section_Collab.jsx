@@ -13,6 +13,7 @@ export default function CollabSection() {
   <img src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/flh-logotyp-sv-cmyk-svart.png"/> 
   <img src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/hälsotassen.png"/>
   <img src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/ImmetropiaTextBlack.png"/>
+  <img src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/FictiveReality_logo.png"/>
 </div>
     </div>
   );

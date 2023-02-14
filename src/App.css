@@ -956,9 +956,9 @@ margin-top: 50px;
 }
 .collab-section-flex-container{
   max-width: 1000px;
-  /* display: flex;
+  display: flex;
   justify-content: space-between;
-  align-items: center; */
+  align-items: center;
   margin: auto;
 }
 .collab-section-flex-container img{
@@ -1525,8 +1525,11 @@ text-align: center;
 }
 
 .collab-section-flex-container{
-  margin: 1rem 1rem;
+  /* margin: 1rem 1rem; */
   flex-wrap: wrap;
+}
+.collab-section-flex-container img{
+  width: 64px;
 }
 .form-control:focus, .form-control-message:focus {
   outline: none !important;
