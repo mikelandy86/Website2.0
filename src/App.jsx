@@ -29,8 +29,8 @@ function App() {
       <BioSectionV2 />
       <SkillSection />
       <ProjectSectionv2 />
-      <Startup />
-      <StartupProjects />
+      {/* <Startup /> */}
+      {/* <StartupProjects /> */}
       <CollabSection />
       {/* <BioSection /> */}
       <ContactSection />

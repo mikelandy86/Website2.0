@@ -31,34 +31,15 @@ export default function HeroSection() {
       </div> */}
       <div className="hero-section-row-flex">
         <div className="hero-section-info-section">
-          {/* <Fade cascade triggerOnce="false" direction="left"> */}
 
-          <h1 className="hero-section-info-title">{title} </h1>
-          {/* <h2 className="hero-section-info-title">{title2} </h2> */}
+
+          {/* <h1 className="hero-section-info-title">{title} </h1>
+     */}
 
           <Fade triggerOnce="false" damping={23}>
             <p className="hero-section-info-desc">
-              <Typewriter
-                options={{
-                  autoStart: true,
-                  delay: 30,
-                  deleteSpeed: 20,
-                  loop: false,
-                  cursorClassName: "blink_me",
-                }}
-                onInit={(typewriter) => {
-                  typewriter
-                    .typeString(
-                      "Simple solutions"
-                    )
-
-                    .start();
-                }}
-              />
-              {/* {desc} */}
-            </p>
-            <p className="hero-section-info-desc2">
-              <Typewriter
+              Bringing beauty <br/>through simplicity
+              {/* <Typewriter
                 options={{
                   autoStart: true,
                   delay: 30,
@@ -74,9 +55,10 @@ export default function HeroSection() {
 
                     .start();
                 }}
-              />
+              /> */}
               {/* {desc} */}
             </p>
+            
           </Fade>
           {/* <a href="#contact" className="hero-section-info-button">
             <h2>Kontakt</h2>

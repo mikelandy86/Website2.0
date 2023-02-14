@@ -412,7 +412,7 @@ box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
 }
 .section-hero-section{
   background-color: white;
-  padding-top: 58px;
+  padding-top: 100px;
   height: 100%;
 }
 .hero-section-row-flex{
@@ -446,6 +446,9 @@ box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
   padding: 0;
   font-size: 3rem !important;
   white-space: pre-line;
+}
+.Typewriter{
+padding-top: 0;
 }
 .typewriter-container{
   gap: 10px;
@@ -505,7 +508,7 @@ box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
       padding-bottom: 30px;
 }
 .hero-section-info-desc{
-  font-family: "europe", sans-serif;
+
   margin-bottom: 50px;
   color: #ececec;
 
@@ -521,6 +524,7 @@ box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
 
 }
 .hero-section-info-desc2{
+  /* padding-top: 350px; */
   font-family: "europe", sans-serif;
   padding-bottom: -90px;
   color: #ececec;
@@ -601,7 +605,7 @@ color: white;
   scroll-margin-top: 7em;
   padding: 0 2em;
   padding-bottom: 150px;
-    background-color: #7510F7;;
+    background-color: #ffffff;;
     color: white;
 }
 .section-bio-flexrow{
@@ -1310,12 +1314,12 @@ height: 30px;
   .hero-section-info-title{
     font-size: 2.5rem !important;
   }
-  .hero-section-info-desc{
+  /* .hero-section-info-desc{
     font-size: 1.2rem !important;
   }
   .hero-section-info-desc2{
     font-size: 1.2rem !important;
-  }
+  } */
   }
 
 @media only screen and (max-width: 900px) {
@@ -1385,7 +1389,7 @@ display: flex;
 
 @media only screen and (max-width: 710px) {
   .section-hero-section{
-    padding-top: 30px;
+    padding-top: 100px;
   }
   .icons-container{
     display: none;

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { RiGlobalLine } from "react-icons/ri";
+import { FaInnosoft } from "react-icons/fa";
 import { FiTwitter } from "react-icons/fi";
 import { BsInstagram } from "react-icons/bs";
 import { FaGgCircle } from "react-icons/fa";
@@ -77,9 +77,9 @@ export default function Header() {
         <div class="nav">
           <div class="nav-title-container">
             <a href="https://mikelandy86.github.io/website2.0/">
-              <FaGgCircle
+              <FaInnosoft
                 className="hero-section-info-title"
-                size={60}
+                size={40}
                 color="#fff"
               />
             </a>
