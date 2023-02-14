@@ -917,6 +917,7 @@ margin-top: 50px;
   background-color: #7510F7;
 }
 .section-projects{
+  margin-top: 10rem;
   padding-bottom: 77px;
   scroll-margin-top: 7em;
   text-align: center;
@@ -946,11 +947,12 @@ margin-top: 50px;
 
 }
 .section-collab h1{
-  margin: 1rem 1rem;
+  max-width: 600px;
+  margin: 1rem 8rem;
   font-weight: 400;
-  font-size: 1.9rem;
+  font-size: 2.9rem;
   margin-bottom: 50px;
-  line-height: 2.9rem;
+  line-height: 3.6rem;
 }
 .collab-section-flex-container{
   max-width: 1000px;
@@ -1398,6 +1400,13 @@ display: flex;
    }
 .section-skills-column:not(:last-child){
   border-bottom: 1px solid #E6ECF8;
+}
+.section-collab h1{
+  margin: 1rem 1rem;
+  font-weight: 500;
+  font-size: 1.9rem;
+  margin-bottom: 50px;
+  line-height: 2.9rem;
 }
 .section-skills-column{
   width: auto;
