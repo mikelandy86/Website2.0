@@ -26,12 +26,12 @@ function App() {
       <Header />
       <HeroSection />
       {/* <ScrollDown href="#bio" /> */}
+      <CollabSection />
       <BioSectionV2 />
       <SkillSection />
       <ProjectSectionv2 />
       {/* <Startup /> */}
       {/* <StartupProjects /> */}
-      <CollabSection />
       {/* <BioSection /> */}
       <ContactSection />
       <CallToAction />
