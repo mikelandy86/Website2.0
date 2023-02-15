@@ -77,7 +77,6 @@ export default function Header() {
         <div class="nav">
           <div class="nav-title-container">
             <a href="https://mikelandy86.github.io/website2.0/">
-       
               <img
                 className="header-section-logo"
                 src="./src/assets/public/images/mhl_logo.png"
