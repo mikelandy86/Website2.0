@@ -6,6 +6,7 @@ export default function Projectv2() {
   return (
     <div id="projects" className="section-projects">
       <div className="section-bio-title">
+      <Fade duration="2000" direction="up" >
         <h1>My Recent Work</h1>
         <h3>
           Here are a few design projects I've worked on recently. Want to see
@@ -14,10 +15,11 @@ export default function Projectv2() {
             Email me.
           </a>
         </h3>
+        </Fade>
       </div>
       <div className="v2-projects-projectThumbs">
         <div className="v2-projects-flex-container">
-          
+        <Fade duration="2000" direction="left" >
           <div className="container">
             <img
               src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/pzzgsixachckpcdpdnvl.avif"
@@ -35,6 +37,8 @@ export default function Projectv2() {
               </div>
             </div>
           </div>
+          </Fade>
+          <Fade duration="2000" direction="up" >
           <div className="container">
             <img
               src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/pexels-polina-tankilevitch-4523095.jpg"
@@ -53,23 +57,10 @@ export default function Projectv2() {
               </div>
             </div>
           </div>
-          {/* <div className="container">
-            <img
-              src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/Duschinstallation.jpg"
-              alt="Avatar"
-              className="image"
-            />
-            <div className="overlay">
-              <div className="v2-project-text">
-                <h1>
-                Step-by-Step Guide to Installing a Shower Wall: A 3D Instructional Demo Video
-                </h1>
-                <a href="https://youtu.be/R7YApiWSpGY" target="_blank">
-                  See more <FaAngleRight color="#fff" />
-                </a>
-              </div>
-            </div>
-          </div> */}
+          </Fade>
+ 
+ 
+          <Fade duration="2000" direction="right" >
           <div className="container">
             <img
               src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/laptop-gccb97b73a_1920.jpg"
@@ -86,7 +77,9 @@ export default function Projectv2() {
               </div>
             </div>
           </div>
+          </Fade>
         </div>
+        
       </div>
       {/* <div className="v2-project-github-link">
         <a href="https://github.com/mikelandy86" target="_blank">
