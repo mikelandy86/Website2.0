@@ -293,7 +293,7 @@ text-align: center;
   color: #557efa;
 }
 .add-shadow{
-  box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
+  box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.322);
 }
 
 @keyframes float {
@@ -848,6 +848,7 @@ margin-top: 50px;
   position: relative;
   width: 21rem;
   height: 16rem;
+  transition: .5s ease;
 }
 .v2-projects-projectThumbs{
   max-width: 1200px;
@@ -872,9 +873,11 @@ margin-top: 50px;
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #141c3a;
+  background-color: #000000;
 }
-
+.container:hover {
+  transform: scale(1.1);
+}
 .container:hover .overlay {
   opacity: 1;
 }
@@ -1426,8 +1429,11 @@ display: flex;
   .nav-title-container{
     padding: 0 0.5rem;
   }
-  .hero-section-info-desc{
+  .hero-section-info-desc-sub{
     margin-top: 500px;
+  }
+  .hero-section-info-desc{
+    /* margin-top: 500px; */
   }
   .section-hero-section{
     height: 100vh;

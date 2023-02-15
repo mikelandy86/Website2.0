@@ -36,7 +36,7 @@ export default function Projectv2() {
           </div>
           <div className="container">
             <img
-              src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/Plundring_Project.png"
+              src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/plundring.webp"
               alt="Avatar"
               className="image"
             />
