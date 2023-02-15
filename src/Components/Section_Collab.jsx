@@ -5,13 +5,13 @@ import { FaAngleRight } from "react-icons/fa";
 export default function CollabSection() {
   return (
     <div id="collab" className="section-collab">
-      <Fade triggerOnce="false" duration="2000" damping={23}>
+      <Fade direction="up" duration={1000}>
         <h1>
           Top Brands I´m Proud to Have Collaborated With: A Highlight of my
           Successful Partnerships
         </h1>
       </Fade>
-      <Fade direction="up" duration={1000}>
+      <Fade duration="2000" delay={1e3} cascade damping={1e-1}>
         <div className="collab-section-flex-container">
           <img src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/HAGSLogo@400px.png" />
           <img src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/flh-logotyp-sv-cmyk-svart.png" />
