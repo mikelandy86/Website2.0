@@ -1566,7 +1566,7 @@ text-align: center;
     bottom: 0;
 
     width: 100%;
-    border-radius: 18px 18px 0 0;
+    /* border-radius: 18px 18px 0 0; */
     background-color: white;
     z-index: 100;
     position: fixed;
@@ -1623,7 +1623,7 @@ text-align: center;
     bottom: 0;
 
     width: 100%;
-    border-radius: 18px 18px 0 0;
+    /* border-radius: 18px 18px 0 0; */
     background-color: white;
     z-index: 100;
     position: fixed;
