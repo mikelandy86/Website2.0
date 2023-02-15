@@ -450,7 +450,8 @@ text-align: center;
   white-space: pre-line;
 }
 .header-section-logo{
-width: 100px;
+  margin: 1rem;
+width: 60px;
 }
 .Typewriter{
 padding-top: 0;
