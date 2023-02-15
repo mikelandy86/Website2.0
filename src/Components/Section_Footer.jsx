@@ -4,11 +4,10 @@ export default function Footer() {
   return (
     <footer class="footer">
                   <a href="https://mikelandy86.github.io/website2.0/">
-              <FaGgCircle
-                className="hero-section-info-title"
-                size={60}
-                color="#FFF"
-              />
+                  <img
+                className="header-section-logo-footer"
+                src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/mhl_logo.png"
+              ></img>
               <h1>Living, learning, & leveling up one day at a time.</h1>
             </a>
       <ul class="social-icon">

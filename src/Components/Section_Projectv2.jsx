@@ -88,31 +88,12 @@ export default function Projectv2() {
           </div>
         </div>
       </div>
-      <div className="v2-project-github-link">
+      {/* <div className="v2-project-github-link">
         <a href="https://github.com/mikelandy86" target="_blank">
           <FaGithub size={20} className="githubIcon" /> See more on Github
         </a>
-      </div>
+      </div> */}
     </div>
 
-    // <div id="projects" className="section-projects">
-    //   <div className="section-bio-title">
-    //     <h1>My Recent Work</h1>
-    //     <h3>
-    //       Here are a few past design projects I've worked on. Want to see more?{" "}
-    //       <a>Email me.</a>
-    //     </h3>
-    //   </div>
-    //   <div className="v2-projects-flex-container">
-    //     <div className="v2-project">
-    //       <div className="v2-project-container">
-    //         <img src="./src/assets/public/images/Hags_Project.png"></img>
-    //         <div className="overlay">
-    //           <div className="text">Hello World</div>
-    //         </div>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
   );
 }

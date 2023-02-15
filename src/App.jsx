@@ -37,7 +37,7 @@ function App() {
       {/* <StartupProjects /> */}
       {/* <BioSection /> */}
       <ContactSection />
-      <CallToAction />
+      {/* <CallToAction /> */}
       <Footer />
     </div>
   );

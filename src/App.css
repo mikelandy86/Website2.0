@@ -95,11 +95,11 @@ body {
   background-color: #7510F7;
 }
 .footer {
-
+  border-top: 1px solid #d4d4d5;
   z-index: 1;
   text-align: center;
   width: 100%;
-  background: #7510F7;
+  background: #060606;
   min-height: 100px;
   padding: 0 27px 20px 27px;
 }
@@ -146,7 +146,7 @@ body {
 }
 .social-icon__link {
   font-size: 2rem;
-  color: #fff;
+  color: #ffffff;
   margin: 0 10px;
   display: inline-block;
   transition: 0.5s;
@@ -155,7 +155,7 @@ body {
 
 .menu__link {
   font-size: 1.2rem;
-  color: #fff;
+  color: #000000;
   margin: 0 10px;
   display: inline-block;
   transition: 0.5s;
@@ -169,7 +169,7 @@ body {
 }
 
 .footer p {
-  color: #fff;
+  color: #ffffff;
   margin: 15px 0 10px 0;
   font-size: 0.9rem;
   font-weight: 300;
@@ -284,7 +284,7 @@ text-align: center;
   justify-content: space-between;
 }
 .nav-icon{
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 300;
   color: #fdfdfd;
   transition: 0.5s;
@@ -340,7 +340,7 @@ text-align: center;
   gap: 50px;
 }
 .responsive-height{
-  background-color: rgba(0, 0, 0, 0.364);
+  background-color: rgb(35, 35, 35);
 margin-top: 0;
 height: 70PX;
 }
@@ -348,7 +348,7 @@ height: 70PX;
 .header-sayhello-button{
   font-family: Metropolis;
   font-weight: 400;
-  font-size: 19px;
+  font-size: 16px;
   background-color: transparent;
   border:1px solid #ffffff;;;
   color: #ffffff;;
@@ -452,6 +452,11 @@ height: 70PX;
 .header-section-logo{
   margin: 1rem;
 width: 45px;
+}
+.header-section-logo-footer{
+  /* box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2); */
+  margin: 3rem;
+width: 70px;
 }
 .Typewriter{
 padding-top: 0;
@@ -660,7 +665,7 @@ padding-bottom:20px;
 }
 .section-bio-title h3 a{
   font-weight: 500;
-  color: #7510F7 !important;
+  color: #2c2c2c !important;
 
 }
 .section-bio-imagesection img{
@@ -988,7 +993,7 @@ object-fit: cover;
 .collab-section-flex-container img{
   width: 100px;
   /* margin:1rem 2rem; */
-  opacity: 90%;
+  opacity: 70%;
 }
 .text {
   color: white;
@@ -1288,7 +1293,7 @@ line-height: 1.825em;
   }
   .form-control:focus, .form-control-message:focus {
   outline: none !important;
-  border:2px solid rgb(53, 63, 255);
+  border:1px solid rgb(53, 63, 255);
   border-radius: 5px;
   box-shadow: none;
 }
@@ -1298,14 +1303,14 @@ height: 30px;
 .form-control-message{
   border-radius: 0.375rem;
   background-color: white;
-  border:1px solid #ced4da;
+  border:0.2px solid #ced4da;
   padding: 0.375rem 0.75rem;
   height: 100px;
   }
 .contact-btn{
-  background-color:#7510F7 ;
+  background-color:#7410f700 ;
   /* background: #000; */
-  color: #fff;
+  color: #000000;
   padding: 15px 20px;
   cursor: pointer;
   border: none;
