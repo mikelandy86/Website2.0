@@ -79,7 +79,7 @@ export default function Header() {
             <a href="https://mikelandy86.github.io/website2.0/">
               <img
                 className="header-section-logo"
-                src="./src/assets/public/images/mhl_logo.png"
+                src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/mhl_logo.png"
               ></img>
             </a>
           </div>
