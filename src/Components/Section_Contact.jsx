@@ -33,7 +33,7 @@ const SendEmailDone = "Your message has been successfully sent, I will contact y
   return (
     <div id="contact" className="contact-section">
       <div className="section-bio-title">
-      <Fade duration="2000" direction="up" >
+      <Fade duration="2000" triggerOnce={true} direction="up" >
         <h1>Lets Talk!</h1>
         <h3>
           Be free to contact me using the form or <a href = "mailto:mike.landy@gmail.com?subject = Feedback&body = Message">Email me.</a>
