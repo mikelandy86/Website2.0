@@ -9,7 +9,7 @@ export default function CollabSection() {
 <h1>Top Brands I´m Proud to Have Collaborated With: A Highlight of my Successful Partnerships</h1>
 </Fade>
 <div className="collab-section-flex-container">
-<Fade cascade direction="up" duration={400} >
+<Fade  direction="up" duration={1000} >
   <img src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/HAGSLogo@400px.png"/>
   <img src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/flh-logotyp-sv-cmyk-svart.png"/> 
   <img src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/hälsotassen.png"/>
