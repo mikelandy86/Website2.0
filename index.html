@@ -21,14 +21,22 @@
     <script type="module" src="/src/main.jsx"></script>
     <script>
       window.addEventListener("scroll", (e) => {
-        const nav = document.querySelector(".header");
+        const header = document.querySelector(".header");
         const nav2 = document.querySelector(".nav");
+        const helloButton = document.querySelector(".icons-container");
+        const iconlogo = document.querySelector(".hero-section-info-title");
+        
+        
         if (window.scrollY > 300) {
-          nav.classList.add("add-shadow");
+          header.classList.add("add-shadow");
           nav2.classList.add("responsive-height");
+          iconlogo.classList.add("color-change");
+          helloButton.classList.add("color-change");
         } else {
-          nav.classList.remove("add-shadow");
+          header.classList.remove("add-shadow");
           nav2.classList.remove("responsive-height");
+          iconlogo.classList.remove("color-change");
+          helloButton.classList.remove("color-change");
         }
       });
     </script>

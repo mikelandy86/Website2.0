@@ -275,6 +275,7 @@ text-align: center;
   gap: 30px;
   justify-content: flex-end;
 }
+
 .icons-container-burger{
   margin: 0 4rem;
   align-items: center;
@@ -292,8 +293,7 @@ text-align: center;
   color: #7510F7;;
 }
 .add-shadow{
-
-box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
+  box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
 }
 
 @keyframes float {
@@ -354,8 +354,8 @@ box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
 }
 
 .header-sayhello-button:hover{
-  background-color:#7510F7;;
-  border-color: #7510F7;;
+  background-color:#353fed;;
+  border-color: #353fed;;
   color: white;
 }
 
@@ -410,18 +410,18 @@ box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
 .nav-item{
   height: 10px;
 }
+.color-change a{
+  border-color: #000000;
+  color: #000000;
+}
 .section-hero-section{
   background-color: white;
   padding-top: 100px;
   height: 100vh;
 }
 .hero-section-row-flex{
-  margin: 20px 20px 7px 20px;
-  display: flex;
-  text-align: center;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin: 100px 20px 7px 20px;
+
 
 }
 .hero-section-info-section{
@@ -508,11 +508,9 @@ padding-top: 0;
       padding-bottom: 30px;
 }
 .hero-section-info-desc{
-
   margin-bottom: 50px;
   color: #ececec;
-
-  font-size: 3rem !important;
+  font-size: 4rem !important;
   position: relative;
   font-weight: 300;
   z-index: 1;
@@ -1354,7 +1352,12 @@ height: 30px;
   }
    .hero-section-row-flex{
     text-align: center;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 7px 20px 7px 20px;
+
   }
   .hero-section-image iframe{
     width: 590px;
