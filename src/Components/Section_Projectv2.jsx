@@ -71,7 +71,7 @@ export default function Projectv2() {
           </div> */}
           <div className="container">
             <img
-              src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/pexels-christina-morillo-1181675.jpg"
+              src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/laptop-gccb97b73a_1920.jpg"
               alt="Avatar"
               className="image"
             />
