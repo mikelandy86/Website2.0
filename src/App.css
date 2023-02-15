@@ -1412,7 +1412,7 @@ margin: 8rem 2rem;
 .section-collab h1{
   font-weight: 400;
   font-size: 1.9rem;
-  margin-bottom: 50px;
+  margin-bottom: 95px;
   line-height: 2.9rem;
 }
 .section-skills-column{
@@ -1535,7 +1535,7 @@ text-align: center;
   flex-wrap: wrap;
 }
 .collab-section-flex-container img{
-  width: 64px;
+  width: 127px;
 }
 .form-control:focus, .form-control-message:focus {
   outline: none !important;

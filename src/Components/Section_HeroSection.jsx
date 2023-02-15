@@ -36,7 +36,7 @@ export default function HeroSection() {
           {/* <h1 className="hero-section-info-title">{title} </h1>
      */}
 
-          <Fade triggerOnce="false" damping={23}>
+          <Fade triggerOnce="false" duration="2000" direction="up"damping={23}>
             <p className="hero-section-info-desc">
               Bringing beauty <br/>through simplicity
               {/* <Typewriter
