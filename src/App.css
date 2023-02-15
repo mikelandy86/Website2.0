@@ -340,9 +340,9 @@ text-align: center;
   gap: 50px;
 }
 .responsive-height{
-  background-color: rgba(0, 0, 0, 0.622);
+  background-color: rgba(0, 0, 0, 0.364);
 margin-top: 0;
-height: 60PX;
+height: 70PX;
 }
 
 .header-sayhello-button{
@@ -644,7 +644,7 @@ color: white;
   justify-content: center;
   align-items: center;
   display: flex;
-  font-weight: 700;
+  font-weight: 200;
   gap: 10px;
   font-size: 1.6rem;
 text-align: center;
@@ -873,10 +873,10 @@ object-fit: cover;
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #000000;
+  background-color: #000000d4;
 }
 .container:hover {
-  transform: scale(1.1);
+  /* transform: scale(1); */
 }
 .container:hover .overlay {
   opacity: 1;
@@ -887,7 +887,7 @@ object-fit: cover;
 
 .v2-project-text h1{ 
 
-  font-weight: 600;
+  font-weight: 200;
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 40px;
@@ -898,7 +898,7 @@ object-fit: cover;
 }
 .v2-project-text-underdev h1{ 
 
-  font-weight: 600;
+  font-weight: 200;
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 30px;
@@ -917,12 +917,13 @@ object-fit: cover;
   color: rgb(255, 255, 255) !important;  
   background-color: transparent;
   text-decoration: none;
-  border: 2px solid #7510F7;
+  border: 1px solid #ffffff;
   border-radius: 25px;
   padding: 15px 30px 15px 30px;
   background-color: transparent;
   transition: 0.3s;
   cursor: pointer;
+ 
 }
 .v2-project-text-underdev{
   color: rgb(255, 255, 255) !important;  
@@ -937,7 +938,8 @@ object-fit: cover;
 }
 
 .v2-project-text a:hover{
-  background-color: #7510F7;
+   border: 1px solid #557efa;
+  /* background-color: #557efa; */
 }
 .section-projects{
   margin-top: 10rem;

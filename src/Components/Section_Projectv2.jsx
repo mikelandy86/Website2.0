@@ -17,6 +17,7 @@ export default function Projectv2() {
       </div>
       <div className="v2-projects-projectThumbs">
         <div className="v2-projects-flex-container">
+          
           <div className="container">
             <img
               src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/pzzgsixachckpcdpdnvl.avif"
@@ -42,7 +43,7 @@ export default function Projectv2() {
             />
             <div className="overlay">
               <div className="v2-project-text">
-                <h1>Travel Back in Time: A Virtual Reality WW2 Exhibition"</h1>
+                <h1>Travel Back in Time: A Virtual Reality World War 2 Exhibition"</h1>
                 <a
                   href="https://www.levandehistoria.se/utstallningar/plundring/plundring-vr"
                   target="_blank"
