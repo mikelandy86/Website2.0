@@ -77,11 +77,11 @@ export default function Header() {
         <div class="nav">
           <div class="nav-title-container">
             <a href="https://mikelandy86.github.io/website2.0/">
-              <FaInnosoft
-                className="hero-section-info-title"
-                size={40}
-                color="#fff"
-              />
+       
+              <img
+                className="header-section-logo"
+                src="./src/assets/public/images/mhl_logo.png"
+              ></img>
             </a>
           </div>
 

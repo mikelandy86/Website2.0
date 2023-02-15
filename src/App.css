@@ -449,6 +449,9 @@ text-align: center;
   font-size: 3rem !important;
   white-space: pre-line;
 }
+.header-section-logo{
+width: 100px;
+}
 .Typewriter{
 padding-top: 0;
 }
