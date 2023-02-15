@@ -287,10 +287,10 @@ text-align: center;
   font-size: 18px;
   font-weight: 300;
   color: #fdfdfd;
-  transition: 0.2s;
+  transition: 0.5s;
 }
 .nav-icon:hover{
-  color: #7510F7;;
+  color: #557efa;
 }
 .add-shadow{
   box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.10);
@@ -311,20 +311,19 @@ text-align: center;
 	}
 }
 .nav{
-  margin: 0 auto !important;
-  padding: 1.2rem rem 0;
+  /* margin: 2rem 1rem !important; */
+  /* padding: 1.2rem rem 0; */
   position: relative;
   z-index: 1;
   /* max-width: 1400px; */
-  margin-left: 80px;
-  margin-right: 80px;
-  margin-top: 25px;
+
+  margin-top: 20px;
   height: 80px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   transition: 1s;
-  background-color: transparent
+  background-color: transparent;
 }
 .w{
   max-width: 1840px;
@@ -341,8 +340,9 @@ text-align: center;
   gap: 50px;
 }
 .responsive-height{
-  background-color: white;
-
+  background-color: rgba(0, 0, 0, 0.622);
+margin-top: 0;
+height: 60PX;
 }
 
 .header-sayhello-button{
@@ -354,13 +354,13 @@ text-align: center;
   color: #ffffff;;
   padding: 7px 20px 7px 20px;
   border-radius: 9999px;
-  transition: 0.25s;
+  transition: 0.5s;
 }
 
 .header-sayhello-button:hover{
-  background-color:#353fed;;
-  border-color: #353fed;;
-  color: white;
+  /* background-color:#011b66; */
+  border-color: #557efa;
+  color: rgb(255, 255, 255);
 }
 
 .button-container{
@@ -391,8 +391,8 @@ text-align: center;
 
 
 .nav-title-container{
-  margin-left: 40px;
-  margin-right: 60px;
+  /* margin-left: 40px;
+  margin-right: 60px; */
 
   display: flex;
   align-items: center;
@@ -414,10 +414,10 @@ text-align: center;
 .nav-item{
   height: 10px;
 }
-.color-change a{
+/* .color-change a{
   border-color: #000000;
   color: #000000;
-}
+} */
 .section-hero-section{
   background-color: white;
   padding-top: 100px;
@@ -965,17 +965,16 @@ margin-top: 50px;
 .section-collab{
   /* margin-top: 10rem; */
   margin: 10rem 4rem;
-
 }
 .section-collab h1{
-  max-width: 1000px;
+  max-width: 600px;
   font-weight: 400;
-  font-size: 5rem;
-  margin-bottom: 50px;
-  line-height: 5.4rem;
+  font-size: 3rem;
+  margin: 9rem 0;
+  line-height: 3.9rem;
 }
 .collab-section-flex-container{
-  max-width: 1000px;
+  /* max-width: 1000px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1421,6 +1420,15 @@ display: flex;
 }
 
 @media only screen and (max-width: 710px) {
+  .nav{
+    margin-top: 0;
+  }
+  .nav-title-container{
+    padding: 0 0.5rem;
+  }
+  .hero-section-info-desc{
+    margin-top: 500px;
+  }
   .section-hero-section{
     height: 100vh;
   }
@@ -1472,7 +1480,7 @@ margin: 8rem 2rem;
   font-size: 15px;
 }
 .hero-section-info-desc{
-  font-size: 2rem !important;
+  font-size: 2.4rem !important;
 }
 .hero-section-info-desc2{
   font-size: 2rem !important;
