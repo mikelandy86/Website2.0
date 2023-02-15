@@ -13,7 +13,21 @@ export default function HeroSection() {
     "As a designer and coder, I create elegantly simple solutions with passion, bringing beauty and connection through simplicity.";
   return (
     <div className="section-hero-section">
-                    <video loop muted autoPlay id="vid"className="videoHero" width="820" height="540" > <source src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/Dark_Colorful.mp4"   type="video/mp4"></source></video>
+      <video
+        loop
+        muted
+        autoPlay
+        id="vid"
+        className="videoHero"
+        width="820"
+        height="540"
+      >
+        {" "}
+        <source
+          src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/Dark_Colorful.mp4"
+          type="video/mp4"
+        ></source>
+      </video>
 
       {/* <div class="area">
         <ul class="circles">
@@ -31,14 +45,13 @@ export default function HeroSection() {
       </div> */}
       <div className="hero-section-row-flex">
         <div className="hero-section-info-section">
-
-
           {/* <h1 className="hero-section-info-title">{title} </h1>
-     */}
+           */}
 
-          <Fade triggerOnce="false" duration="2000" direction="up"damping={23}>
+          <Fade triggerOnce="false" duration="2000" direction="up">
             <p className="hero-section-info-desc">
-              Bringing beauty <br/>through simplicity
+              Bringing beauty <br />
+              through simplicity
               {/* <Typewriter
                 options={{
                   autoStart: true,
@@ -58,7 +71,16 @@ export default function HeroSection() {
               /> */}
               {/* {desc} */}
             </p>
-            
+            <Fade
+              triggerOnce="false"
+              duration="2000"
+              delay={10}
+              direction="left"
+            >
+              <p className="hero-section-info-desc-sub">
+                Fullstack Developer - Mikael Hverven-Landy
+              </p>
+            </Fade>
           </Fade>
           {/* <a href="#contact" className="hero-section-info-button">
             <h2>Kontakt</h2>
@@ -66,13 +88,10 @@ export default function HeroSection() {
         </div>
 
         <div className="hero-section-image-section">
-         
           <div className="hero-section-image">
             <Fade triggerOnce="true">
-
               {/* <img src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/Test_M2.png"></img> */}
             </Fade>
-
           </div>
         </div>
         <div className="hero-foot">
