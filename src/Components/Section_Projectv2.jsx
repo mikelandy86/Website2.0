@@ -7,7 +7,7 @@ export default function Projectv2() {
     <div id="projects" className="section-projects">
       <div className="section-bio-title">
       <Fade duration="2000" triggerOnce={true} direction="up" >
-        <h1>My Recent Work</h1>
+        <h4>My Recent Work</h4>
         {/* <h3>
           Here are a few design projects I've worked on recently. Want to see
           more?{" "}

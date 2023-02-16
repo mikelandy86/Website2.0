@@ -677,7 +677,12 @@ color: white;
   font-size: 2.6rem;
   padding-bottom:20px;
 }
-
+.section-bio-title h4{
+  font-weight: 200;
+  gap: 10px;
+  font-size: 1.6rem;
+  padding-bottom:20px;
+}
 .section-bio-title h3{
 
   color: #141c3a;
@@ -1284,10 +1289,23 @@ width: 80px;
   line-height: 1.825em;
 }
 .contact-info-container{
-  width: 430px;
-  padding-right: 10px;
+  margin: 0 3rem;
+  padding-bottom: 35px;
+}
+.contact-info-containerh1{
+  font-weight: 200;
+  gap: 10px;
+  font-size: 1.6rem;
+  padding-bottom:20px;
 }
 
+.contact-info-container h3{
+
+  color: #141c3a;
+  font-size: 1.1rem;
+  font-weight: 200;
+  line-height: 1.8;
+}
 .contact-image{
   max-width: 100%;
   height: auto;

@@ -36,7 +36,7 @@ const SendEmailDone = "Your message has been successfully sent, I will contact y
       <div className="contact-section-flex-container-box">
       <div className="section-bio-title">
       <Fade duration="2000" triggerOnce={true} direction="up" >
-        <h1>Lets Talk!</h1>
+        <h1>  Lets Talk!</h1>
         <h3>
         Contact me for inquiries or collaborations. Simply fill out the form or email me at mike.landy@gmail.com. <br/>Thank you!
           {/* Be free to contact me using the form or <a href = "mailto:mike.landy@gmail.com?subject = Feedback&body = Message">Email me.</a> */}
