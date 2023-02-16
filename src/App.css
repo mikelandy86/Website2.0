@@ -1596,6 +1596,7 @@ text-align: center;
   /* margin: 1rem 1rem; */
   flex-wrap: wrap;
   row-gap: 50px;
+  column-gap: 10px;
 }
 .collab-section-flex-container img{
   width: 82px;
