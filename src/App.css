@@ -824,6 +824,7 @@ text-align: center;
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
+  margin: 1rem;
 }
 .v2-project-github-link{
   align-items: center;
@@ -859,7 +860,7 @@ margin-top: 50px;
   aspect-ratio: 90 / 79;
   /* margin: 0.6rem 1.3rem; */
   overflow: hidden;
-
+padding: 0;
   position: relative;
   /* width: 90vw; */
   /* height: 73vw; */
