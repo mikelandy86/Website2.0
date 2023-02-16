@@ -1308,18 +1308,30 @@ line-height: 1.825em;
   border-bottom: 1px solid rgba(0, 0, 0, 0.142);
   margin-top: 10px;
   outline: none;
-  text-indent: 10px;
+  transition: 0.5s;
+  /* text-indent: 5px; */
   /* border-radius: 2px; */
 
   }
+
+  .form-control:hover, .form-control-message:hover {
+
+    outline: none !important;
+      border-bottom:1px solid rgb(18, 18, 18);
+    /* border:1px solid rgb(53, 63, 255); */
+    /* border-radius: 5px; */
+    box-shadow: none;
+  }
   .form-control:focus, .form-control-message:focus {
+
   outline: none !important;
-    border-bottom:1px solid rgb(174, 174, 174);
+    border-bottom:1px solid rgb(18, 18, 18);
   /* border:1px solid rgb(53, 63, 255); */
   /* border-radius: 5px; */
   box-shadow: none;
 }
 .form-control{
+  border-radius: 0;
 height: 30px;
 }
 .form-control-message{
@@ -1362,6 +1374,9 @@ height: 30px;
   font-weight: 400;
   margin-top: 10px;
   font-size: 17px;
+}
+.contact-btn:hover{
+  color: #535353;
 }
 .contact-input-container{
   max-width: 500px;
