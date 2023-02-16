@@ -36,11 +36,10 @@ const SendEmailDone = "Your message has been successfully sent, I will contact y
       <Fade duration="2000" triggerOnce={true} direction="up" >
         <h1>Lets Talk!</h1>
         <h3>
-          Be free to contact me using the form or <a href = "mailto:mike.landy@gmail.com?subject = Feedback&body = Message">Email me.</a>
+        Contact me for inquiries or collaborations. Simply fill out the form or email me at mike.landy@gmail.com. <br/>Thank you!
+          {/* Be free to contact me using the form or <a href = "mailto:mike.landy@gmail.com?subject = Feedback&body = Message">Email me.</a> */}
         </h3>
-        <h3>
-          +460730816555
-        </h3>
+
       </Fade>
       </div>
       <div className="section-contact-title">

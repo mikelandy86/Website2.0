@@ -650,7 +650,7 @@ color: white;
   display: flex;
 }
 .section-bio-title{
-  padding-bottom:50px;
+  padding-bottom:35px;
 }
 .section-bio-title h1{
 
@@ -1586,9 +1586,10 @@ text-align: center;
 .collab-section-flex-container{
   /* margin: 1rem 1rem; */
   flex-wrap: wrap;
+  row-gap: 50px;
 }
 .collab-section-flex-container img{
-  width: 127px;
+  width: 82px;
 }
 .form-control:focus, .form-control-message:focus {
   outline: none !important;
