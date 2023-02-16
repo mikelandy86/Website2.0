@@ -60,7 +60,7 @@ export default function Projectv2() {
           </Fade>
  
  
-          <Fade duration="2000" triggerOnce={true} direction="right" >
+          {/* <Fade duration="2000" triggerOnce={true} direction="right" >
           <div className="container">
             <img
               src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/laptop-gccb97b73a_1920.jpg"
@@ -77,7 +77,7 @@ export default function Projectv2() {
               </div>
             </div>
           </div>
-          </Fade>
+          </Fade> */}
         </div>
         
       </div>
