@@ -95,14 +95,21 @@ body {
   background-color: #7510F7;
 }
 .footer {
+  position: relative;
   border-top: 1px solid #d4d4d5;
   z-index: 1;
   text-align: center;
   width: 100%;
-  height: 100vh;
+  height: 50vh;
   background: #000000;
-  min-height: 100px;
+  /* min-height: 100px; */
   padding: 0 27px 20px 27px;
+}
+.footer-container{
+  position: absolute;
+   bottom: 0;
+   right: 0;
+   left: 0;
 }
 .footer h1{
   margin:auto;

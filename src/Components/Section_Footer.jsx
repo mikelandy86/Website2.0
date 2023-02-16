@@ -3,6 +3,7 @@ import { FaGgCircle } from "react-icons/fa";
 export default function Footer() {
   return (
     <footer class="footer">
+      <div className="footer-container">
                   <a href="https://mikelandy86.github.io/website2.0/">
                   <img
                 className="header-section-logo-footer"
@@ -38,6 +39,7 @@ export default function Footer() {
         Handcrafted by me &copy;
 Mikael Hverven-Landy
       </p>
+      </div>
     </footer>
   );
 }
