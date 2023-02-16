@@ -1244,7 +1244,7 @@ text-align: center;
   scroll-margin-top: 5em;
   margin-top: 33px;
   padding-top: 46px;
-    border-top: 1px solid #E6ECF8;
+    /* border-top: 1px solid #E6ECF8; */
 }
 /* .contact-section span{
   border-bottom: 1px solid #E6ECF8;
