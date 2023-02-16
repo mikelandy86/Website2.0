@@ -819,7 +819,7 @@ text-align: center;
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 3rem;
   margin: 1rem;
 }
 .v2-project-github-link{
@@ -853,13 +853,10 @@ margin-top: 50px;
 }
 .container {
   max-width: 500px;
-  aspect-ratio: 90 / 79;
-  /* margin: 0.6rem 1.3rem; */
+  aspect-ratio: 80 / 70;
   overflow: hidden;
 padding: 0;
   position: relative;
-  /* width: 90vw; */
-  /* height: 73vw; */
   transition: .5s ease;
 }
 .v2-projects-projectThumbs{
