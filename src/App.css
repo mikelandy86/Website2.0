@@ -1595,12 +1595,17 @@ margin: 8rem 2rem;
   display: block;
 }
  .hero-section-info-subtitle{
+
   font-size: 15px;
 }
+.hero-section-info-desc-sub{
+  display: none;
+}
 .hero-section-info-desc{
-  font-size: 2.4rem !important;
+  font-size: 3.4rem !important;
 }
 .hero-section-info-desc2{
+  
   font-size: 2rem !important;
 }
 .section-skills-column-container{
