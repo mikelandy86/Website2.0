@@ -365,7 +365,7 @@ color: black;
 }
 .responsive-height .header-sayhello-button{
   
-  border: 1px solid #000000;
+  border: 1px solid transparent;
   }
 .responsive-height .nav-title-container a img{
   content:url("https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/mhl_logo_black.png");
