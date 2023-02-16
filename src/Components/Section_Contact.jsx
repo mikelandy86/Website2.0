@@ -32,7 +32,9 @@ const SendEmailDone = "Your message has been successfully sent, I will contact y
     
   return (
     <div id="contact" className="contact-section">
-      <div className="section-bio-title">
+      <div className="contact-section-flex-container">
+      <div className="contact-section-flex-container-box">
+      <div className="contact-info-box">
       <Fade duration="2000" triggerOnce={true} direction="up" >
         <h1>Lets Talk!</h1>
         <h3>
@@ -42,6 +44,8 @@ const SendEmailDone = "Your message has been successfully sent, I will contact y
 
       </Fade>
       </div>
+      </div>
+      <div className="contact-section-flex-container-box2">
       <div className="section-contact-title">
         {/* <h1>Kontakt</h1> */}
         <div className="contact-flex-section">
@@ -81,6 +85,8 @@ const SendEmailDone = "Your message has been successfully sent, I will contact y
             </form>
           </div>
         </div>
+      </div>
+      </div>
       </div>
     </div>
   );
