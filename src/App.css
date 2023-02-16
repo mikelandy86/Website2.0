@@ -994,7 +994,7 @@ object-fit: cover;
 .collab-section-flex-container{
   /* max-width: 1000px; */
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   margin: auto;
 }
