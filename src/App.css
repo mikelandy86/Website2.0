@@ -334,7 +334,7 @@ text-align: center;
   background-color: transparent;
 }
 .w{
-  max-width: 1840px;
+  /* max-width: 1840px; */
   margin:  auto;
 }
 .Typewriter{
