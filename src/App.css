@@ -26,17 +26,17 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #ffffff; 
+  background: #676767; 
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #141c3a;
+  background: #000000;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #141c3a;
+  background: #2a3768;
 }
 
 
