@@ -301,7 +301,7 @@ text-align: center;
   color: #557efa;
 }
 .add-shadow{
-  box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.322);
+  box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.129);
 }
 
 @keyframes float {
@@ -348,11 +348,29 @@ text-align: center;
   gap: 50px;
 }
 .responsive-height{
-  background-color: rgb(0, 0, 0);
-margin-top: 0;
-height: 65px;
+  background-color: rgba(255, 255, 255, 0.949);
+  margin-top: 0;
+  height: 65px;
+  transition: 1.5s;
 }
+.responsive-height span a{
+color: black;
 
+}
+.responsive-height .burger div{
+  background-color: black;
+}
+.responsive-height .header-sayhello-button:hover{
+  color: black;
+}
+.responsive-height .header-sayhello-button{
+  
+  border: 1px solid #000000;
+  }
+.responsive-height .nav-title-container a{
+  content:url("https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/mhl_logo_black.png");
+  }
+  
 .header-sayhello-button{
   font-family: Metropolis;
   font-weight: 400;
@@ -422,10 +440,10 @@ height: 65px;
 .nav-item{
   height: 10px;
 }
-/* .color-change a{
+.color-change a{
   border-color: #000000;
   color: #000000;
-} */
+}
 .section-hero-section{
   background-color: white;
   padding-top: 100px;

@@ -84,14 +84,14 @@ export default function Header() {
             </a>
           </div>
 
-          <div className="icons-container">
+          <span className="icons-container">
             <a className="nav-icon" href="#projects">
               My Work
             </a>
             <a className="header-sayhello-button" href="#contact">
               Say Hello
             </a>
-          </div>
+          </span>
           <div onClick={toggleMenu} className="burger">
             <div className={`line1${menuOpen ? "-open" : ""}`}></div>
             <div className={`line2${menuOpen ? "-open" : ""}`}></div>
