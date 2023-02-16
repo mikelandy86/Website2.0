@@ -854,13 +854,14 @@ margin-top: 50px;
   background-color: #7510F7;
 }
 .container {
-  margin:0.6rem 1.3rem;
-  /* border-radius: 12px; */
+  max-width: 500px;
+  aspect-ratio: 90 / 79;
+  margin: 0.6rem 1.3rem;
   overflow: hidden;
   padding: 0;
   position: relative;
-  width: 21rem;
-  height: 16rem;
+  /* width: 90vw; */
+  /* height: 73vw; */
   transition: .5s ease;
 }
 .v2-projects-projectThumbs{
@@ -876,7 +877,7 @@ object-fit: cover;
 }
 
 .overlay {
-
+  display: flex;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -887,6 +888,8 @@ object-fit: cover;
   opacity: 0;
   transition: .5s ease;
   background-color: #000000d4;
+  justify-content: center;
+  align-items: center;
 }
 .container:hover {
   /* transform: scale(1); */
@@ -1305,6 +1308,7 @@ line-height: 1.825em;
   }
   .form-control:focus, .form-control-message:focus {
   outline: none !important;
+    border-bottom:1px solid rgb(174, 174, 174);
   border:1px solid rgb(53, 63, 255);
   border-radius: 5px;
   box-shadow: none;
