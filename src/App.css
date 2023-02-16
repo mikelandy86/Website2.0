@@ -1304,14 +1304,15 @@ line-height: 1.825em;
   background: transparent;
   border-bottom: 1px solid rgba(0, 0, 0, 0.142);
   margin-top: 10px;
-
+  outline: none;
   text-indent: 10px;
   border-radius: 2px;
+  
   }
   .form-control:focus, .form-control-message:focus {
   outline: none !important;
     border-bottom:1px solid rgb(174, 174, 174);
-  border:1px solid rgb(53, 63, 255);
+  /* border:1px solid rgb(53, 63, 255); */
   border-radius: 5px;
   box-shadow: none;
 }
@@ -1609,7 +1610,7 @@ text-align: center;
 }
 .form-control:focus, .form-control-message:focus {
   outline: none !important;
-  border:1px solid rgba(0, 0, 0, 0.155);
+  /* border:1px solid rgba(0, 0, 0, 0.155); */
   border-radius: 5px;
   box-shadow: none;
 }
