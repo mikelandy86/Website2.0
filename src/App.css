@@ -869,13 +869,18 @@ margin-top: 50px;
 }
 .container {
     max-height: 500px;
-    width: 85vw;
-    height: 66.666667vw;
+    width: 41vw;
+    height: 35.666667000000004vw;
     max-width: 500px;
     overflow: hidden;
     padding: 0;
     position: relative;
     transition: .5s ease;
+}
+.container2{
+
+
+
 }
 .v2-projects-projectThumbs{
   max-width: 1200px;
@@ -1513,9 +1518,10 @@ display: flex;
 }
 
 @media only screen and (max-width: 710px) {
-  .contact-section{
-   
-  
+
+  .container{
+    width: 85vw;
+    height: 66.666667vw;
   }
   .contact-section-flex-container{
     margin: 0 1rem;
