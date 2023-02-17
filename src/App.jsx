@@ -29,7 +29,7 @@ function App() {
       {/* <Header />
       <HeroSection /> */}
       <CollabSection />
-      {/* <ProjectSectionv2 /> */}
+      <ProjectSectionv2 />
       <ContactSection />
       <Footer />
     </div>

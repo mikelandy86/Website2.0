@@ -38,7 +38,7 @@ export default function Projectv2() {
             </div>
           </div>
           </Fade>
-          <Fade duration="2000" triggerOnce={true} direction="right" >
+          <Fade duration="2000" triggerOnce={true} >
           <div className="container">
             
             <img
