@@ -27,7 +27,7 @@ function App() {
   return (
     <div id="app" className="App">
       <Header />
-      {/* <HeroSection /> */}
+      <HeroSection />
       <CollabSection />
       <ProjectSectionv2 />
       <ContactSection />
