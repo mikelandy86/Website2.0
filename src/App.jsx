@@ -26,8 +26,8 @@ function App() {
   }, [])
   return (
     <div id="app" className="App">
-      {/* <Header />
-      <HeroSection /> */}
+      <Header />
+      {/* <HeroSection /> */}
       <CollabSection />
       <ProjectSectionv2 />
       <ContactSection />

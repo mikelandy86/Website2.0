@@ -662,7 +662,7 @@ color: white;
   display: flex;
 }
 .section-bio-title{
-  margin: 0 3rem;
+  margin: 0 2rem;
   padding-bottom: 35px;
 }
 .section-bio-title h1{
@@ -837,7 +837,7 @@ text-align: center;
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
-  gap: 3rem;
+  gap: 1rem 3rem;
   margin: 1rem;
 }
 .v2-project-github-link{
@@ -1245,7 +1245,7 @@ gap: 10px;
   margin-bottom: 20px;
 }
 .contact-section{
-  height: 80vh;
+  height: 100vh;
 display: flex;
 justify-content: center;
   scroll-margin-top: 5em;
