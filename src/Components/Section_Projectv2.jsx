@@ -6,7 +6,7 @@ export default function Projectv2() {
   return (
     <div id="projects" className="section-projects">
       <div className="section-bio-title">
-      <Fade duration="2000" triggerOnce={true} direction="up" >
+      <Fade duration="2000" triggerOnce={true} >
         <h4>My Recent Work</h4>
         {/* <h3>
           Here are a few design projects I've worked on recently. Want to see
@@ -19,7 +19,7 @@ export default function Projectv2() {
       </div>
       <div className="v2-projects-projectThumbs">
         <div className="v2-projects-flex-container">
-        <Fade duration="2000" triggerOnce={true} direction="left" >
+        <Fade duration="2000" triggerOnce={true}  >
           <div className="container">
             <img
               src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/pzzgsixachckpcdpdnvl.avif"
@@ -40,6 +40,7 @@ export default function Projectv2() {
           </Fade>
           <Fade duration="2000" triggerOnce={true} direction="right" >
           <div className="container">
+            
             <img
               src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/pexels-polina-tankilevitch-4523095.jpg"
               alt="Avatar"

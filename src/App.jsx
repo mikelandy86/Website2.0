@@ -26,18 +26,11 @@ function App() {
   }, [])
   return (
     <div id="app" className="App">
-      <Header />
-      <HeroSection />
-      {/* <ScrollDown href="#bio" /> */}
-      {/* <BioSectionV2 /> */}
+      {/* <Header />
+      <HeroSection /> */}
       <CollabSection />
-      {/* <SkillSection /> */}
-      <ProjectSectionv2 />
-      {/* <Startup /> */}
-      {/* <StartupProjects /> */}
-      {/* <BioSection /> */}
+      {/* <ProjectSectionv2 /> */}
       <ContactSection />
-      {/* <CallToAction /> */}
       <Footer />
     </div>
   );
