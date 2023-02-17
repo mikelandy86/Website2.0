@@ -5,18 +5,12 @@ import { FaAngleRight } from "react-icons/fa";
 export default function Projectv2() {
   return (
     <div id="projects" className="section-projects">
-      <div className="section-bio-title">
+      {/* <div className="section-bio-title">
       <Fade duration="2000" triggerOnce={true} >
         <h4>My Recent Work</h4>
-        {/* <h3>
-          Here are a few design projects I've worked on recently. Want to see
-          more?{" "}
-          <a href="mailto:mike.landy@gmail.com?subject = Feedback&body = Message">
-            Email me.
-          </a>
-        </h3> */}
+
         </Fade>
-      </div>
+      </div> */}
       <div className="v2-projects-projectThumbs">
         <div className="v2-projects-flex-container">
         <Fade duration="2000" triggerOnce={true}  >

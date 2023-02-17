@@ -241,15 +241,9 @@ body {
     background-positon-x: 0px;
   }
 }
-/* html {
+html {
   scroll-behavior: smooth;
-    background: url(./src/assets/public/images/pzzgsixachckpcdpdnvl.avif) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-} */
+}
 #myVideo {
 
   position: fixed;
@@ -977,7 +971,7 @@ object-fit: cover;
   /* background-color: #557efa; */
 }
 .section-projects{
-  margin-top: 10rem;
+
   padding-bottom: 77px;
   scroll-margin-top: 7em;
   text-align: center;
@@ -1558,7 +1552,7 @@ display: flex;
   border-bottom: 1px solid #E6ECF8;
 }
 .section-collab{
-margin: 8rem 2rem;
+margin: 5rem 2rem;
 }
 .section-collab h1{
   font-weight: 400;
