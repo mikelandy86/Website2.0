@@ -1002,6 +1002,7 @@ object-fit: cover;
   max-width: 600px;
   font-weight: 400;
   font-size: 3rem;
+  
   margin: 9rem 0;
   line-height: 3.9rem;
 }
@@ -1550,11 +1551,11 @@ display: flex;
   border-bottom: 1px solid #E6ECF8;
 }
 .section-collab{
-margin: 5rem 2rem;
+margin: 4rem 2rem;
 }
 .section-collab h1{
   font-weight: 400;
-  font-size: 1.9rem;
+  font-size: calc(25px + 0.390625vw);
   margin-bottom: 36px;
   line-height: 2.9rem;
 }
