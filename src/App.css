@@ -100,16 +100,16 @@ body {
   z-index: 1;
   text-align: center;
   width: 100%;
-  height: 50vh;
+  /* height: 100vh; */
   background: #000000;
   /* min-height: 100px; */
   padding: 0 27px 20px 27px;
 }
 .footer-container{
-  position: absolute;
+  /* position: absolute;
    bottom: 0;
    right: 0;
-   left: 0;
+   left: 0; */
 }
 .footer h1{
   margin:auto;
@@ -835,7 +835,7 @@ text-align: center;
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem 3rem;
+  gap: 2rem 3rem;
   margin: 1rem;
 }
 .v2-project-github-link{
@@ -868,12 +868,14 @@ margin-top: 50px;
   background-color: #7510F7;
 }
 .container {
-  max-width: 500px;
-  aspect-ratio: 80 / 70;
-  overflow: hidden;
-padding: 0;
-  position: relative;
-  transition: .5s ease;
+    max-height: 500px;
+    width: 85vw;
+    height: 66.666667vw;
+    max-width: 500px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    transition: .5s ease;
 }
 .v2-projects-projectThumbs{
   max-width: 1200px;
@@ -913,11 +915,9 @@ object-fit: cover;
 }
 
 .v2-project-text h1{
-
   font-weight: 200;
   padding-left: 40px;
   padding-right: 40px;
-  padding-top: 40px;
   padding-bottom: 40px;
   color: white;
   font-size: 18px;
@@ -1555,7 +1555,7 @@ margin: 5rem 2rem;
 .section-collab h1{
   font-weight: 400;
   font-size: 1.9rem;
-  margin-bottom: 95px;
+  margin-bottom: 36px;
   line-height: 2.9rem;
 }
 .section-skills-column{
