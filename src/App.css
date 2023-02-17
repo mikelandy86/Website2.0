@@ -325,12 +325,12 @@ text-align: center;
   z-index: 1;
   /* max-width: 1400px; */
 
-  margin-top: 20px;
+  /* margin-top: 20px; */
   height: 80px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  transition: 1s;
+  transition: 0.7s;
   background-color: transparent;
 }
 .w{
@@ -350,8 +350,8 @@ text-align: center;
 .responsive-height{
   background-color: rgba(255, 255, 255, 0.949);
   margin-top: 0;
-  height: 65px;
-  transition: 1.5s;
+  /* height: 65px; */
+  transition: 0.7s;
 }
 .responsive-height span a{
 color: black;
