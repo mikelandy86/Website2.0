@@ -639,11 +639,15 @@ color: white;
 }
 
 .section-bio{
-  background-color: #ffffff;
-  /* scroll-margin-top: 7em; */
-  margin-top: 200px;
-  padding: 0 2em;
+  background-color: rgb(244, 244, 244);
+  padding: 5rem 2rem;
 }
+
+.section-bio-center-div{
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
 .section-biov2{
   scroll-margin-top: 7em;
   padding: 0 2em;
@@ -651,23 +655,36 @@ color: white;
     background-color: #ffffff;;
     color: white;
 }
-.section-bio-flexrow{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 .section-bio-infosection{
   display: flex;
+  align-items: center;
 }
 .section-bio-title{
+  text-align: left;
+  margin: 0 2rem;
+  padding-bottom: 35px;
+}
+.section-bio-title-contact{
+  text-align: center;
+  margin: 0 2rem;
+  padding-bottom: 35px;
+}
+.section-bio-title-contact h1{
+  font-weight: 200;
+  font-size: calc(1.8rem + 0.390625vw);
+  /* font-size: 2.6rem; */
+  padding-bottom:20px;
+}
+.section-contact-title{
   margin: 0 2rem;
   padding-bottom: 35px;
 }
 .section-bio-title h1{
+  text-align: left;
   font-weight: 200;
-  gap: 10px;
-  /* font-size: calc(15px + 0.390625vw); */
-  font-size: 2.6rem;
+  font-size: calc(1.8rem + 0.390625vw);
+  /* font-size: 2.6rem; */
   padding-bottom:20px;
 }
 .section-bio-title h4{
@@ -688,17 +705,22 @@ color: white;
   color: #2c2c2c !important;
 
 }
+.section-bio-imagesection{
+
+  max-width: 550px;
+
+}
 .section-bio-imagesection img{
-  max-height: 306px;
-  max-width: 344px;
-  border: 1px solid #eee;
-  /* box-shadow: 5px 5px 20px #9292924f, -5px -5px 10px #ffffff5e; */
-  border-radius: 30px;
-  margin-right: 99px;
   object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 .section-bio-infosectionText{
-  max-width: 1000px;
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.05);
+  margin: 0 -3rem;
+  padding: 4rem;
+  background-color: rgba(255, 255, 255, 0.941);
+  z-index: 3;
 }
 .section-bio-skills-container{
   display: flex;
@@ -723,8 +745,9 @@ color: white;
  color: rgb(50, 50, 50);
 }
 .section-bio-infodesc P{
+  color: rgba(0, 0, 0, 0.751);
   line-height: 1.5;
-  font-size: clamp(1rem, 0.7vw, 1.3rem);
+  font-size: clamp(0.95rem, 0.7vw, 1.3rem);
   position: relative;
   font-weight: 300;
   z-index: 1;
@@ -871,7 +894,7 @@ margin-top: 50px;
     max-height: 500px;
     width: 41vw;
     height: 35.666667000000004vw;
-    max-width: 500px;
+    max-width: 550px;
     overflow: hidden;
     padding: 0;
     position: relative;
@@ -1003,6 +1026,9 @@ object-fit: cover;
 margin: 12rem auto;
 max-width: 1000px;
 }
+.section-collab-center-div{
+  margin: 0 3rem;
+  }
 .section-collab h1{
   max-width: 600px;
   font-weight: 400;
@@ -1559,7 +1585,7 @@ display: flex;
   border-bottom: 1px solid #E6ECF8;
 }
 .section-collab{
-margin: 4rem 2rem;
+margin: 4rem 0;
 }
 .section-collab h1{
   font-weight: 400;
@@ -1614,7 +1640,7 @@ margin: 4rem 2rem;
   display: block;
 }
 .section-bio-imagesection img{
-  max-height: 200px;
+  /* max-height: 200px; */
 }
 .section-bio-skills-container span{
   padding: 5px 10px 5px 10px;

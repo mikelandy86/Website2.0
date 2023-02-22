@@ -1,4 +1,4 @@
-import { useState, useEffect} from "react";
+import { useState, useEffect } from "react";
 
 import HeroSection from "./Components/Section_HeroSection";
 import Header from "./Components/Header";
@@ -22,14 +22,15 @@ import "rc-footer/assets/index.css"; // import 'rc-footer/asssets/index.less';
 
 function App() {
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div id="app" className="App">
       <Header />
       <HeroSection />
       <CollabSection />
       <ProjectSectionv2 />
+      <BioSection />
       <ContactSection />
       <Footer />
     </div>
