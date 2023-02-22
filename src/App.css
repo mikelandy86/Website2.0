@@ -1249,6 +1249,8 @@ gap: 10px;
   margin-bottom: 20px;
 }
 .contact-section{
+  margin: 0 auto;
+  max-width: 1000px;
   height: 100vh;
 display: flex;
 justify-content: center;
