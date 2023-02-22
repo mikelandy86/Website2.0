@@ -1545,6 +1545,10 @@ display: flex;
 }
 
 @media only screen and (max-width: 710px) {
+.section-bio-infosectionText{
+  padding: 3rem;
+margin:auto;
+}
 
   .container{
     width: 85vw;
