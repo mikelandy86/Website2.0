@@ -1000,8 +1000,8 @@ object-fit: cover;
 }
 
 .section-collab{
-  /* margin-top: 10rem; */
-  margin: 10rem 4rem;
+margin: 3rem auto;
+max-width: 1000px;
 }
 .section-collab h1{
   max-width: 600px;
@@ -1014,7 +1014,7 @@ object-fit: cover;
 .collab-section-flex-container{
   /* max-width: 1000px; */
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin: auto;
 }
