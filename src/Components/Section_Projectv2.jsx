@@ -11,6 +11,9 @@ export default function Projectv2() {
 
         </Fade>
       </div> */}
+              <div className="section-bio-title-contact">
+          <h1>Recent Work</h1>
+        </div>
       <div className="v2-projects-projectThumbs">
         <div className="v2-projects-flex-container">
         <Fade duration="2000" triggerOnce={true}  >

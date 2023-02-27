@@ -639,7 +639,7 @@ color: white;
 }
 
 .section-bio{
-  background-color: rgb(244, 244, 244);
+  /* background-color: rgb(244, 244, 244); */
   padding: 5rem 2rem;
 }
 
@@ -707,7 +707,7 @@ color: white;
 }
 .section-bio-imagesection{
 
-  max-width: 550px;
+  max-width: 450px;
 
 }
 .section-bio-imagesection img{
@@ -1519,7 +1519,7 @@ height: 30px;
 
   .section-bio-infosection{
     text-align: center;
-    display: block;
+    flex-direction: column;
   }
   .section-bio-imagesection img{
     margin-right: 0;
