@@ -288,11 +288,17 @@ text-align: center;
 .nav-icon{
   font-size: 16px;
   font-weight: 300;
-  color: #fdfdfd;
+  background-color: transparent;
+  border:1px solid transparent;
+  color: #ffffff;;
+  padding: 7px 20px 7px 20px;
+  border-radius: 9999px;
   transition: 0.5s;
 }
 .nav-icon:hover{
-  color: #557efa;
+  color: #ffffff;
+  border:1px solid #557efa;
+  /* color: #557efa; */
 }
 .add-shadow{
   /* box-shadow: 0px 2px 30px 14px rgba(60, 64, 67, 0.129); */
@@ -352,7 +358,7 @@ color: black;
 .responsive-height .burger div{
   background-color: black;
 }
-.responsive-height .header-sayhello-button:hover{
+.responsive-height .header-sayhello-button:hover,.responsive-height .nav-icon:hover{
   color: black;
 }
 .responsive-height .header-sayhello-button{
@@ -368,7 +374,7 @@ color: black;
   font-weight: 400;
   font-size: 16px;
   background-color: transparent;
-  border:1px solid #ffffff;;;
+  border:1px solid transparent;
   color: #ffffff;;
   padding: 7px 20px 7px 20px;
   border-radius: 9999px;
