@@ -5,7 +5,7 @@ export default function BioSection() {
     <div id="bio" className="section-bio">
       <div className="section-bio-center-div">
         <div className="section-bio-title-contact">
-          <h1>Om Mig</h1>
+          <h1>About me</h1>
         </div>
         <div className="section-bio-flexrow">
           <div className="section-bio-infosection">
@@ -38,18 +38,19 @@ export default function BioSection() {
               <Fade cascade triggerOnce="true" duration="500" direction="up">
                 <div id="blockB" className="section-bio-title-info">
                   <h2>Mikael Hverven-Landy</h2>
-                  <h3>Systemutvecklare</h3>
+                  <h3>System Developer</h3>
                 </div>
                 <div id="blockB" className="section-bio-infodesc">
                   <p>
-                    Jag är en ambitiös lösningsfokuserad och kreativ utvecklare
-                    som trivs med nya utmaningar och har ett stort intresse för
-                    den kreativa processen att förena logik och grafik vilket
-                    även lett mig in i frontend-utveckling med React och
-                    Javascript. Har haft möjligheten att arbeta med intressanta
-                    projekt med hjälp av innovativa teknologier som VR och AR,
-                    och brinner för nya lösningar och uppfinningsrika sätt att
-                    driva samhället framåt med ett team av motiverade kollegor.
+                    I am an ambitious, solution-focused, and creative developer
+                    who thrives on new challenges and has a strong interest in
+                    the creative process of combining logic and graphics. This
+                    has also led me into front-end development using React and
+                    Javascript. I have had the opportunity to work on exciting
+                    projects utilizing innovative technologies such as VR and
+                    AR, and I am passionate about developing new solutions and
+                    imaginative ways to drive society forward with a team of
+                    motivated colleagues.
                   </p>
                 </div>
               </Fade>
