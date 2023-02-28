@@ -675,7 +675,6 @@ color: white;
 .section-bio-title-contact{
   text-align: center;
   margin: 0 2rem;
-  padding-bottom: 35px;
 }
 .section-bio-title-contact h1{
 
@@ -1594,6 +1593,7 @@ margin:auto;
 }
 .section-collab{
 margin: 4rem 0;
+margin-bottom: 7rem;
 }
 .section-collab h1{
   font-weight: 400;
