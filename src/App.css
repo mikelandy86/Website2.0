@@ -957,7 +957,7 @@ object-fit: cover;
   right: 0; 
   height: 100%;
   width: 100%;
-  opacity: 0.6;
+  opacity: 0.4;
   transition: .5s ease;
   background-color: #000000;
   justify-content: center;
@@ -1612,7 +1612,7 @@ margin:auto;
     margin-top: 500px;
   }
   .hero-section-info-desc{
-    margin-top: 250px;
+    margin-top: 210px;
   }
   .section-hero-section{
     height: 100vh;
