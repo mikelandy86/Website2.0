@@ -14,8 +14,7 @@
 }
 body {
 
-  background-color: white;
-  background-color: white;
+  background-color: rgb(0, 0, 0);
 	margin: 0 auto !important;
 	float: none !important;
 }
@@ -348,15 +347,15 @@ text-align: center;
   gap: 50px;
 }
 .responsive-height{
-  background-color: rgba(255, 255, 255, 0.949);
-  transition: 0.7s;
+  background-color: rgba(0, 0, 0, 0.949);
+  transition: 0.5s;
 }
 .responsive-height span a{
-color: black;
+color: rgb(255, 255, 255);
 
 }
 .responsive-height .burger div{
-  background-color: black;
+  background-color: rgb(255, 255, 255);
 }
 .responsive-height .header-sayhello-button:hover,.responsive-height .nav-icon:hover{
   color: black;
@@ -365,9 +364,9 @@ color: black;
   
   border: 1px solid transparent;
   }
-.responsive-height .nav-title-container a img{
+/* .responsive-height .nav-title-container a img{
   content:url("https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/mhl_logo_black.png");
-  }
+  } */
   
 .header-sayhello-button{
   font-family: Metropolis;
@@ -663,16 +662,19 @@ color: white;
 }
 
 .section-bio-infosection{
+
   justify-content: center;
   display: flex;
   align-items: center;
 }
 .section-bio-title{
+  color: white;
   text-align: left;
   margin: 0 2rem;
   padding-bottom: 35px;
 }
 .section-bio-title-contact{
+  color: #ffffff;
   text-align: center;
   margin: 0 2rem;
 }
@@ -701,14 +703,14 @@ color: white;
   padding-bottom:20px;
 }
 .section-bio-title h3{
-  color: #141c3a;
+  color: #b7b7b7;
   font-size: calc(0.7rem + 0.390625vw);
   font-weight: 200;
   line-height: 1.8;
 }
 .section-bio-title h3 a{
   font-weight: 500;
-  color: #2c2c2c !important;
+  color: #cfcfcf !important;
 
 }
 .section-bio-imagesection{
@@ -724,7 +726,7 @@ color: white;
   /* margin: 0 -3rem; */
   padding: 0 4rem 0 4rem;
 
-  background-color: rgba(255, 255, 255, 0.941);
+  background-color: rgba(0, 0, 0, 0.941);
   z-index: 3;
 }
 .section-bio-skills-container{
@@ -742,15 +744,16 @@ color: white;
 }
 
 .section-bio-title-info{
+  color: white;
   padding-bottom: 30PX;
 }
 
 .section-bio-title-info h2{
   font-size: 1rem;;
- color: rgb(50, 50, 50);
+ color: rgb(185, 185, 185);
 }
 .section-bio-infodesc P{
-  color: rgba(0, 0, 0, 0.751);
+  color: rgba(255, 255, 255, 0.751);
   line-height: 1.5;
   font-size: clamp(0.95rem, 0.7vw, 1.3rem);
   position: relative;
@@ -1038,7 +1041,7 @@ max-width: 1000px;
   max-width: 600px;
   font-weight: 400;
   font-size: 3rem;
-  
+  color: white;
   margin: 9rem 0;
   line-height: 3.9rem;
 }
@@ -1441,16 +1444,17 @@ height: 30px;
   font-size: 17px;
 }
 .contact-btn:hover{
-  color: #535353;
+  color: #e6e6e6;
 }
 .contact-input-container{
+  color: white;
   max-width: 500px;
 }
 .form-control-message{
   border: 0;
   outline: 0;
   background: transparent;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.142);
+  border-bottom: 1px solid rgba(230, 230, 230, 0.142);
   width: 100%;
 }
 @media only screen and (max-width: 1500px) {
