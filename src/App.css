@@ -723,6 +723,7 @@ color: white;
   max-width: 300px;
 }
 .section-bio-imagesection img{
+  border-radius: 10px;
   object-fit: cover;
   width: 100%;
   height: 100%;
@@ -905,14 +906,23 @@ margin-top: 50px;
   background-color: #7510F7;
 }
 .container {
+  border-radius: 10px;
     max-height: 500px;
-    width: 41vw;
-    height: 35.666667000000004vw;
+    width: 35vw;
+    height: 30.666667000000004vw;
     max-width: 550px;
     overflow: hidden;
     padding: 0;
     position: relative;
     transition: .5s ease;
+}
+.project-name-sub{
+  display: inline-block;
+}
+.project-name-sub h1{
+  color: white;
+  font-size: 15px
+
 }
 .container2{
 

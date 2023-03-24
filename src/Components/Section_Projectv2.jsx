@@ -33,6 +33,9 @@ export default function Projectv2() {
                 </a>
               </div>
             </div>
+          <div className="project-name-sub">
+            <h1>Hags Design 3D</h1>
+            </div>
           </div>
           </Fade>
           <Fade duration="2000" triggerOnce={true} >
