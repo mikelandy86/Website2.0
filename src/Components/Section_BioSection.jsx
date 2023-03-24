@@ -10,7 +10,7 @@ export default function BioSection() {
         <div className="section-bio-flexrow">
           <div className="section-bio-infosection">
             <div className="section-bio-imagesection">
-              <Fade triggerOnce="true" direction="up">
+              <Fade duration="2000" triggerOnce={true} direction="up">
                 <img src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/PortraitMikael.jpg"></img>
               </Fade>
             </div>
@@ -35,7 +35,7 @@ export default function BioSection() {
               <span>GIT</span>
            
             </div> */}
-              <Fade cascade triggerOnce="true" duration="500" direction="up">
+              <Fade duration="2000" triggerOnce={true} direction="up">
                 <div id="blockB" className="section-bio-title-info">
                   <h2>Mikael Hverven-Landy</h2>
                   <h3>System Developer</h3>

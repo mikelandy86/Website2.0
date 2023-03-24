@@ -13,6 +13,7 @@ export default function HeroSection() {
     "As a designer and coder, I create elegantly simple solutions with passion, bringing beauty and connection through simplicity.";
   return (
     <div className="section-hero-section">
+      <div className="section-hero-section_bglayer">
       <video
         loop
         muted
@@ -28,7 +29,10 @@ export default function HeroSection() {
           type="video/mp4"
         ></source>
       </video>
+                  <div className="overlay2">
 
+            </div>
+      </div>
       {/* <div class="area">
         <ul class="circles">
           <li></li>

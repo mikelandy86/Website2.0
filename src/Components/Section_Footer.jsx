@@ -5,11 +5,11 @@ export default function Footer() {
     <footer class="footer">
       <div className="footer-container">
                   <a href="https://mikelandy86.github.io/website2.0/">
-                  <img
+                  {/* <img
                 className="header-section-logo-footer"
                 src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/mhl_logo.png"
               ></img>
-              <h1>Living, learning, & leveling up one day at a time.</h1>
+              <h1>Living, learning, & leveling up one day at a time.</h1> */}
             </a>
       <ul class="social-icon">
         <li class="social-icon__item">
