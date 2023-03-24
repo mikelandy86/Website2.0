@@ -1612,7 +1612,7 @@ margin:auto;
     margin-top: 500px;
   }
   .hero-section-info-desc{
-    /* margin-top: 500px; */
+    margin-top: 250px;
   }
   .section-hero-section{
     height: 100vh;
@@ -1670,7 +1670,7 @@ margin-bottom: 12rem;
   display: none;
 }
 .hero-section-info-desc{
-  font-size: 3.4rem !important;
+  font-size: 2.4rem !important;
 }
 .hero-section-info-desc2{
   
