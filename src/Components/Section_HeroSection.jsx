@@ -25,7 +25,7 @@ export default function HeroSection() {
       >
         {" "}
         <source
-          src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/Nodes_loop.mp4"
+          src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/Particle_Wave_4K_Motion_Background_Loop.mp4"
           type="video/mp4"
         ></source>
       </video>
@@ -82,7 +82,7 @@ export default function HeroSection() {
               direction="left"
             >
               <p className="hero-section-info-desc-sub">
-                Mikael Hverven-Landy - Fullstack Developer
+                Mikael Hverven-Landy - System Developer
               </p>
             </Fade>
           </Fade>
