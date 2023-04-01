@@ -14,7 +14,7 @@ export default function HeroSection() {
   return (
     <div className="section-hero-section">
       <div className="section-hero-section_bglayer">
-      {/* <video
+      <video
         loop
         muted
         autoPlay
@@ -25,10 +25,10 @@ export default function HeroSection() {
       >
         {" "}
         <source
-          src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/Particle_Wave_4K_Motion_Background_Loop.mp4"
+          src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/Nodes_Loop.mp4"
           type="video/mp4"
         ></source>
-      </video> */}
+      </video>
                   <div className="overlay2">
 
             </div>
