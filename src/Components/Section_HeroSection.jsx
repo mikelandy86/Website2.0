@@ -25,9 +25,9 @@ export default function HeroSection() {
       >
         {" "}
         <source
-          src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/Nodes_Loop.mp4"
+          src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/Nodes_loop.mp4"
           type="video/mp4"
-        ></source>
+        ></source>-
       </video>
                   <div className="overlay2">
 
