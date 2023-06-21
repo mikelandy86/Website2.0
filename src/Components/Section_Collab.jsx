@@ -20,7 +20,7 @@ export default function CollabSection() {
           damping={1e-1}
         >
           <div className="collab-section-flex-container">
-            <img src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/HAGSLogo@400px.png" />
+            <img src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/HAGS-Logo-01_Reverse.png" />
             <img src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/flh-logotyp-sv-cmyk-svart.png" />
             <img src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/hälsotassen.png" />
             {/* <img src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/ImmetropiaTextBlack.png" /> */}

@@ -1072,7 +1072,7 @@ max-width: 1000px;
   margin: 0 3rem;
   }
 .section-collab h1{
-  max-width: 600px;
+text-align: center;
   font-weight: 400;
   font-size: 3rem;
   color: white;
