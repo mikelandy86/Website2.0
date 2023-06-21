@@ -10,9 +10,9 @@ export default function BioSection() {
         <div className="section-bio-flexrow">
           <div className="section-bio-infosection">
             <div className="section-bio-imagesection">
-              <Fade duration="2000" triggerOnce={true} direction="left">
+
                 <img src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/PortraitMikael.jpg"></img>
-              </Fade>
+      
             </div>
             <div className="section-bio-infosectionText">
               {/* <div id="blockA" className="section-bio-skills-container">

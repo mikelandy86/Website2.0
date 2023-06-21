@@ -6,12 +6,12 @@ export default function CollabSection() {
   return (
     <div id="collab" className="section-collab">
       <div className="section-collab-center-div">
-        <Fade direction="up" triggerOnce={true} duration={2000}>
+     
           <h1>
             Top Brands I´m Proud to Have Collaborated With: A Highlight of my
             Successful Partnerships
           </h1>
-        </Fade>
+      
         <Fade
           duration="2000"
           triggerOnce={true}
