@@ -53,37 +53,33 @@ export default function HeroSection() {
            */}
 
           <Fade triggerOnce="false" duration="2000" direction="up">
-            <p className="hero-section-info-desc">
+          <div class="content">
+  <h1 class="title">Bringing beauty
+through simplicity
+    <div class="aurora">
+      <div class="aurora__item"></div>
+      <div class="aurora__item"></div>
+      <div class="aurora__item"></div>
+      <div class="aurora__item"></div>
+    </div>
+  </h1>
+
+</div>
+            {/* <p className="hero-section-info-desc">
               Bringing beauty <br />
               through simplicity
-              {/* <Typewriter
-                options={{
-                  autoStart: true,
-                  delay: 30,
-                  deleteSpeed: 20,
-                  loop: false,
-                  cursorClassName: "blink_me",
-                }}
-                onInit={(typewriter) => {
-                  typewriter
-                    .typeString(
-                      "Bringing beauty through simplicity."
-                    )
 
-                    .start();
-                }}
-              /> */}
-              {/* {desc} */}
-            </p>
+            </p> */}
             <Fade
               triggerOnce="false"
               duration="2000"
               delay={10}
               direction="left"
             >
-              <p className="hero-section-info-desc-sub">
+                <p class="subtitle">Mikael Hverven-Landy <br></br> System Developer</p>
+              {/* <p className="hero-section-info-desc-sub">
                 Mikael Hverven-Landy <br></br> System Developer
-              </p>
+              </p> */}
             </Fade>
           </Fade>
           {/* <a href="#contact" className="hero-section-info-button">
