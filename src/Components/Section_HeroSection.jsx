@@ -82,7 +82,7 @@ export default function HeroSection() {
               direction="left"
             >
               <p className="hero-section-info-desc-sub">
-                Mikael Hverven-Landy - System Developer
+                Mikael Hverven-Landy <br></br> System Developer
               </p>
             </Fade>
           </Fade>
