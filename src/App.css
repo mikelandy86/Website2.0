@@ -689,7 +689,7 @@ color: white;
   font-weight: 200;
   font-size: calc(1.8rem + 0.390625vw);
   /* font-size: 2.6rem; */
-  padding-bottom:70px;
+  padding-bottom:30px;
 }
 .section-contact-title{
   padding-bottom: 35px;
@@ -1327,7 +1327,7 @@ gap: 10px;
   --clr-4: #e54cff;
 
   --blur: 1rem;
-  --fs: clamp(3rem, 8vw, 7rem);
+  --fs: clamp(2.5rem, 8vw, 7rem);
   --ls: clamp(-1.75px, -0.25vw, -3.5px);
 }
 
@@ -1337,7 +1337,7 @@ body {
   place-items: center;
   background-color: var(--bg);
   color: #fff;
-  font-family: "Inter", "DM Sans", Arial, sans-serif;
+  /* font-family: "Inter", "DM Sans", Arial, sans-serif; */
 }
 
 *,
