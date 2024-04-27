@@ -14,24 +14,23 @@ export default function HeroSection() {
   return (
     <div className="section-hero-section">
       <div className="section-hero-section_bglayer">
-      {/* <video
-        loop
-        muted
-        autoPlay
-        id="vid"
-        className="videoHero"
-        width="820"
-        height="540"
-      >
-        {" "}
-        <source
-          src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/PexelsVideos2516159.mp4"
-          type="video/mp4"
-        ></source>-
-      </video> */}
-                  <div className="overlay2">
-
-            </div>
+        <video
+          loop
+          muted
+          autoPlay
+          id="vid"
+          className="videoHero"
+          width="820"
+          height="540"
+        >
+          {" "}
+          <source
+            src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/Particle_Wave_4K_Motion_Background_Loop.mp4"
+            type="video/mp4"
+          ></source>
+          -
+        </video>
+        <div className="overlay2"></div>
       </div>
       {/* <div class="area">
         <ul class="circles">
@@ -53,18 +52,17 @@ export default function HeroSection() {
            */}
 
           <Fade triggerOnce="false" duration="2000" direction="up">
-          <div class="content">
-  <h1 class="title">Bringing beauty
-through simplicity
-    <div class="aurora">
-      <div class="aurora__item"></div>
-      <div class="aurora__item"></div>
-      <div class="aurora__item"></div>
-      <div class="aurora__item"></div>
-    </div>
-  </h1>
-
-</div>
+            {/* <div class="content">
+              <h1 class="title">
+                Bringing beauty through simplicity
+                <div class="aurora">
+                  <div class="aurora__item"></div>
+                  <div class="aurora__item"></div>
+                  <div class="aurora__item"></div>
+                  <div class="aurora__item"></div>
+                </div>
+              </h1>
+            </div> */}
             {/* <p className="hero-section-info-desc">
               Bringing beauty <br />
               through simplicity
@@ -76,7 +74,9 @@ through simplicity
               delay={10}
               direction="left"
             >
-                <p class="subtitle">Mikael Hverven-Landy <br></br> System Developer</p>
+              {/* <p class="subtitle">
+                Mikael Hverven-Landy <br></br> System Developer
+              </p> */}
               {/* <p className="hero-section-info-desc-sub">
                 Mikael Hverven-Landy <br></br> System Developer
               </p> */}
