@@ -63,11 +63,10 @@ export default function HeroSection() {
                 </div>
               </h1>
             </div> */}
-            {/* <p className="hero-section-info-desc">
+            <p className="hero-section-info-desc">
               Bringing beauty <br />
               through simplicity
-
-            </p> */}
+            </p>
             <Fade
               triggerOnce="false"
               duration="2000"
@@ -82,9 +81,9 @@ export default function HeroSection() {
               </p> */}
             </Fade>
           </Fade>
-          {/* <a href="#contact" className="hero-section-info-button">
-            <h2>Kontakt</h2>
-          </a> */}
+          <a href="#contact" className="hero-section-info-button">
+            <h2>Mikael Hverven-Landy</h2>
+          </a>
         </div>
 
         <div className="hero-section-image-section">
