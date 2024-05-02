@@ -959,7 +959,7 @@ object-fit: cover;
   align-items: center;
 }
 .overlay2 {
-  display: flex;
+  /* display: flex;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -971,7 +971,7 @@ object-fit: cover;
   transition: .5s ease;
   background-color: #000000;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   /* z-index: 3232; */
 }
 .container:hover {
