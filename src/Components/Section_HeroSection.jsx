@@ -25,7 +25,7 @@ export default function HeroSection() {
         >
           {" "}
           <source
-            src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/857195-hd_1280_720_25fps.mp4"
+            src="https://raw.githubusercontent.com/mikelandy86/website2.0/main/src/assets/public/images/code_loop.mp4"
             type="video/mp4"
           ></source>
           -
