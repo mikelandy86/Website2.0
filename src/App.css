@@ -651,7 +651,7 @@ color: white;
 
 .section-bio{
   /* background-color: rgb(244, 244, 244); */
-  padding: 5rem 2rem;
+  padding: 35rem 2rem;
 }
 
 .section-bio-center-div{
@@ -1065,7 +1065,7 @@ object-fit: cover;
 }
 
 .section-collab{
-margin: 12rem auto;
+margin: 35rem auto;
 max-width: 1000px;
 }
 .section-collab-center-div{
@@ -1829,8 +1829,8 @@ margin:auto;
   border-bottom: 1px solid #E6ECF8;
 }
 .section-collab{
-margin: 4rem 0;
-margin-bottom: 12rem;
+margin: 15rem 0;
+margin-bottom: 30rem;
 }
 .section-collab h1{
   font-weight: 400;
